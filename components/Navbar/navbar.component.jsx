@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return (
-        <header class="bg-white">
+        <header class="bg-white  border-b border-gray-300">
         <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex-1 md:flex md:items-center md:gap-12">
@@ -36,7 +36,7 @@ const Navbar = () => {
         
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75"
+                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
                         Berita
@@ -45,7 +45,7 @@ const Navbar = () => {
         
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75"
+                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
                         Team Kami
