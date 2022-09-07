@@ -11,10 +11,16 @@ const Footer = () => {
             <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <nav class="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">
             
-                    <ul class="grid grid-cols-3 place-items-center">
+                    <ul class="grid grid-cols-5 place-items-center">
                     <li class="flex items-center">
                         <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
-                        Berita
+                        Home
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                        Our Story
                         </a>
                     </li>
             
@@ -26,7 +32,13 @@ const Footer = () => {
             
                     <li class="flex items-center">
                         <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
-                        Tentang Kami
+                        News
+                        </a>
+                    </li>
+
+                    <li class="flex items-center">
+                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                        About Us
                         </a>
                     </li>
                     </ul>

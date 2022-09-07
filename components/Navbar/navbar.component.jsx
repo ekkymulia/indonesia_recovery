@@ -30,7 +30,7 @@ const Navbar = () => {
                         class="text-gray-500 transition hover:text-gray-500/75"
                         href="/"
                         >
-                        Beranda
+                        Home
                         </a>
                     </li>
         
@@ -39,7 +39,7 @@ const Navbar = () => {
                         class="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
-                        Berita
+                        Our Story
                         </a>
                     </li>
         
@@ -48,7 +48,16 @@ const Navbar = () => {
                         class="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
-                        Team Kami
+                        News
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
+                        href="/"
+                        >
+                        About Us
                         </a>
                     </li>
                     </ul>
