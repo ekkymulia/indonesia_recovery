@@ -37,7 +37,7 @@ const Navbar = () => {
                     <li>
                         <a
                         class="text-gray-500 transition hover:text-gray-500/75 ml-8"
-                        href="/"
+                        href="/story"
                         >
                         Our Story
                         </a>

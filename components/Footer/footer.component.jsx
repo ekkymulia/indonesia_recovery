@@ -7,7 +7,7 @@ const Footer = () => {
         <>
         <SubscribeHero Class="bg-gray-100 grid grid-cols-5 gap-4 place-items-center p-8 md:p-12 lg:px-20 lg:py-24 md:grid-flow-col"/>
 
-        <footer class="bg-white-100">
+        <footer class="bg-white">
             <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <nav class="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">
             
@@ -19,7 +19,7 @@ const Footer = () => {
                     </li>
 
                     <li class="flex items-center">
-                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/story">
                         Our Story
                         </a>
                     </li>

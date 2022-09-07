@@ -3,7 +3,7 @@ const SubscribeHero = (props) => {
     return (
         <div class={Class}>
             <div class="md:col-span-3 col-span-5">
-                <h3 class="text-xl"><span class="font-bold">Join our pathway</span> to be part of Indonesia’s growth journey by keep updated with the latest news!</h3>
+                <h3 class="text-xl text-black"><span class="font-bold">Join our pathway</span> to be part of Indonesia's growth journey by keep updated with the latest news!</h3>
             </div>
             <div class="md-col-span-2 col-span-5 grid place-items-center grid-flow-col">
                 <a class="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring" href="/download">
