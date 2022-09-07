@@ -83,7 +83,7 @@ const Navbar = () => {
 
         {
             isHamburger ? (
-                <div id="px-4 mx-auto sm:px-6">
+                <div id="px-4 mx-auto sm:px-6 md-hidden">
                 <nav class="flex flex-col space-y-1">
                 <a
                     href=""
