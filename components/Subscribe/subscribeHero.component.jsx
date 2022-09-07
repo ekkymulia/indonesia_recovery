@@ -1,6 +1,7 @@
-const SubscribeHero = () => {
+const SubscribeHero = (props) => {
+    const {Class} = props
     return (
-        <div class="bg-gray-100 p-8 md:p-12 lg:px-20 lg:py-24 grid grid-cols-5 gap-4 place-items-center">
+        <div class={Class}>
             <div class="col-span-3">
                 <h3 class="text-xl"><span class="font-bold">Join our pathway</span> to be part of Indonesia’s growth journey by keep updated with the latest news!</h3>
             </div>

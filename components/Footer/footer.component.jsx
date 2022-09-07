@@ -5,7 +5,7 @@ import SubscribeHero from "../Subscribe/subscribeHero.component";
 const Footer = () => {
     return (
         <>
-        <SubscribeHero/>
+        <SubscribeHero Class="bg-gray-100 grid grid-cols-5 gap-4 place-items-center p-8 md:p-12 lg:px-20 lg:py-24 "/>
 
         <footer class="bg-white-100">
             <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
