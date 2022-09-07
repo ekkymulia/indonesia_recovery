@@ -1,60 +1,60 @@
 import Image from "next/image";
 
-import SubscribeHero from "../Subscribe/subscribeHero.component";
+import SubscribeHero from "../Subscribe/subscribe-hero.component";
 
 const Footer = () => {
     return (
         <>
-        <SubscribeHero Class="bg-gray-100 grid grid-cols-5 gap-4 place-items-center p-8 md:p-12 lg:px-20 lg:py-24 md:grid-flow-col"/>
+        <SubscribeHero ClassName="bg-gray-100 grid grid-cols-5 gap-4 place-items-center p-8 md:p-12 lg:px-20 lg:py-24 md:grid-flow-col"/>
 
-        <footer class="bg-white-100">
-            <div class="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-                <nav class="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">
+        <footer className="bg-white-100">
+            <div className="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+                <nav className="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">
             
-                    <ul class="grid grid-cols-5 place-items-center">
-                    <li class="flex items-center">
-                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                    <ul className="grid grid-cols-5 place-items-center">
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
                         Home
                         </a>
                     </li>
 
-                    <li class="flex items-center">
-                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
                         Our Story
                         </a>
                     </li>
             
                     <li>
-                        <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} class="mt-1"/>
+                        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} className="mt-1"/>
                         </a>
                     </li>
             
-                    <li class="flex items-center">
-                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
                         News
                         </a>
                     </li>
 
-                    <li class="flex items-center">
-                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
                         About Us
                         </a>
                     </li>
                     </ul>
                 </nav>
 
-                <ul class="flex justify-center mt-12 gap-6 md:gap-8">
+                <ul className="flex justify-center mt-12 gap-6 md:gap-8">
                     <li>
                     <a
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        class="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                        <span class="sr-only">Facebook</span>
+                        <span className="sr-only">Facebook</span>
                         <svg
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -73,11 +73,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        class="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                        <span class="sr-only">Instagram</span>
+                        <span className="sr-only">Instagram</span>
                         <svg
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -96,11 +96,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        class="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                        <span class="sr-only">Twitter</span>
+                        <span className="sr-only">Twitter</span>
                         <svg
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -117,11 +117,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        class="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                        <span class="sr-only">GitHub</span>
+                        <span className="sr-only">GitHub</span>
                         <svg
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -140,11 +140,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        class="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                        <span class="sr-only">Dribbble</span>
+                        <span className="sr-only">Dribbble</span>
                         <svg
-                        class="w-6 h-6"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -159,7 +159,7 @@ const Footer = () => {
                     </li>
                 </ul>
 
-                <p class="max-w-md mx-auto mt-8 leading-relaxed text-center text-gray-500">
+                <p className="max-w-md mx-auto mt-8 leading-relaxed text-center text-gray-500">
                     &copy; Indonesia Recovery. 2022.  From Youth to Growth!
                 </p>
             </div>
@@ -169,9 +169,9 @@ const Footer = () => {
     );
 };
 
-// <div class="relative flex py-5 items-center">
-//     <div class="flex-grow border-t border-gray-400"></div>
-//     <div class="flex-grow border-t border-gray-400"></div>
+// <div className="relative flex py-5 items-center">
+//     <div className="flex-grow border-t border-gray-400"></div>
+//     <div className="flex-grow border-t border-gray-400"></div>
 // </div>
 
 export default Footer;

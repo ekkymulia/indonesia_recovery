@@ -10,24 +10,24 @@ const Navbar = () => {
     }
 
     return (
-        <header class="bg-white  border-b border-gray-300">
-        <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <div class="flex-1 md:flex md:items-center md:gap-12">
-                <a class="block text-teal-600" href="/">
-                    <span class="sr-only">Home</span>
+        <header className="bg-white  border-b border-gray-300">
+        <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between h-16">
+                <div className="flex-1 md:flex md:items-center md:gap-12">
+                <a className="block text-teal-600" href="/">
+                    <span className="sr-only">Home</span>
                     <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
                 </a>
                 </div>
         
-                <div class="md:flex md:items-center">
-                <nav class="hidden md:block" aria-labelledby="header-navigation">
-                    <h2 class="sr-only" id="header-navigation">Header navigation</h2>
+                <div className="md:flex md:items-center">
+                <nav className="hidden md:block" aria-labelledby="header-navigation">
+                    <h2 className="sr-only" id="header-navigation">Header navigation</h2>
         
-                    <ul class="flex items-center text-sm gap-6">      
+                    <ul className="flex items-center text-sm gap-6">      
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75"
+                        className="text-gray-500 transition hover:text-gray-500/75"
                         href="/"
                         >
                         Home
@@ -36,7 +36,7 @@ const Navbar = () => {
         
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
+                        className="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
                         Our Story
@@ -45,7 +45,7 @@ const Navbar = () => {
         
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
+                        className="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
                         News
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                     <li>
                         <a
-                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
+                        className="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/"
                         >
                         About Us
@@ -63,16 +63,16 @@ const Navbar = () => {
                     </ul>
                 </nav>
         
-                <div class="flex items-center gap-4">
+                <div className="flex items-center gap-4">
 
         
-                    <div class="block md:hidden">
+                    <div className="block md:hidden">
                     <button onClick={onClicked}
-                        class="p-2 text-gray-600 bg-gray-100 rounded transition hover:text-gray-600/75"
+                        className="p-2 text-gray-600 bg-gray-100 rounded transition hover:text-gray-600/75"
                     >
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="w-5 h-5"
+                        className="w-5 h-5"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -93,38 +93,38 @@ const Navbar = () => {
         {
             isHamburger ? (
                 <div id="px-4 mx-auto sm:px-6 md-hidden">
-                <nav class="flex flex-col space-y-1">
+                <nav className="flex flex-col space-y-1">
                 <a
                     href=""
-                    class="block px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
+                    className="block px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
                 >
                     General
                 </a>
                 
                 <a
                     href=""
-                    class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                    className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
                     Teams
                 </a>
                 
                 <a
                     href=""
-                    class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                    className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
                     Billing
                 </a>
                 
                 <a
                     href=""
-                    class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                    className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
                     Invoices
                 </a>
                 
                 <a
                     href=""
-                    class="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                    className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
                     Account
                 </a>
