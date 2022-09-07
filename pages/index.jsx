@@ -14,19 +14,17 @@ export default function Home() {
     >
       <div className="p-8 md:p-12 lg:px-20 lg:py-24 bg-white">
         <div className="max-w-lg text-center sm:text-left">
-          
-          <p className="font-reguler text-black">
-          <svg
-            className="w-5 h-5 ml-3"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <circle cx="8" cy="8" r="8"/> /*Icon msh blm fix */
-          </svg>
-            NEWS UPDATE
-          </p>
+
+        <div className='flex flex-wrap my-3'>
+          <div className='col-span-1 flex justify-center'>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#FF0909"/>
+              <circle cx="10" cy="10" r="5" fill="#E5E5E5"/>
+              </svg>
+          </div>
+          <span className="ml-3 mt-2 sm:mt-0">News Updates 📰</span>
+        </div>
+  
 
           <h2 className="text-2xl font-reguler text-black sm:text-4xl">
             Indonesia's Post Pandemic <br></br>
