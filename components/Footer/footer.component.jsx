@@ -18,8 +18,8 @@ const Footer = () => {
                         </a>
                     </li>
 
-                    <li className="flex items-center">
-                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                    <li class="flex items-center">
+                        <a class="text-gray-700 transition hover:text-gray-700/75 " href="/story">
                         Our Story
                         </a>
                     </li>
