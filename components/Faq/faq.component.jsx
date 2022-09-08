@@ -7,17 +7,17 @@ const Faq = (props) => {
                 <div className=" border-b-[4px] border-red-500 w-28"/>
             </div>
 
-            <div class="space-y-4">
-                <details class="group" open>
+            <div className="space-y-4">
+                <details className="group" open>
                     <summary
-                    class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
+                    className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
                     >
-                    <h5 class="font-medium text-gray-900">
+                    <h5 className="font-medium text-gray-900">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h5>
 
                     <svg
-                        class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
+                        className="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -32,7 +32,7 @@ const Faq = (props) => {
                     </svg>
                     </summary>
 
-                    <p class="px-4 mt-4 leading-relaxed text-gray-700">
+                    <p className="px-4 mt-4 leading-relaxed text-gray-700">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -40,16 +40,16 @@ const Faq = (props) => {
                     </p>
                 </details>
 
-                <details class="group">
+                <details className="group">
                     <summary
-                    class="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
+                    className="flex items-center justify-between p-4 rounded-lg cursor-pointer bg-gray-50"
                     >
-                    <h5 class="font-medium text-gray-900">
+                    <h5 className="font-medium text-gray-900">
                         Lorem ipsum dolor sit amet consectetur adipisicing?
                     </h5>
 
                     <svg
-                        class="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
+                        className="flex-shrink-0 ml-1.5 w-5 h-5 transition duration-300 group-open:-rotate-180"
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
                         viewBox="0 0 24 24"
@@ -64,7 +64,7 @@ const Faq = (props) => {
                     </svg>
                     </summary>
 
-                    <p class="px-4 mt-4 leading-relaxed text-gray-700">
+                    <p className="px-4 mt-4 leading-relaxed text-gray-700">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
                     molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
                     voluptate dicta quo officiis explicabo consequuntur distinctio corporis

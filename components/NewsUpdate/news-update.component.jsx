@@ -11,12 +11,12 @@ const NewsUpdate =  ( props ) => {
             </div>
             
             <div className="grid grid-cols-12 mt-5 gap-x-20 gap-y-10 place-content-around">
-                <NewsUpdateCard ClassName="col-span-6" />
-                <NewsUpdateCard ClassName="col-span-6" />
-                <NewsUpdateCard ClassName="col-span-6" />
-                <NewsUpdateCard ClassName="col-span-6" />
-                <NewsUpdateCard ClassName="col-span-6" />
-                <NewsUpdateCard ClassName="col-span-6" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
             </div>
         </section>
 

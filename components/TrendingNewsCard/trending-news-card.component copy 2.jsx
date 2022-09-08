@@ -2,9 +2,12 @@ import React from 'react';
 import Image from 'next/image';
 const TrendingNewsComponent = () => {
     return (
-        <blockquote className='my-6  transition-transform  hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
-        hover:shadow-gray-200 p-4 hover:rounded-2xl
-        '>
+
+        <div className='my-3 relative inline-block text-sm font-medium text-red-600 active:text-red-500 group bg-gray-200 focus:outline-none focus:ring'>
+        <blockquote className='absolute inset-0 border rounded-lg border-current'></blockquote>
+        <blockquote className='block px-5 py-3 bg-white border rounded-lg transition-transform border-current group-hover:-translate-x-1 group-hover:-translate-y-1 group-hover:bg-red-600 group-hover:text-white'>
+
+
             <div className=''>            
                 <header className="flex">
                     <div className='col-span-1 flex justify-center'>
@@ -15,13 +18,13 @@ const TrendingNewsComponent = () => {
                     </div>
                     <span className="ml-3 mt-2 sm:mt-0">Trending 🔥</span>
                 </header>
-                <main className='grid grid-colspan-8 grid-flow-col mt-1 gap-x-3'>
+                <main className='grid grid-colspan-8 grid-flow-col mt-1'>
                     <div className='mt-2 col-span-5 flex flex-col justify-between'>
                         <div>
                             <h2 className='mt-2 font-semibold'>G20 Jaya Jaya Jaya</h2>
                             <p className="mt-2 text-gray-700 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?</p>
                         </div>
-                        <div className=''>
+                        <div>
                             <p className="text-xs text-gray-500 flex items-center ">
                             <span className='font-semibold'>Aug 5</span>  
                             &nbsp; &nbsp;
@@ -54,6 +57,8 @@ const TrendingNewsComponent = () => {
                 </main>
             </div>    
         </blockquote>
+        </div>
+
     );
 };
 

@@ -36,13 +36,8 @@ const Navbar = () => {
         
                     <li>
                         <a
-<<<<<<< HEAD
                         className="text-gray-500 transition hover:text-gray-500/75 ml-8"
-                        href="/"
-=======
-                        class="text-gray-500 transition hover:text-gray-500/75 ml-8"
                         href="/story"
->>>>>>> origin/fadiil-story
                         >
                         Our Story
                         </a>
