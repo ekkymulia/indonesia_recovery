@@ -12,11 +12,11 @@ export default function Custom404() {
 
     const router = useRouter();
 
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         router.push("/")
-    //     }, 2000);
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            router.push("/")
+        }, 2000);
+    }, [])
 
     return (
         <Layout>
