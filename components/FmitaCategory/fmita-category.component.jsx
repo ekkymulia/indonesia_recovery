@@ -1,3 +1,5 @@
+//DEPRECATED, NOT USED
+
 import CategoryCard from "../CategoryCard/category-card.component";
 
 const FmitaCategory = () => {
@@ -14,7 +16,7 @@ const FmitaCategory = () => {
           <CategoryCard/>
             
           </div>  
-      </div>
+      </div> 
     );
 };
 

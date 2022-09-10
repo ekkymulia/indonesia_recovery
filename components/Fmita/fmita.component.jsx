@@ -1,6 +1,5 @@
 import TrendingNewsComponent from '../TrendingNewsCard/trending-news-card.component'
-import FmitaCategory from '../FmitaCategory/fmita-category.component';
-
+import CategoryCard from '../CategoryCard/category-card.component';
 
 const Fmita = ( props ) => {
     const { ClassName } = props;
@@ -15,7 +14,19 @@ const Fmita = ( props ) => {
             <TrendingNewsComponent/>
           </div>
           <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">
-            <FmitaCategory/>
+            <div className="flex flex-col">
+                <span>Discover Latest Category Updates</span> 
+                <div className="flex flex-wrap my-3">
+
+                <CategoryCard/> <CategoryCard/>
+                <CategoryCard/> <CategoryCard/>
+                <CategoryCard/> <CategoryCard/>
+                <CategoryCard/> <CategoryCard/>
+                <CategoryCard/> <CategoryCard/>
+                <CategoryCard/>
+                  
+                </div>  
+            </div> 
           </div>
         </div>
       </section>
