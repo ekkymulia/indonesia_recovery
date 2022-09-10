@@ -22,7 +22,7 @@ export default function Home() {
               <circle cx="10" cy="10" r="5" fill="#E5E5E5"/>
               </svg>
           </div>
-          <span className="ml-3 mt-2 sm:mt-0">News Updates 📰</span>
+          <span className="ml-3 mt-2 sm:mt-0 text-black">News Updates 📰</span>
         </div>
   
 
@@ -47,7 +47,7 @@ export default function Home() {
             </a>
 
 
-            <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring ml-8" href="/download">
+            <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring ml-8" href="/news">
               <span className="absolute inset-0 border border-current"></span>
               <span className="block px-12 py-3 bg-white border transition-transform border-current group-hover:-translate-x-1 group-hover:-translate-y-1">
                 Read News

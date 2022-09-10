@@ -40,10 +40,12 @@ export default function Story() {
         <div className="mt-2 sm:mt-2 sm-flex">
             <a className="relative inline-block text-sm font-medium text-white group focus:outline-none   focus:ring">
                 <h1 className="text-black text-5xl mt-20 font-reguler">100%</h1>
+                <div className=" border-b-[3px] border-red-500 w-30 mt-2"/>
                 <p className="text-red-600 mt-3"> Trusted News</p>
             </a>    
                 <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
                 <h1 className="text-black text-5xl mt-20 font-reguler">5000+</h1>
+                <div className=" border-b-[3px] border-red-500 w-30 mt-2"/>
                 <p className="text-red-600 mt-3">Contributors</p>
             </a>
           </div>
