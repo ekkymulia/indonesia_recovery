@@ -12,7 +12,7 @@ export default function News(){
     className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
     >
         
-      <div className="p-8 md:p-12 lg:px-20 lg:py-10 bg-white">
+      <div className="p-8 md:p-12 lg:px-20 lg:py-10 bg-white mt-24">
         <div className="max-w-lg text-center sm:text-left">
             <div className="flex flex-wrap my-3">
             <span className="mt-2 sm:mt-0 text-black text-1xl">24 August 2022</span>
@@ -106,7 +106,7 @@ export default function News(){
                 class="overflow-hidden border border-red-200 grid grid-cols-1 group sm:grid-cols-3 ml-10 mt-5 rounded-lg"
                 href="/news"
                 >
-                <div class="p-8 sm:col-span-2">
+                <div class="p-8 sm:col-span-2 z-50">
                     <ul class="flex space-x-1">
                     <li
                         class="inline-block px-3 py-1 text-xs font-reguler text-white bg-red-600 rounded-full"
