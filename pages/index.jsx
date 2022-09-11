@@ -19,6 +19,7 @@ export default function Home() {
     <Slider/>
 
     </aside>
+    
 
     <NewsUpdate ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
     <Faq ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
