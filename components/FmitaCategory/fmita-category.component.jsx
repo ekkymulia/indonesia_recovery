@@ -1,4 +1,4 @@
-//DEPRECATED, NOT USED
+//CURRENTLY NOT USED
 
 import CategoryCard from "../CategoryCard/category-card.component";
 

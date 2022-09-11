@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SubscribeHero from "../Subscribe/subscribe-hero.component";
+import SubscribeHero from "../../Subscribe/subscribe-hero.component";
 
 const Footer = () => {
     return (

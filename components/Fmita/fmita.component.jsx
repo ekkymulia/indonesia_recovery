@@ -1,5 +1,5 @@
-import TrendingNewsComponent from '../TrendingNewsCard/trending-news-card.component'
-import CategoryCard from '../CategoryCard/category-card.component';
+import TrendingNewsComponent from '../Cards/TrendingNewsCard/trending-news-card.card'
+import CategoryCard from '../Elements/CategoryBox/category-box.component';
 
 const Fmita = ( props ) => {
     const { ClassName } = props;
@@ -10,20 +10,25 @@ const Fmita = ( props ) => {
   
         <div className="mt-8 grid grid-cols-1 gap-8 md:gap-12 md:mt-16 md:grid-cols-5 lg:grid-cols-5">
           <div className="p-1 grid grid-rows-1 col-span-3">
-            <TrendingNewsComponent/>
-            <TrendingNewsComponent/>
+            <TrendingNewsComponent tag="Trending 🔥" title="G20: Indonesia Recover" 
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+            imgLink="/g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
+
+            <TrendingNewsComponent tag="Trending 🔥" title="G20: Indonesia Recover" 
+            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+            imgLink="/g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
           </div>
           <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">
             <div className="flex flex-col">
                 <span>Discover Latest Category Updates</span> 
                 <div className="flex flex-wrap my-3">
 
-                <CategoryCard/> <CategoryCard/>
-                <CategoryCard/> <CategoryCard/>
-                <CategoryCard/> <CategoryCard/>
-                <CategoryCard/> <CategoryCard/>
-                <CategoryCard/> <CategoryCard/>
-                <CategoryCard/>
+                <CategoryCard text="🌱🌍 Environtment"/> 
+                <CategoryCard text="📈📊 Stocks"/>
+                <CategoryCard text="🔥🥇 Trends"/> 
+                <CategoryCard text="💸🤝 Charity"/>
+                <CategoryCard text="🧠 Ideas"/> 
+                <CategoryCard text="⚽🏃‍♂️🥈 Sports"/>
                   
                 </div>  
             </div> 

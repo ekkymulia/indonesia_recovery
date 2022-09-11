@@ -3,7 +3,6 @@ import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout/layout.component';
 import { redirect } from 'next/dist/server/api-utils';
 import autoprefixer from 'autoprefixer';
-import CategoryCard from "../components/CategoryCard/category-card.component";
 
 export default function News(){
     return(

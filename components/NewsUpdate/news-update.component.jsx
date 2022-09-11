@@ -1,4 +1,4 @@
-import NewsUpdateCard from "../NewsUpdateCard/news-update-card.component";
+import NewsUpdateCard from "../Cards/NewsUpdateCard/news-update-card.card";
 
 const NewsUpdate =  ( props ) => {
     const { ClassName } = props;
@@ -11,12 +11,22 @@ const NewsUpdate =  ( props ) => {
             </div>
             
             <div className="grid grid-cols-12 mt-5 gap-x-20 gap-y-10 place-content-around">
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
-                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" />
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" 
+                title="Energy Renewal: Plastic Waste to Fuel" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+                to="/news" category="🌱🌍 Environtment" minutes="3"/>
+
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" 
+                title="Energy Renewal: Plastic Waste to Fuel" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+                to="/news" category="🌱🌍 Environtment" minutes="3"/>
+
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" 
+                title="Energy Renewal: Plastic Waste to Fuel" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+                to="/news" category="🌱🌍 Environtment" minutes="3"/>
+
+                <NewsUpdateCard ClassName="lg:col-span-6 col-span-12" 
+                title="Energy Renewal: Plastic Waste to Fuel" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
+                to="/news" category="🌱🌍 Environtment" minutes="3"/>
+
             </div>
         </section>
 
