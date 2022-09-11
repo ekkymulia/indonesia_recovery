@@ -5,9 +5,12 @@ export default function Document() {
     <Html>
         <Head>
         <link
-        href="http://fonts.cdnfonts.com/css/manrope"
-        rel="stylesheet"
-        />
+            rel="preload"
+            href="http://fonts.cdnfonts.com/css/manrope"
+            as="font"
+            type="font/manrope"
+            crossorigin
+            />
     </Head>
     <body>
         <Main />
