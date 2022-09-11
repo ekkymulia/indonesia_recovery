@@ -27,6 +27,7 @@ export default function Story() {
           alt="Man using a computer"
           style={{ height: 450, borderRadius: 15 }}
         />
+        
       </div>
 
       <div className="lg:py-16 ml-8">

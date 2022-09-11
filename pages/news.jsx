@@ -4,6 +4,7 @@ import Layout from '../components/Layout/layout.component';
 import { redirect } from 'next/dist/server/api-utils';
 import autoprefixer from 'autoprefixer';
 import CategoryCard from "../components/CategoryCard/category-card.component";
+import Fmita from '../components/Fmita/fmita.component';
 
 export default function News(){
     return(
@@ -159,12 +160,12 @@ export default function News(){
                 </a>
                 <div className=" border-b-[2px] border-red-500 ml-10 mt-10 w-50"/>
                 <p className="text-red-500 ml-10 mt-5">Your Favorite!</p>
-                
-                </div>
+            </div>
         </div>
-        
     </div>
 </section>
+<Fmita ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
 </Layout>
+
     )
 }

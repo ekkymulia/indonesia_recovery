@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
     return (
-        <header className="bg-white  border-b border-gray-300">
+        <header className="sticky top-0 z-50 bg-white drop-shadow-md">
         <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
                 <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -95,39 +95,33 @@ const Navbar = () => {
                 <div id="px-4 mx-auto sm:px-6 md-hidden">
                 <nav className="flex flex-col space-y-1">
                 <a
-                    href=""
+                    href="/"
                     className="block px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
                 >
-                    General
+                    Home
                 </a>
                 
                 <a
-                    href=""
+                    href="/story"
                     className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
-                    Teams
+                    Our Story
                 </a>
                 
                 <a
-                    href=""
+                    href="/news"
                     className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
-                    Billing
+                    News
                 </a>
                 
                 <a
-                    href=""
+                    href="/"
                     className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
-                    Invoices
+                    About Us
                 </a>
                 
-                <a
-                    href=""
-                    className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
-                >
-                    Account
-                </a>
                 </nav>
                 </div>
             ) : (
