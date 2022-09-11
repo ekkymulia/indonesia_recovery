@@ -5,7 +5,12 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      // Other extends
+      backgroundImage: {
+        'pic-1': "url('../public/gema.png')",
+      }
+    },
   },
   plugins: [],
 };
