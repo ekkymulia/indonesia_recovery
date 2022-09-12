@@ -1,3 +1,5 @@
+
+
 const SubscribeHero = (props) => {
     const {ClassName} = props
     return (
@@ -21,7 +23,11 @@ const SubscribeHero = (props) => {
                     </span>
                 </a>
             </div>
-        </section>
+            
+            </section>
+            
+            
+        
     );
 };
 
