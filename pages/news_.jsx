@@ -27,8 +27,7 @@ export default function News_(){
     </aside>
 <section>
     <div class="mx-auto max-w-screen-xl sm:px-12">
-    <p className="text-red-600"><b>G20 Indonesia 2022</b></p>
-    <p className="text-red-400">Media Partner SDG Campaign</p>
+
         <div class="mt-3 grid grid-cols-2 gap-8 lg:gap-16 lg:gap-r-24 lg:grid-cols-12 mb-10">
             <div class="relative h-64 sm:h-80 lg:h-full col-span-7">
             <div>
@@ -43,21 +42,21 @@ export default function News_(){
                 className="px-10 py-10 rounded-lg shadow-xl
                 "
                 >
-                <a className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring">
-                    <h1 className="text-black text-3xl font-reguler">5 Min</h1>
-                    <div className=" border-b-[3px] border-red-500 w-28"/>
-                    <p className="text-red-600 mt-3">Reading</p>
-                </a> 
-                <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
-                    <h1 className="text-black text-3xl font-reguler">80+</h1>
-                    <div className=" border-b-[3px] border-red-500 w-28"/>
-                    <p className="text-red-600 mt-3">Readers</p>
-                </a>
-                <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
-                    <h1 className="text-black text-3xl font-reguler">Keren</h1>
-                    <div className=" border-b-[3px] border-red-500 w-28"/>
-                    <p className="text-red-600 mt-3">Review</p>
-                </a>
+                    <a className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring">
+                        <h1 className="text-black text-3xl font-reguler">5 Min</h1>
+                        <div className=" border-b-[3px] border-red-500 w-28"/>
+                        <p className="text-red-600 mt-3">Reading</p>
+                    </a> 
+                    <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
+                        <h1 className="text-black text-3xl font-reguler">80+</h1>
+                        <div className=" border-b-[3px] border-red-500 w-28"/>
+                        <p className="text-red-600 mt-3">Readers</p>
+                    </a>
+                    <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
+                        <h1 className="text-black text-3xl font-reguler">Keren</h1>
+                        <div className=" border-b-[3px] border-red-500 w-28"/>
+                        <p className="text-red-600 mt-3">Review</p>
+                    </a>
                 </blockquote>
             </div>  
        
