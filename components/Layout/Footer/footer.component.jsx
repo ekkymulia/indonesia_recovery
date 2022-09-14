@@ -1,12 +1,8 @@
 import Image from "next/image";
 
-import SubscribeHero from "../../Subscribe/subscribe-hero.component";
-
 const Footer = () => {
     return (
         <>
-        <SubscribeHero ClassName="bg-gray-100 grid grid-cols-5 gap-4 place-items-center p-8 md:p-12 lg:px-20 lg:py-24 md:grid-flow-col"/>
-
         <footer className="bg-white-100">
             <div className="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
                 <nav className="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">

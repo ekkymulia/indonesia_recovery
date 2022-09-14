@@ -12,18 +12,21 @@ import Slider from '../components/Elements/Slider/slider.slider';
 export default function Home() {
   return (
     <Layout>
-
-    <aside
-    className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
-    >
-    <Slider/>
-
-    </aside>
+      <div>
+        <aside
+        className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
+        >
+        <Slider/>
     
+        </aside>
+        
+    
+        <NewsUpdate ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
+        <Faq ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
+        <Fmita ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
+      </div>
 
-    <NewsUpdate ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
-    <Faq ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
-    <Fmita ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
+
     </Layout>
   );
 }

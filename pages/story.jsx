@@ -7,7 +7,7 @@ import PhotoCard from '../components/Cards/PhotoCard/photo-card.card';
 export default function Story() {
   return (
     <Layout>
-        <aside className="bg-white">
+        <div className="bg-white">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="max-w-lg mx-auto text-center">
                 <h2 className="text-2xl font-regular text-gray-900 md:text-4xl">
@@ -112,7 +112,7 @@ export default function Story() {
 
           </div>
         </section>
-      </aside>
+      </div>
    
     </Layout>
   );
