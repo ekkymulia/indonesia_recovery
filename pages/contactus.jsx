@@ -4,7 +4,7 @@ export default function Contactus(){
     return(
         <Layout>
 <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 grid grid-cols-10">
-        <div className="col-span-4 ml-10">
+        <div className="col-span-10 lg:col-span-4 ml-10">
         <div className="mx-auto mt-20">
             <h1 className="text-2xl sm:text-3xl">
             Let's Collaborate to make a <br></br>
@@ -87,9 +87,9 @@ export default function Contactus(){
         </form>
         </div>
         
-        <div className='col-span-2'></div>
+        <div className='col-span-0 lg:col-span-2'></div>
 
-        <div className="relative col-span-4">
+        <div className="relative col-span-10 lg:col-span-4">
             <div className='space-y-5'>
             <div className="mx-auto mt-20 space-y-3">
                 <img 

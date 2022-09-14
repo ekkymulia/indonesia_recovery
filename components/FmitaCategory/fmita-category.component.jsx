@@ -1,22 +1,19 @@
 //CURRENTLY NOT USED
 
-import CategoryCard from "../CategoryCard/category-card.component";
+import CategoryBox from "../Elements/CategoryBox/category-box.component";
 
 const FmitaCategory = () => {
     return (
-        <div className="flex flex-col">
-          <span>Discover Latest Category Updates</span> 
           <div className="flex flex-wrap my-3">
 
-          <CategoryCard/>
-          <CategoryCard/>
-          <CategoryCard/>
-          <CategoryCard/>
-          <CategoryCard/>
-          <CategoryCard/>
+            <CategoryBox text="🌱🌍 Environtment"/> 
+            <CategoryBox text="📈📊 Stocks"/>
+            <CategoryBox text="🔥🥇 Trends"/> 
+            <CategoryBox text="💸🤝 Charity"/>
+            <CategoryBox text="🧠 Ideas"/> 
+            <CategoryBox text="⚽🏃‍♂️🥈 Sports"/>
             
           </div>  
-      </div> 
     );
 };
 

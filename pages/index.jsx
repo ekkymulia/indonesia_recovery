@@ -8,6 +8,7 @@ import RedDot from '../components/Elements/RedDot/red-dot.element';
 
 import CustomLinkButton, { CUSTOM_LINK_BUTTON_TYPES } from '../components/Elements/CustomLinkButton/custom-link-button.element';
 import Slider from '../components/Elements/Slider/slider.slider';
+import NewsHighlight from '../components/NewsHighlight/news-highlight.component';
 
 export default function Home() {
   return (
@@ -20,10 +21,11 @@ export default function Home() {
     
         </aside>
         
-    
+        <NewsHighlight ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
+        <Fmita ClassName="p-8 md:p-12 lg:px-20 lg:py-24 lg:pt-0"/>
+
         <NewsUpdate ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
         <Faq ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
-        <Fmita ClassName="p-8 md:p-12 lg:px-20 lg:py-24"/>
       </div>
 
 
