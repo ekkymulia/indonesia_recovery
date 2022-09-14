@@ -107,7 +107,7 @@ export default function Story() {
               <PhotoCard imgLink="/ekky.jpg" title="Ekky Mulia Lasardi" desc="Developer"/>
               <PhotoCard imgLink="thoriq.jpg" title="Mochammad Fadiil Thoriq" desc="Developer"/>
               <PhotoCard imgLink="/aulia.jpg" title="Nurrizkyta Aulia Hanifa" desc="UI/UX Designer"/>
-              <PhotoCard imgLink="/wahyu.png" title="Wahyu Aji Mustika" desc="Documenter"/>
+              <PhotoCard imgLink="/wahyu.png" title="Wahyu Mustika Aji" desc="Documenter"/>
               <PhotoCard imgLink="/gema.png" title="Gema Parasti Mindara" desc="Supervisor"/>
 
           </div>
