@@ -1,4 +1,8 @@
+import Popup from "../Popup/popup";
+import { useState } from 'react';
+
 const SubscribeHero = (props) => {
+    const [ buttonPopup, setButtonPopup ] = useState(false);
     const {ClassName} = props
     return (
         <section className={ClassName}>
@@ -6,22 +10,28 @@ const SubscribeHero = (props) => {
                 <h3 className="text-xl"><span className="font-bold">Join our pathway</span> to be part of Indonesia’s growth journey by keep updated with the latest news!</h3>
             </div>
             <div className="md-col-span-2 col-span-5 grid place-items-center grid-flow-col">
-                <a className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring" href="/download">
+                <a className="relative inline-block text-sm font-medium text-white group focus:outline-none focus:ring cursor-pointer" onClick={() => setButtonPopup(true)}>
                     <span className="absolute inset-0 border border-red-600 group-active:border-red-500"></span>
                     <span className="block px-12 py-3 bg-red-600 border border-red-600 transition-transform active:border-red-500 active:bg-red-500 group-hover:-translate-x-1 group-hover:-translate-y-1">
                     Join Today
                     </span>
                 </a>
     
-    
-                <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring ml-8" href="/download">
+                <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring ml-8" href="/contactus">
                     <span className="absolute inset-0 border border-current"></span>
                     <span className="block px-12 py-3 bg-white border transition-transform border-current group-hover:-translate-x-1 group-hover:-translate-y-1">
                     Contact Us
                     </span>
                 </a>
             </div>
-        </section>
+            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                    
+            </Popup>
+            </section>
+            
+            
+            
+        
     );
 };
 
