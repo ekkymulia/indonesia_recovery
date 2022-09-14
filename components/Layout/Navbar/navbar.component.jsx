@@ -46,18 +46,18 @@ const Navbar = () => {
                     <li>
                         <a
                         className="text-gray-500 transition hover:text-gray-500/75 ml-8"
-                        href="/news"
+                        href="/contactus"
                         >
-                        News
+                        Contact Us
                         </a>
                     </li>
 
                     <li>
                         <a
                         className="text-gray-500 transition hover:text-gray-500/75 ml-8"
-                        href="/"
+                        href="/signin"
                         >
-                        About Us
+                        Sign In
                         </a>
                     </li>
                     </ul>

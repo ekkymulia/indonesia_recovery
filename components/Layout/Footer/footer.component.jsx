@@ -26,19 +26,19 @@ const Footer = () => {
             
                     <li>
                         <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
-                        <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} className="mt-1"/>
+                        <img src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} className="mt-1"/>
                         </a>
                     </li>
             
                     <li className="flex items-center">
-                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/news">
-                        News
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/contactus">
+                        Contact Us
                         </a>
                     </li>
 
                     <li className="flex items-center">
-                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
-                        About Us
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/signin">
+                        Sign In
                         </a>
                     </li>
                     </ul>
