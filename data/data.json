@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "judul": "Ekky adalah orang ganteng",
+            "slug": "ekky-orang-ganteng",
+            "category": "",
+            "desc": "",
+            "date_posted": "7 Agustus",
+            "read_time":"7",
+            "rating": "4",
+            "imgLink": "https.. atau /g20.jpg misal",
+            "article": ""
+        },
+        {
+            "id": 2,
+            "judul": "Ekky adalah orang ganteng",
+            "slug": "ekky-orang-ganteng",
+            "category": "",
+            "desc": "",
+            "date_posted": "7 Agustus",
+            "read_time":"7",
+            "rating": "4",
+            "imgLink": "https.. atau /g20.jpg misal",
+            "article": ""
+        }
+    ]
+}
