@@ -6,7 +6,6 @@ const NewsHighlight = ({ClassName} = props) => {
     return (
         <div className={`grid grid-cols-12 ${ClassName}`}>
             <div className="col-span-12 md:col-span-4">
-                <span className="text-lg font-semibold">News Category</span><br/>
                 <ul className=" space-y-3">
                     <li class="ml-3 font-semibold">Hightlight News</li>
                     <li class="ml-3 text-gray-600">Technology Updates</li>
@@ -17,7 +16,7 @@ const NewsHighlight = ({ClassName} = props) => {
             <div className="col-span-12 md:col-span-8">
                 <div className="grid place-content-between sm:grid-flow-col place-items-center">
                     <div>
-                        <h3 className="font-bold text-3xl my-2">News Highlight ⚡⚡</h3>
+                        <h3 className="font-bold text-3xl my-2">News Highlight</h3>
                         <span>This Information will blow your mind!</span>
                     </div>
                     <div className="mt-3 md:mt-0">

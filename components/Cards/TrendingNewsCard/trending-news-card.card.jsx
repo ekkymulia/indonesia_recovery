@@ -9,21 +9,27 @@ const TrendingNewsComponent = (props) => {
 
     return (
         <Link href={to}>
-            <blockquote className='my-6 cursor-pointer transition-transform  hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
-            hover:shadow-gray-200 p-4 hover:rounded-2xl
+            <blockquote className='cursor-pointer transition-transform  hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
+            hover:shadow-gray-200 p-2.5 hover:rounded-2xl
             '>
-                <div className=''>            
+                <div className=''>     
+                {
+                    tag ? (       
                     <header className="flex">
                         <div className='col-span-1 flex justify-center'>
                             <RedDot/>
                         </div>
-                        <span className="ml-3 mt-2 sm:mt-0">{tag}</span>
+                            <span className="ml-3 mt-2 sm:mt-0">{tag}</span>
                     </header>
-                    <main className='grid grid-colspan-8 grid-flow-col mt-1 gap-x-3'>
+                    ) : (
+                        <></>
+                    )
+                }
+                    <main className='grid grid-colspan-8 grid-flow-col gap-x-3'>
                         <div className='mt-2 col-span-5 flex flex-col justify-between'>
                             <div>
                                 <h2 className='mt-2 font-semibold'>{title}</h2>
-                                <p className="mt-2 text-gray-700 ">{desc}</p>
+                                <p className="mt-2 text-gray-700">{desc}</p>
                             </div>
                             <div className=''>
                                 <p className="text-xs text-gray-500 flex items-center ">
