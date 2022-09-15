@@ -27,7 +27,7 @@ const MostViewed = ({ClassName} = props) => {
                     </ul>
             </div>
             <diV className="grid grid-cols-12">
-                <div className="col-span-7 grid grid-cols-12">
+                <div className="col-span-12 lg:col-span-7 grid grid-cols-12">
                     <div className="grid grid-flow-col place-items-center col-span-12 
                                     place-content-start space-x-4 my-12">
                         <RedDot/> <span className="text-3xl"> Most Viewed</span>
