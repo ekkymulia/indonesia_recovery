@@ -30,7 +30,7 @@ export default function Story() {
               />
             </div>
 
-            <div className="lg:py-16 ml-8">
+            <div className="lg:py-16">
               <article className="text-black space-y-4">
                   <p>
                   From youth to growth, From east to west, Indonesia is our best!
@@ -38,15 +38,15 @@ export default function Story() {
                   </p>
 
               </article>
-              <div className="mt-2 sm:mt-2 sm-flex">
-                  <a className="relative inline-block text-sm font-medium text-white group focus:outline-none   focus:ring">
+              <div className="mt-2 grid grid-cols-2">
+                  <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring col-span-2 lg:col-span-1 md:col-span-1">
                       <h1 className="text-black text-5xl mt-20 font-reguler">100%</h1>
-                      <div className=" border-b-[3px] border-red-500 w-30 mt-2"/>
+                      <div className=" border-b-[3px] border-red-500 md:w-32 lg:w-32 w-32 mt-2"/>
                       <p className="text-red-600 mt-3"> Trusted News</p>
                   </a>    
-                      <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group  focus:outline-none focus:ring ml-20">
+                  <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring col-span-2 lg:col-span-1 md:col-span-1">
                       <h1 className="text-black text-5xl mt-20 font-reguler">5000+</h1>
-                      <div className=" border-b-[3px] border-red-500 w-30 mt-2"/>
+                      <div className=" border-b-[3px] border-red-500 md:w-32 lg:w-32 w-32 mt-2"/>
                       <p className="text-red-600 mt-3">Contributors</p>
                   </a>
                 </div>
