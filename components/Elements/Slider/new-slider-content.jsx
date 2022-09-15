@@ -1,13 +1,9 @@
-import RedDot from "../RedDot/red-dot.element";
-import CustomLinkButton, { CUSTOM_LINK_BUTTON_TYPES } from "../CustomLinkButton/custom-link-button.element";
-
-const SliderContent = (props) => {
-    const {tag, title, boldTitle, desc, redirect, redirect2, redirectText, redirectText2, bgImgUrl} = props
-    console.log(bgImgUrl)
+//DEPRECATED, NOT USED, THIS IS BACKUP
+const NewSliderContent = () => {
     return (
-        <section class={`w-full h-screen 2xl:h-full bg-center bg-cover snap-start ${bgImgUrl}`}>
+        <section class={`w-full h-screen bg-center bg-cover snap-start ${bgImgUrl}`}>
             <div className="p-8 md:p-12 lg:px-20 lg:py-24 ">
-                <div className="max-w-lg text-left mt-24 sm:text-left space-y-8">
+                <div className="max-w-lg text-left mt-24 sm:text-left">
         
                     <div className='flex flex-wrap my-3 items-center'>
                             <RedDot/>
@@ -24,6 +20,7 @@ const SliderContent = (props) => {
                 
                     <div className="mt-4 sm:mt-8 flex md:flex-wrap md:flex-row">
                         <CustomLinkButton to={redirect} text={redirectText} type={CUSTOM_LINK_BUTTON_TYPES.DEFAULT}/>
+                        <CustomLinkButton to={redirect2} text={redirectText2} type={CUSTOM_LINK_BUTTON_TYPES.INVERTED}/>
                     </div>
                 </div>
             </div>
@@ -31,4 +28,4 @@ const SliderContent = (props) => {
     );
 };
 
-export default SliderContent;
+export default NewSliderContent;

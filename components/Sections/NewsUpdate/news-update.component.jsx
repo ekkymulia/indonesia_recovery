@@ -1,4 +1,4 @@
-import NewsUpdateCard from "../Cards/NewsUpdateCard/news-update-card.card";
+import NewsUpdateCard from "../../Cards/NewsUpdateCard/news-update-card.card";
 
 const NewsUpdate =  ( props ) => {
     const { ClassName } = props;

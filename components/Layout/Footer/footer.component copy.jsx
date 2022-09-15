@@ -5,7 +5,40 @@ const Footer = () => {
         <>
         <footer className="bg-white-100">
             <div className="max-w-5xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
-  
+                <nav className="mt-12 border-b pb-4 mb-4" aria-labelledby="footer-navigation">
+            
+                    <ul className="grid grid-cols-5 place-items-center">
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/">
+                        Home
+                        </a>
+                    </li>
+
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/story">
+                        Our Story
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        <img src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} className="mt-1"/>
+                        </a>
+                    </li>
+            
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/contactus">
+                        Contact Us
+                        </a>
+                    </li>
+
+                    <li className="flex items-center">
+                        <a className="text-gray-700 transition hover:text-gray-700/75 " href="/signin">
+                        Sign In
+                        </a>
+                    </li>
+                    </ul>
+                </nav>
 
                 <ul className="flex justify-center mt-12 gap-6 md:gap-8">
                     <li>

@@ -1,7 +1,4 @@
 import Layout from '../components/Layout/layout.component';
-import Navbar from '../components/Layout/Navbar/navbar.component';
-import Footer from '../components/Layout/Footer/footer.component';
-import Image from "next/image";
 
 export default function Signin(){
     return (

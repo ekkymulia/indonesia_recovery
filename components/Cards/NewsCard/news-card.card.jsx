@@ -14,7 +14,7 @@ const NewsCard = () => {
                     <p className="mt-2 font-light text-sm text-gray-900">Seorang mahasiswa Universitas Gadjah Mada, Yanditya Affan Almada sukses mengembangkan alat yang bisa...</p>
                 </div>
                 <div className="col-span-2 mt-5">
-                    <CustomLinkButton to="/downloads" text="Read News" type={CUSTOM_LINK_BUTTON_TYPES.SPC_INVERTED_ROUNDED_SM}/>
+                    <CustomLinkButton to="/news/asda" text="Read News" type={CUSTOM_LINK_BUTTON_TYPES.SPC_INVERTED_ROUNDED_SM}/>
                 </div>
             </div>
         </div>

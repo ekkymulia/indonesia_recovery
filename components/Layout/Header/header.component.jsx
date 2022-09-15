@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar2 from "../Navbar/navbar-2.component";
 import Navbar from "../Navbar/navbar.component"
 
 const Header = () => {

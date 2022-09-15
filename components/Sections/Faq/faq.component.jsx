@@ -1,4 +1,4 @@
-import FaqList from "../Elements/FaqLIst/faq-list.component";
+import FaqList from "../../Elements/FaqLIst/faq-list.component";
 
 const Faq = (props) => {
     const {ClassName} = props

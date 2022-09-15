@@ -5,7 +5,7 @@ import Image from "next/image";
 import DesignPic from '../public/Component.svg'
 
 import Layout from '../components/Layout/layout.component'
-import Fmita from "../components/Fmita/fmita.component";
+import Fmita from "../components/Sections/Fmita/fmita.component";
 
 
 export default function Custom404() {

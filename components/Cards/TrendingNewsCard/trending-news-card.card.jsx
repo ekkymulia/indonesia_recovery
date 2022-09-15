@@ -15,10 +15,8 @@ const TrendingNewsComponent = (props) => {
                 <div className=''>     
                 {
                     tag ? (       
-                    <header className="flex">
-                        <div className='col-span-1 flex justify-center'>
+                    <header className="flex flex-wrap items-center">
                             <RedDot/>
-                        </div>
                             <span className="ml-3 mt-2 sm:mt-0">{tag}</span>
                     </header>
                     ) : (
@@ -26,10 +24,18 @@ const TrendingNewsComponent = (props) => {
                     )
                 }
                     <main className='grid grid-colspan-8 grid-flow-col gap-x-3'>
-                        <div className='mt-2 col-span-5 flex flex-col justify-between'>
+                        <div className='mt-1 col-span-5 flex flex-col justify-between'>
                             <div>
                                 <h2 className='mt-2 font-semibold'>{title}</h2>
-                                <p className="mt-2 text-gray-700">{desc}</p>
+                                <p className="mt-2 text-gray-700">
+                                    {
+                                        desc.length > 125 ? (
+                                            `${desc.substring(0, 125)}...`
+                                        ):(
+                                            desc
+                                        )
+                                    }
+                                </p>
                             </div>
                             <div className=''>
                                 <p className="text-xs text-gray-500 flex items-center ">
@@ -48,8 +54,8 @@ const TrendingNewsComponent = (props) => {
                             </div>
                         </div>
 
-                        <div className='col-span-3'>
-                            <Image src={imgLink} width={165} height={185} />
+                        <div className='col-span-3 object-cover'>
+                            <Image src={imgLink} width={165} height={185}/>
                         </div>
                 
                     </main>
