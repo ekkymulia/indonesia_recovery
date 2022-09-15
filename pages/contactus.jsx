@@ -89,7 +89,7 @@ export default function Contactus(){
         
         <div className='col-span-0 lg:col-span-2'></div>
 
-        <div className="relative col-span-10 lg:col-span-4">
+        <div className="relative lg:col-span-4">
             <div className='space-y-5'>
             <div className="mx-auto mt-20 space-y-3">
                 <img 
@@ -101,7 +101,7 @@ export default function Contactus(){
 
                 <p className="font-semibold">indonesiarecover@gmail.com </p>
                 
-                <div className="border-b-[3px] border-red-500 w-96"></div>
+                <div className="border-b-[3px] border-red-500 w-64"></div>
             </div>
             <div className="mx-auto mt-20 space-y-3">
 
@@ -109,7 +109,7 @@ export default function Contactus(){
 
                 <p className="font-semibold">@indonesia.recovery</p>
                 
-                <div className="border-b-[3px] border-red-500 w-96"></div>
+                <div className="border-b-[3px] border-red-500 w-64"></div>
             </div>
             <div className="mx-auto mt-20 space-y-3">
 
@@ -117,7 +117,7 @@ export default function Contactus(){
 
                 <p className="font-semibold">@indonesiarecovery</p>
                 
-                <div className="border-b-[3px] border-red-500 w-96"></div>
+                <div className="border-b-[3px] border-red-500 w-64"></div>
             </div>
             <div className="mx-auto mt-20 space-y-3">
 
@@ -125,7 +125,7 @@ export default function Contactus(){
 
                 <p className="font-semibold">/indonesiarecovery</p>
                 
-                <div className="border-b-[3px] border-red-500 w-96"></div>
+                <div className="border-b-[3px] border-red-500 w-64"></div>
             </div>
             </div>
             
@@ -133,7 +133,7 @@ export default function Contactus(){
 </div>
 
 <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 grid grid-cols-10">
-    <div className='col-span-4'>
+    <div className='col-span-10 lg:col-span-4'>
         <div className="mx-auto mt-10 ml-10 space-y-5">
             <img
             src={"./pointlocation.svg"}
@@ -144,16 +144,16 @@ export default function Contactus(){
             </h1>
             <p className='text-xl font-medium'>IPB University School of Vocational Studies</p>
             <p className="text-md font-reguler" >Jl. Kumbang No.14, RT.02/RW.06, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128</p>
-            <div className="border-b-[3px] border-red-500 w-96"></div>
+            <div className="border-b-[3px] border-red-500 w-64"></div>
         </div>
     </div>
     
     <div className="col-span-2"></div>
 
-    <div className='col-span-4'>
+    <div className='relative mt-10 ml-10 col-span-10 lg:col-span-4'>
         <img
         src={"./sekolahvokasi.jpg"}
-        className="rounded-md shadow-2xl"
+        className="rounded-md shadow-2xl h-auto w-96"
         ></img>
     </div>
 </div>
