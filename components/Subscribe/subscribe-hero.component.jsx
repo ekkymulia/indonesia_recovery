@@ -1,4 +1,4 @@
-import Popup from "../Popup/popup";
+import Popup from "../Popup/popup.jsx";
 import { useState } from 'react';
 
 const SubscribeHero = (props) => {

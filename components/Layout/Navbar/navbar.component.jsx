@@ -109,17 +109,17 @@ const Navbar = () => {
                 </a>
                 
                 <a
-                    href="/news"
+                    href="/contactus"
                     className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
-                    News
+                    Contact Us
                 </a>
                 
                 <a
-                    href="/"
+                    href="/signin"
                     className="block px-4 py-2 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
                 >
-                    About Us
+                    Sign In
                 </a>
                 
                 </nav>

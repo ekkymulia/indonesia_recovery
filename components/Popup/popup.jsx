@@ -23,15 +23,15 @@ function Popup(props){
       </svg>
     </button>
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <div class="grid grid-cols-2 gap-4">
       <img
-        class="object-cover w-full h-full rounded-xl"
+        class="md:w-0 w-0 object-cover lg:w-full lg:h-full rounded-xl"
         src={"./bgpopup.png"}
         alt=""
       />
 
-      <div>
-        <h2 class="text-2xl font-bold text-gray-900 md:text-4xl">
+      <div className="col-span-2 lg:col-span-1">
+        <h2 class="text-2xl font-bold text-gray-900">
           Grow Your Ideas
         </h2>
         
@@ -55,7 +55,7 @@ function Popup(props){
         </div>
         
 
-                <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
+            <form action="" class="max-w-md mx-auto mt-8 mb-0 space-y-4">
             <div>
             <label for="email" class="sr-only">Email</label>
 
