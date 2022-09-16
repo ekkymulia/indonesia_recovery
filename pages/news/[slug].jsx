@@ -6,10 +6,9 @@ import Navbar2 from "../../components/Layout/Navbar/navbar-2.component";
 const NewsDetails = () => {
     return (
         <Layout>
-            <Navbar2/>
-            <div className="p-3 md:p-8 md:p-12 lg:px-20 lg:py-24 lg:mx-14">
+            <div className="pt-12 md:pt-1 lg:px-32 lg:pt-0 lg:py-12">
                 <NewsArticle/>
-                <Fmita/>
+                <Fmita ClassName="px-4 py-8"/>
             </div>
         </Layout>
     );

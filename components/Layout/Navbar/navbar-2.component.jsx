@@ -4,18 +4,21 @@ import BackIcon from "../../Elements/Icon/back.icon";
 
 const Navbar2 = () => {
     return (
-        <header className="grid grid-cols-3 place-content-center place-items-center">
-            <div className="">
-                <a href='/'>
-                    <BackIcon/>
-                </a>
+        <header className="sticky top-0 z-50 bg-white drop-shadow-sm px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+            <div className=" grid grid-cols-4 place-content-center place-items-center">
+                <div className="col-span-1">
+                    <a href='/'>
+                        <BackIcon/>
+                    </a>
+                </div>
+                <div className="col-span-2 ">
+                    <a className="block text-teal-600 flex flex-wrap items-center content-center" href="/">
+                        <span className="sr-only">Home</span>
+                        <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
+                    </a>
+                </div>
             </div>
-            <div>
-                <a className="block text-teal-600flex flex-wrap items-center content-center" href="/">
-                    <span className="sr-only">Home</span>
-                    <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
-                </a>
-            </div>
+
         </header>
     );
 };

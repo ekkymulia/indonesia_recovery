@@ -1,8 +1,12 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
+
 import Navbar2 from "../Navbar/navbar-2.component";
 import Navbar from "../Navbar/navbar.component"
 
 const Header = () => {
+    const router = useRouter();
+    console.log(router.pathname)
     return (
         <>
             <Head>
@@ -18,7 +22,13 @@ const Header = () => {
                 />
             </Head>
 
-            <Navbar/>
+            {
+                router.pathname == '/news/[slug]' ? (
+                    <Navbar2/>
+                ) : (
+                    <Navbar/>
+                )
+            }
         </>
 
       

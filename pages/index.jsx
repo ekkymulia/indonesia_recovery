@@ -16,7 +16,7 @@ export default function Home() {
         </aside>
         
         <NewsHighlight ClassName="p-8 md:p-12 lg:px-20 lg:pt-24 lg:pb-16"/>
-        <MostViewed ClassName="p-8 md:p-12 lg:px-20 lg:pb-20"/>
+        <MostViewed ClassName="p-8 mb-12 md:p-12 lg:px-20 lg:pb-20"/>
       </div>
 
 

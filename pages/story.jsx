@@ -8,7 +8,7 @@ export default function Story() {
   return (
     <Layout>
         <div className="bg-white">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+        <div className="p-8 mt-12  md:p-12 lg:px-16 lg:py-24">
             <div className="max-w-lg mx-auto text-center">
                 <h2 className="text-2xl font-regular text-gray-900 md:text-4xl">
                     Recover Together
@@ -19,26 +19,25 @@ export default function Story() {
             </div>
         </div>
         <section>
-          <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 sm:py-10">
+          <div className="px-6 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 sm:py-10">
           <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
-            <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+            <div className="relative md:h-64 overflow-hidden sm:h-80 lg:h-full">
               <img
-                className="object-cover w-full h-100px" 
+                className="object-cover w-full md:h-[28rem] rounded-2xl" 
                 src={"./g20.jpg"}
                 alt="Man using a computer"
-                style={{ height: 450, borderRadius: 15 }}
               />
             </div>
 
             <div className="lg:py-16">
-              <article className="text-black space-y-4">
+              <article className="text-black space-y-4 text-justify lg:text-left">
                   <p>
                   From youth to growth, From east to west, Indonesia is our best!
                   Post pandemic is a new beginning and chapter for all of us to be more productive!
                   </p>
 
               </article>
-              <div className="mt-2 grid grid-cols-2">
+              <div className="mt-2 grid grid-cols-2 grid-flow-col lg:grid-flow-row">
                   <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring col-span-2 lg:col-span-1 md:col-span-1">
                       <h1 className="text-black text-5xl mt-20 font-reguler">100%</h1>
                       <div className=" border-b-[3px] border-red-500 md:w-32 lg:w-32 w-32 mt-2"/>
