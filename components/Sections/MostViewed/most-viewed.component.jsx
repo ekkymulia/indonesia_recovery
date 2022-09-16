@@ -1,30 +1,112 @@
+import { useState } from "react";
 import ReadListCard from "../../Cards/ReadListCard/read-list-card.card";
 import TrendingNewsComponent from "../../Cards/TrendingNewsCard/trending-news-card.card";
 import RedDot from "../../Elements/RedDot/red-dot.element";
 
+export const MvCategory = {
+    socio_economics: 'Socio-Economics',
+    education_innovation: 'Education & Innovation',
+    tech: 'Tech Engineering',
+    environment: 'Environment',
+    book_club: 'Book Club',
+    research: 'Research'
+}
+
 const MostViewed = ({ClassName} = props) => {
+    const [dropdown, setDropdown] = useState(false);
+    const [category, setCategory] = useState(MvCategory.socio_economics)
+
+
     return (
         <div className={` ${ClassName}`}>
             <div className="col-span-12 grid grid-cols-12 pb-3 border-b-4 border-red-500">
-                    <ul className="col-span-12 place-content-around space-y-1 md:space-y-0 md:flex "> 
-                        <li>
-                            <a><span className="font-semibold">Socio-Economics</span></a>
+                    <ul className="hidden md:block col-span-12 place-content-around space-y-1 md:space-y-0 md:flex "> 
+                        <li onClick={() => setCategory(MvCategory.socio_economics)}>
+                            {
+                                category == MvCategory.socio_economics ? (
+                                    <a className="font-semibold">{MvCategory.socio_economics}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.socio_economics}</a>
+                                )
+                            }
                         </li>
-                        <li>
-                            <a><span className="text-gray-400 hover:text-gray-600 cursor-pointer">Education & Innovation</span></a>
+                        <li onClick={() => setCategory(MvCategory.education_innovation)}>
+                            {
+                                category == MvCategory.education_innovation ? (
+                                    <a className="font-semibold">{MvCategory.education_innovation}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.education_innovation}</a>
+                                )
+                            }
                         </li>
-                        <li>
-                            <a><span className="text-gray-400 hover:text-gray-600 cursor-pointer">Tech Engineering</span></a>
+                        <li onClick={() => setCategory(MvCategory.tech)}>
+                            {
+                                category == MvCategory.tech ? (
+                                    <a className="font-semibold">{MvCategory.tech}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.tech}</a>
+                                )
+                            }
                         </li>
-                        <li>
-                            <a><span className="text-gray-400 hover:text-gray-600 cursor-pointer">Environtment</span></a>
+                        <li onClick={() => setCategory(MvCategory.environment)}>
+                            {
+                                category == MvCategory.environment ? (
+                                    <a className="font-semibold">{MvCategory.environment}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.environment}</a>
+                                )
+                            }
                         </li>
-                        <li>
-                            <a><span className="text-gray-400 hover:text-gray-600 cursor-pointer">Book Club</span></a>
+                        <li onClick={() => setCategory(MvCategory.book_club)}>
+                            {
+                                category == MvCategory.book_club ? (
+                                    <a className="font-semibold">{MvCategory.book_club}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.book_club}</a>
+                                )
+                            }
                         </li>
-                        <li>
-                            <a><span className="text-gray-400 hover:text-gray-600 cursor-pointer">Research</span></a>
+                        <li onClick={() => setCategory(MvCategory.research)}>
+                            {
+                                category == MvCategory.research ? (
+                                    <a className="font-semibold">{MvCategory.research}</a>
+                                ) : (
+                                    <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{MvCategory.research}</a>
+                                )
+                            }
                         </li>
+                    </ul>
+
+                    <ul className="block md:hidden space-y-3 col-span-12 ">
+                        <li class="ml-3 font-semibold flex items-center group cursor-pointer" onClick={() => setDropdown(!dropdown)}>
+                            <a className="-translate-x-3 hover:-translate-x-4 transition-transform hover:duration-300">{category}</a>
+                        </li>
+                        {
+                            dropdown == true ? (
+                                <>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.socio_economics)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.socio_economics}</a>
+                                    </li>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.education_innovation)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.education_innovation}</a>
+                                    </li>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.tech)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.tech}</a>
+                                    </li>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.environment)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.environment}</a>
+                                    </li>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.book_club)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.book_club}</a>
+                                    </li>
+                                    <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(MvCategory.research)}>
+                                        <a className="text-gray-400 active:text-gray-600 cursor-pointer">{MvCategory.research}</a>
+                                    </li>
+                                </>
+                            ):( 
+                                <></>
+                            )
+                        }
                     </ul>
             </div>
             <div className="grid grid-flow-col place-items-center col-span-12 
