@@ -62,7 +62,7 @@ function Popup(props){
             <div class="relative">
                 <input
                 type="email"
-                class="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 text-sm rounded-lg shadow-sm bg-gray-100 "
+                class="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
                 placeholder="Type your email"
                 />
 
