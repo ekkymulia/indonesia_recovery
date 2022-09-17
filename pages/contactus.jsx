@@ -4,7 +4,7 @@ export default function Contactus(){
     return(
         <Layout>
 <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 grid grid-cols-10">
-        <div className="col-span-10 lg:col-span-4 ml-10">
+        <div className="col-span-10 lg:col-span-4">
         <div className="mx-auto mt-20">
             <h1 className="text-2xl sm:text-3xl">
             Let's Collaborate to make a <br></br>
@@ -20,7 +20,7 @@ export default function Contactus(){
             <div className="relative">
                 <input
                 type="text"
-                className="focus:outline-none w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
+                className="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
                 placeholder="Name"
                 />
             </div>
@@ -32,7 +32,7 @@ export default function Contactus(){
             <div className="relative">
                 <input
                 type="email"
-                className="focus:outline-none w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
+                className="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
                 placeholder="Enter email"
                 />
 
@@ -61,7 +61,7 @@ export default function Contactus(){
             <div className="relative">
                 <input
                 type="email"
-                className="focus:outline-none w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
+                className="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner"
                 placeholder="Your Topic"
                 />
             </div>
@@ -71,7 +71,7 @@ export default function Contactus(){
             <label for="yourtopic" className="sr-only">Your topic</label>
 
             <div className="relative">
-            <textarea id="message" rows="4" className="focus:outline-none w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner" placeholder="Tell us about you"></textarea>
+            <textarea id="message" rows="4" className="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg shadow-inner" placeholder="Tell us about you"></textarea>
             </div>
             </div>
 
@@ -79,7 +79,7 @@ export default function Contactus(){
             <div className="flex items-center justify-between">
             <button
                 type="submit"
-                className="inline-block px-5 py-2.5 w-40 text-sm font-reguler text-white bg-red-600 rounded-md hover:bg-red-500"
+                className="inline-block px-5 py-2.5 w-40 text-sm font-reguler text-white bg-[#FF0909] rounded-md hover:bg-red-500"
             >
                 Submit
             </button>
@@ -87,19 +87,19 @@ export default function Contactus(){
         </form>
         </div>
         
-        <div className='col-span-0 lg:col-span-2'></div>
+        <div className='lg:col-span-2'></div>
 
-        <div className="relative lg:col-span-4">
+        <div className="col-span-10 lg:col-span-4">
             <div className='space-y-5'>
             <div className="mx-auto mt-20 space-y-3">
                 <img 
                 src={"./messageicon.svg"}
-                className="w-14 h-auto"
+                className="h-auto w-14"
                 ></img>
 
                 <h1>Email</h1>
 
-                <p className="font-semibold">indonesiarecover@gmail.com </p>
+                <p className="font-semibold">indonesiarecovery@gmail.com </p>
                 
                 <div className="border-b-[3px] border-red-500 w-64"></div>
             </div>
@@ -134,7 +134,7 @@ export default function Contactus(){
 
 <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 grid grid-cols-10">
     <div className='col-span-10 lg:col-span-4'>
-        <div className="mx-auto mt-10 ml-10 space-y-5">
+        <div className="mx-auto mt-10 space-y-5">
             <img
             src={"./pointlocation.svg"}
             className="h-auto w-14"
@@ -150,7 +150,7 @@ export default function Contactus(){
     
     <div className="col-span-2"></div>
 
-    <div className='relative mt-10 ml-10 col-span-10 lg:col-span-4'>
+    <div className='relative mt-10 col-span-10 lg:col-span-4'>
         <img
         src={"./sekolahvokasi.jpg"}
         className="rounded-md shadow-2xl h-auto w-96"

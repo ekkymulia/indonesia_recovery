@@ -5,7 +5,7 @@ import BackIcon from "../../Elements/Icon/back.icon";
 const Navbar2 = () => {
     return (
         <header className="sticky top-0 z-50 bg-white drop-shadow-sm px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-            <div className=" grid grid-cols-4 place-content-center place-items-center">
+            <div className=" grid grid-cols-4 place-content-center place-items-center h-20">
                 <div className="col-span-1">
                     <a href='/'>
                         <BackIcon/>

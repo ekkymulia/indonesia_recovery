@@ -30,92 +30,40 @@ export default function Signin(){
             </div>
 
 <div className="px-4 py-10 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-        <div className="max-w-lg mx-auto text-center">
-            <h1 className="text-2xl font-bold sm:text-3xl">Sign In</h1>
+    <div className="max-w-lg mx-auto text-center">
+        <h1 className="text-2xl font-bold sm:text-3xl">Sign In</h1>
+    </div>
+
+    <form action="" className="max-w-md mx-auto mt-8 mb-0 space-y-10">
+        <div className="space-y-12">
+            <div class="relative z-0">
+                <input type="text" id="floating_standard" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-[3px] border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer text-black" placeholder=" "/>
+                <label for="floating_standard" class="absolute ml-2 text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 -translate-x-2 scale-75 top-1 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+            </div>
+            <div class="relative z-0">
+                <input type="password" id="floating_standard" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-[3px] border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-red-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " />
+                <label for="floating_standard" class="absolute ml-2 text-lg text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 -translate-x-2 scale-75 top-1 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-red-600 peer-focus:dark:text-red-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password</label>
+            </div>
         </div>
 
-        <form action="" className="max-w-md mx-auto mt-8 mb-0 space-y-10">
-            <div className="space-y-2">
-            <label for="email" className='font-semibold'>Email</label>
-
-            <div className="relative">
-                <input
-                type="email"
-                className="focus:outline-none w-full p-4 pr-12 text-sm border-b-[3px] border-red-500 shadow-sm bg-white"
-                placeholder="Enter email"
-                />
-
-                <span className="absolute inset-y-0 inline-flex items-center right-4">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 text-gray-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                >
-                    <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                    />
-                </svg>
-                </span>
-            </div>
-            </div>
-
-            <div className="space-y-2">
-            <label for="password" className="font-semibold">Password</label>
-            <div className="relative">
-                <input
-                type="password"
-                className="focus:outline-none w-full p-4 pr-12 text-sm border-b-[3px] border-red-500 shadow-sm bg-white"
-                placeholder="Enter password"
-                />
-
-                <span className="absolute inset-y-0 inline-flex items-center right-4">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-5 h-5 text-gray-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                >
-                    <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
-                    />
-                </svg>
-                </span>
-            </div>
-            </div>
-
-            <div className="flex items-center grid grid-cols-5">
+        <div className="flex items-center grid grid-cols-5">
             <div className="flex col-span-2">
-            <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-white rounded border-white bg-white dark:border-white"></input>
-            <p className="ml-2 text-sm text-gray-500">
-                Remember me
-            </p>
+                <input id="default-checkbox" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-white rounded border-white bg-white dark:border-white"></input>
+                <p className="ml-2 text-sm text-gray-500">
+                    Remember me
+                </p>
             </div>
             <div className="col-span-3">
-            <button
-                type="submit"
-                className="inline-block px-5 py-2.5 w-40 text-sm font-reguler text-white bg-red-600 rounded-md hover:bg-red-500 float-right"
-            >
-                Sign in
-            </button>
+                <button
+                    type="submit"
+                    className="inline-block px-5 py-2.5 w-40 text-sm font-reguler text-white bg-[#FF0909] rounded-md hover:bg-red-500 float-right"
+                >
+                    Sign in
+                </button>
             </div>
-            </div>
-        </form>
         </div>
+    </form>
+</div>
             
         </Layout>
     )

@@ -23,7 +23,7 @@ export default function Story() {
           <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
             <div className="relative md:h-64 overflow-hidden sm:h-80 lg:h-full">
               <img
-                className="object-cover w-full md:h-[28rem] rounded-2xl" 
+                className="object-cover w-full md:h-[35rem] rounded-2xl" 
                 src={"./g20.jpg"}
                 alt="Man using a computer"
               />
@@ -53,7 +53,7 @@ export default function Story() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="mb-32 mt-32">
           <div className="px-4 py-20 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
               <div
@@ -69,14 +69,14 @@ export default function Story() {
               <div className="lg:py-24">
                 <h2 className="text-3xl text-black font-bold sm:text-4xl">Indonesia <span className="text-red-600">Recovery</span></h2>
 
-                <p className="mt-4 text-black ">
+                <p className="mt-4 text-black text-justify lg:text-left">
                 Indonesia Recovery is a news portal aggregator website that provides information about the rise of new enthusiasm after the COVID-19 pandemic by spreading positive news and relating to digital transformation in Indonesia.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-white mb-20">
+        <section className="bg-white mb-32 mt-32">
           <div className="mx-auto max-w-screen-xl lg:items-center lg:flex">
             <div className="max-w-xl mx-auto text-center">
               <h1 className="text-3xl text-black font-regular sm:text-4xl">
@@ -88,15 +88,16 @@ export default function Story() {
             </div>
           </div>
         </section>
-        <section className="bg-gray-100">
+        <section className="bg-gray-100 mt-64">
           <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8 sm:py-10">
             <div className="max-w-xl mx-auto text-center">
               <h2 className="text-4xl text-black font-bold tracking-tight sm:text-5xl">
                 Our Team
               </h2>
-              <p className="max-w-lg mx-auto text-black mt-4">
-                Meet our  team of <b>developers</b>, <b>designer</b>, <br></br> <b>documenter</b> and 
-                <b> supervisor.</b>
+              <p className="max-w-lg mx-auto text-black mt-4 ">
+                Meet our  team of <span className="font-semibold">developers</span>, <span className="font-semibold">designer</span>, <br></br> 
+                <span className="font-semibold">documenter</span> and 
+                <span className="font-semibold"> supervisor</span>
               </p>
             </div>
           </div>

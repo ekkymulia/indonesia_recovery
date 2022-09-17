@@ -62,7 +62,7 @@ function Popup(props){
             <div class="relative">
                 <input
                 type="email"
-                class="focus:outline-none w-full p-4 pr-12 text-sm rounded-lg shadow-sm bg-gray-100 "
+                class="focus:outline-none focus:border-red-400 focus:border-[2px] w-full p-4 pr-12 text-sm rounded-lg shadow-sm bg-gray-100 "
                 placeholder="Type your email"
                 />
 
@@ -87,7 +87,7 @@ function Popup(props){
             <div class="flex items-center justify-between">
             <button
                 type="submit"
-                class="inline-block px-5 py-3 text-sm font-medium text-white bg-red-600 rounded-lg hover:bg-red-500"
+                class="inline-block px-5 py-3 text-sm font-medium text-white bg-[#FF0909] rounded-lg hover:bg-red-500"
             >
                 Subscribe
             </button>
