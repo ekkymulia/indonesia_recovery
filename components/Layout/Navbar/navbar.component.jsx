@@ -10,9 +10,9 @@ const Navbar = () => {
     }
 
     return (
-        <header className="sticky top-0 z-50 bg-white drop-shadow-md">
-        <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
+        <header className="sticky top-0 z-50 bg-white drop-shadow-lg">
+        <div className="p mx-auto max-w-screen-xl sm:px-6 lg:px-8 px-6">
+            <div className="flex items-center justify-between h-20">
                 <div className="flex-1 md:flex md:items-center md:gap-12">
                 <a className="block text-teal-600" href="/">
                     <span className="sr-only">Home</span>

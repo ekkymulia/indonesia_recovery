@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const PhotoCard = ({imgLink, title, desc} = props) => {
     return (
-        <div>
+        <div className="">
             <img
             src={imgLink}
             alt={`${title}_${desc}`}
