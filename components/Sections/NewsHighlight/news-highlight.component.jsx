@@ -94,7 +94,7 @@ const NewsHighlight = ({ClassName} = props) => {
                                 </svg>
                             )
                         }
-                        <a className="-translate-x-3 hover:-translate-x-4 transition-transform hover:duration-300">{category}</a>
+                        <a className="-translate-x-3 hover:-translate-x-4 transition-transform hover:duration-300">Select Category</a>
                     </li>
                 
                     {

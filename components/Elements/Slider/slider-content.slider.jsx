@@ -5,7 +5,7 @@ const SliderContent = (props) => {
     const {tag, title, boldTitle, desc, redirect, redirect2, redirectText, redirectText2, bgImgUrl} = props
     console.log(bgImgUrl)
     return (
-        <section class={`w-full h-screen 2xl:h-full bg-center bg-cover snap-start ${bgImgUrl}`}>
+        <section class={`w-full h-screen 2xl:h-full bg-center bg-cover snap-start `} style={{backgroundImage: `url(${bgImgUrl})`}}>
             <div className="p-8 md:p-12 lg:px-20 lg:py-24 ">
                 <div className="max-w-lg text-left mt-24 sm:text-left space-y-8">
         

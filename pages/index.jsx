@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <Layout>
       <div>
-        <aside
+        <div
         className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
         >
         <Slider/>
     
-        </aside>
+        </div>
         
         <NewsHighlight ClassName="p-8 md:p-12 lg:px-20 lg:pt-24 lg:pb-16"/>
         <MostViewed ClassName="p-8 mb-12 md:p-12 lg:px-20 lg:pb-20"/>
