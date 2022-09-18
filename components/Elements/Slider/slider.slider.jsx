@@ -28,9 +28,9 @@ const Slider = () => {
                 {
                     temp_img.map((item, key) => {
                         return key == slideNav ? (
-                            <div className={`h-[${sliderNavHeight}] border-red-500 border-r-4 my-4`} onClick={() => setSlide(key)}></div>
+                            <div className={` border-red-500 border-r-4 my-4`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         ) : (
-                            <div className={`h-[${sliderNavHeight}] border-r-4 my-4`} onClick={() => setSlide(key)}></div>
+                            <div className={` border-r-4 my-4`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         )
                     })
                 }
