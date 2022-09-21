@@ -6,7 +6,6 @@ import Navbar from "../Navbar/navbar.component"
 
 const Header = () => {
     const router = useRouter();
-    console.log(router.pathname)
     return (
         <>
             <Head>

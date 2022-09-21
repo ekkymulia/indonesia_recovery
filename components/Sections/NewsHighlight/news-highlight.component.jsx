@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NewsCard from "../../Cards/NewsCard/news-card.card";
+
+import Artikel from "../../../data/data";
 
 export const Category = {
     highlight_news: 'Highlight News',
@@ -12,6 +14,23 @@ export const Category = {
 const NewsHighlight = ({ClassName} = props) => {
     const [dropdown, setDropdown] = useState(false);
     const [category, setCategory] = useState('Highlight News')
+    const [news, setNews] = useState([])
+    const [currentNews, setCurrentNews] = useState(0)
+
+    useEffect(() => (
+        setNews(Artikel.filter((item) => (item.category == category ? item : null)))
+    ),[category])
+
+    const nextButton = () => {
+        console.log("next pressed")
+        setCurrentNews(currentNews < news.length-1 ? currentNews+1 : 0)
+    }
+
+    const prevButton = () => {
+        console.log("prev pressed")
+        setCurrentNews(currentNews != 0 ? currentNews-1 : news.length-1)
+    }
+
 
     return (
         <div className={`grid grid-cols-12 ${ClassName}`}>
@@ -128,7 +147,7 @@ const NewsHighlight = ({ClassName} = props) => {
                         <span>This Information will blow your mind!</span>
                     </div>
                     <div className="mt-3 md:mt-0 hidden lg:block">
-                        <button
+                        <button onClick={() => prevButton()}
                         class="p-3 text-red-600 border rounded-full transition-colors border-current hover:outline-none hover:bg-red-600 hover:text-white "
                         >
                         <svg
@@ -147,7 +166,7 @@ const NewsHighlight = ({ClassName} = props) => {
                         </svg>
                         </button>
                 
-                        <button
+                        <button onClick={() => nextButton()}
                         class="p-3 ml-3 text-red-600 border rounded-full border-current hover:outline-none hover:bg-red-600 hover:text-white "
                         >
                         <svg
@@ -168,10 +187,15 @@ const NewsHighlight = ({ClassName} = props) => {
                     </div>
                 </div>
 
-                <NewsCard/>
+                {
+                    news[currentNews] != undefined ? (
+                        <NewsCard newsData={news[currentNews]}/>
+                    ) : (<></>)
+
+                }
 
                 <div className="mt-3 md:mt-0 block lg:hidden">
-                <button
+                <button onClick={() => prevButton()}
                 class="p-3 text-red-600 border rounded-full transition-colors border-current active:outline-none active:bg-red-600 active:text-white "
                 >
                 <svg
@@ -190,7 +214,7 @@ const NewsHighlight = ({ClassName} = props) => {
                 </svg>
                 </button>
         
-                <button
+                <button onClick={() => nextButton()}
                 class="p-3 ml-3 text-red-600 border rounded-full border-current active:outline-none active:bg-red-600 active:text-white "
                 >
                 <svg

@@ -3,13 +3,13 @@ import SliderContent from "./slider-content.slider";
 
 const temp_img = [
     'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bromo-Semeru-Batok-Widodaren.jpg/800px-Bromo-Semeru-Batok-Widodaren.jpg',
-    'https://www.wallpapertip.com/wmimgs/183-1830137_bromo-tengger-semeru-national-park.jpg'
+    'https://www.wallpapertip.com/wmimgs/183-1830137_bromo-tengger-semeru-national-park.jpg',
 ]
 
 const Slider = () => {
     const [slideNav, setSlideNav] = useState(0)
     const [bgImgSlider, setBgImgSlider] = useState(temp_img[0])
-    const sliderNavHeight = Math.round(16 / 2) > 5 ? Math.round(16 / 2) + "rem" : "5rem";
+    const sliderNavHeight = Math.round(16 / temp_img.length) > 5 ? Math.round(16 / temp_img.length) + "rem" : "5rem";
     
     const setSlide = (num) => {
         setBgImgSlider(temp_img[num])
