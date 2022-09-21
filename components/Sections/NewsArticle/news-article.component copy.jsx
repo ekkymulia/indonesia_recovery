@@ -13,7 +13,7 @@ const NewsArticlek = () => {
     const [artikel, setArtikel] = useState({})
 
     useEffect(() => (
-        setArtikel(Artikel.filter((item) => ('/news/'+item.slug == router.pathname)))
+        console.log(Artikel.filter((item) => ('/news/'+item.slug == router.pathname)))
     ), [])
     
     return (
