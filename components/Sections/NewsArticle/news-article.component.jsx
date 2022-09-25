@@ -3,6 +3,7 @@ import StarGray from "../../Elements/Star/star-gray.component";
 import CommentIcon from "../../Elements/CommentIcon/comment-icon.icons";
 import ShareIcon from "../../Elements/ShareIcon/share-icon.icons";
 import DownloadIcon from "../../Elements/DownloadIcon/download-icon.icons";
+import Comment from "../comment/comment.component";
 
 const NewsArticle = () => {
     return (
@@ -32,16 +33,30 @@ const NewsArticle = () => {
                 </article>
             </div>
             <div className="grid grid-flow-col place-content-between my-12">
-                <div className="grid grid-flow-col gap-x-3">
+                <div className="grid grid-flow-col gap-x-5">
                     <StarGray/>
+                    <h1 className="text-gray-400 text-2xl -ml-3 mt-1"></h1>
                     <CommentIcon/>
+                    <h1 className="text-gray-400 text-2xl -ml-3 mt-1">4</h1>
                 </div>
                 <div className="grid grid-flow-col gap-x-3">
                     <ShareIcon/>
                     <DownloadIcon/>
                 </div>
             </div>
+            <h1 className="text-lg font-semibold">Comments</h1>
+
+        <div className="relative">
+            <input
+            type="text"
+            className="w-full focus:outline-none focus:border-red-400 focus:border-[2px] p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg mt-2" 
+            placeholder="What do you think..."
+            />
         </div>
+            <Comment/>
+            <Comment/>
+          
+    </div>
     );
 };
 

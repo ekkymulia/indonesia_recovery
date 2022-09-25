@@ -7,6 +7,7 @@ import MostViewed from '../components/Sections/MostViewed/most-viewed.component'
 export default function Home() {
   return (
     <Layout>
+      
       <div>
         <div
         className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
