@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Footer = () => {
+const Footesr = () => {
     return (
         <>
         <footer className="bg-white-100">
@@ -170,4 +170,4 @@ const Footer = () => {
 //     <div className="flex-grow border-t border-gray-400"></div>
 // </div>
 
-export default Footer;
+export default Footesr;

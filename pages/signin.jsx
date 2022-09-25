@@ -7,7 +7,7 @@ export default function Signin(){
                 <div className='col-span-3'>
                 <img
                 className="h-auto w-24"
-                src={"./leftheadersignin.png"}
+                src={"/images/graphic/leftheadersignin.png"}
                 alt="Logo"
                 />
                 </div>
@@ -15,7 +15,7 @@ export default function Signin(){
                 <div className='col-span-4'>
                 <img
                 className="h-auto w-56 ml-auto mr-auto"
-                src={"./logo_tsp(500×200).svg"}
+                src={"/images/graphic/logo_tsp(500×200).svg"}
                 alt="Logo"
                 />
                 </div>
@@ -23,7 +23,7 @@ export default function Signin(){
                 <div className='col-span-3'>
                 <img
                 className="h-auto w-24 float-right"
-                src={"./rightheadersignin.png"}
+                src={"/images/graphic/rightheadersignin.png"}
                 alt="Logo"
                 />
                 </div>

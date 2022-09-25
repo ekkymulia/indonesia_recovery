@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 
 import Image from "next/image";
-import DesignPic from '../public/Component.svg'
+import DesignPic from '../public/svg/Component.svg'
 
 import Layout from '../components/Layout/layout.component'
 import Fmita from "../components/Sections/Fmita/fmita.component";

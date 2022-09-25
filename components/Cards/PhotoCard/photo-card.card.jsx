@@ -4,7 +4,7 @@ const PhotoCard = ({imgLink, title, desc} = props) => {
     return (
         <div className="">
             <img
-            src={imgLink}
+            src={`/images/team/${imgLink}`}
             alt={`${title}_${desc}`}
             className="object-cover w-24 h-24 mx-auto rounded-full shadow-xl"
             />

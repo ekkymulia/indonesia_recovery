@@ -8,7 +8,7 @@ const TrendingNewsComponent = (props) => {
     const {tag, title, desc, imgLink, date, minutes, rating, to} = props
 
     return (
-        <Link href={to}>
+        <Link href={`/news/${to}`}>
             <blockquote className='cursor-pointer transition-transform  hover:-translate-x-1 hover:-translate-y-1 hover:shadow-lg
             hover:shadow-gray-200 p-2.5 hover:rounded-2xl
             '>
@@ -55,7 +55,7 @@ const TrendingNewsComponent = (props) => {
                         </div>
 
                         <div className='col-span-3 object-cover'>
-                            <Image src={imgLink} width={165} height={185}/>
+                            <Image src={`/images/others/${imgLink}`} width={165} height={185}/>
                         </div>
                 
                     </main>

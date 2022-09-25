@@ -26,7 +26,7 @@ export default function News(){
             <div className='p-8 md:p-12 lg:px-20 lg:py-10 grid grid-flow-row-dense grid-cols-3'>
                 <div className='col-span-3 lg:col-span-2'>
                     <img
-                    src={"./hologram2.jpg"}
+                    src={"/images/others/hologram2.jpg"}
                     style={{ borderTopRightRadius: 15, borderTopLeftRadius: 15 }}
                     alt=""
                     />

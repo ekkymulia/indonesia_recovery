@@ -4,16 +4,12 @@ import CommentIcon from "../../Elements/CommentIcon/comment-icon.icons";
 import ShareIcon from "../../Elements/ShareIcon/share-icon.icons";
 import DownloadIcon from "../../Elements/DownloadIcon/download-icon.icons";
 
-import Artikel from "../../../data/data";
+import { Artikel } from "../../../data/artikel";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 
 const NewsArticle = () => {
     const router = useRouter();
     const { slug } = router.query
-    const [artikel, setArtikel] = useState({})
-
-    
 
     return (
 
@@ -25,20 +21,22 @@ const NewsArticle = () => {
                         <div className="my-1 grid grid-flow-col place-content-between text-sm lg:text-base">
                             <div className="flex flex-wrap flex-col">
                                 <span className="text-black">{artikel.date_posted}</span>
-                                <span className="text-red-600">{artikel.category}</span>
+                                <span className="text-red-600 capitalize">{artikel.category_slug.replace("_", " ")}</span>
                             </div>
-                            <div>
-                                <span className="text-red-600">{artikel.penulis}</span>
+                            <div className="flex flex-wrap flex-col items-end">
+                                <a href={artikel.sourceLink} className="text-red-600">{artikel.source}</a>
                             </div>
                         </div>
             
                         <div className="my-1">
-                            <Image src={artikel.imgLink} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="contain"/>
+                            <Image src={`/images/others/${artikel.imgLink}`} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="contain"/>
+                            <span className="text-red-600">by {artikel.writer}</span>
+
                         </div>
             
                         <div className="my-1">
-                            <h3 className="text-black font-bold text-lg lg:text-5xl mt-6 mb-8 lg:mb-20">{artikel.article.judul}</h3>
-                            <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article.isi }}>
+                            <h3 className="text-black font-bold text-lg lg:text-5xl mt-6 mb-8 lg:mb-20">{artikel.judul}</h3>
+                            <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
                             </article>
                         </div>
             

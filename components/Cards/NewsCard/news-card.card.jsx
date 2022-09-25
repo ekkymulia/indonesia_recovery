@@ -7,7 +7,7 @@ const NewsCard = ({newsData} = props) => {
     return (
         <div className="grid grid-cols-12 my-6 place-content-start">
             <div className="col-span-12 md:col-span-7">
-                <Image src={imgLink} width="400%" height="235%" />
+                <Image src={`/images/others/${imgLink}`} width="400%" height="235%" />
             </div>
             <div className="col-span-12 md:col-span-5 grid grid-cols-4 grid-flow-row place-content-start mt-2 md:mt-0">
                 <div className="border-t-8 border-xl border-red-500 col-span-1 mb-3"></div>

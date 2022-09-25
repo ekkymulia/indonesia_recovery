@@ -93,7 +93,7 @@ export default function Contactus(){
             <div className='space-y-5'>
             <div className="mx-auto mt-20 space-y-3">
                 <img 
-                src={"./messageicon.svg"}
+                src={"/images/svg/messageicon.svg"}
                 className="h-auto w-14"
                 ></img>
 
@@ -136,7 +136,7 @@ export default function Contactus(){
     <div className='col-span-10 lg:col-span-4'>
         <div className="mx-auto mt-10 space-y-5">
             <img
-            src={"./pointlocation.svg"}
+            src={"/images/svg/pointlocation.svg"}
             className="h-auto w-14"
             ></img>
             <h1 class="text-2xl sm:text-3xl font-semibold">
@@ -152,7 +152,7 @@ export default function Contactus(){
 
     <div className='relative mt-10 col-span-10 lg:col-span-4'>
         <img
-        src={"./sekolahvokasi.jpg"}
+        src={"images/svg/sekolahvokasi.jpg"}
         className="rounded-md shadow-2xl h-auto w-96"
         ></img>
     </div>

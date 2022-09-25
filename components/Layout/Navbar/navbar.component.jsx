@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="flex-1 md:flex md:items-center md:gap-12">
                 <a className="block text-teal-600" href="/">
                     <span className="sr-only">Home</span>
-                    <Image src="/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
+                    <Image src="/images/svg/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
                 </a>
                 </div>
         

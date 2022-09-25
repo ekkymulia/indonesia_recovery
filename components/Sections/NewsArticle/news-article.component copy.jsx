@@ -4,7 +4,7 @@ import CommentIcon from "../../Elements/CommentIcon/comment-icon.icons";
 import ShareIcon from "../../Elements/ShareIcon/share-icon.icons";
 import DownloadIcon from "../../Elements/DownloadIcon/download-icon.icons";
 
-import Artikel from "../../../data/data";
+import Artikel from "../../../data/artikel";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -29,7 +29,7 @@ const NewsArticlek = () => {
                 </div>
             </div>
             <div className="my-1">
-                <Image src={artikel.imgLink} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="contain"/>
+                <Image src="" alt="" title="" width="100%" height="65%" layout="responsive" objectFit="contain"/>
             </div>
             <div className="my-1">
                 <h3 className="text-black font-bold text-lg lg:text-5xl mt-6 mb-8 lg:mb-20">{artikel.article.judul}</h3>

@@ -24,7 +24,7 @@ export default function Story() {
             <div className="relative md:h-64 overflow-hidden sm:h-80 lg:h-full">
               <img
                 className="object-cover w-full md:h-[35rem] rounded-2xl" 
-                src={"./g20.jpg"}
+                src={"images/banner/g20.jpg"}
                 alt="Man using a computer"
               />
             </div>
@@ -61,7 +61,7 @@ export default function Story() {
               >
                 <img
                   className="absolute inset-0 object-cover w-full h-full"
-                  src={"./logo_tsp.svg"}
+                  src={"images/svg/logo_tsp.svg"}
                   alt="Logo"
                 />
               </div>
