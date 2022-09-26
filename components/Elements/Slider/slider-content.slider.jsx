@@ -1,4 +1,4 @@
-import RedDot from "../RedDot/red-dot.element";
+import RedDot from "../Icons/red-dot.element";
 import CustomLinkButton, { CUSTOM_LINK_BUTTON_TYPES } from "../CustomLinkButton/custom-link-button.element";
 
 const SliderContent = (props) => {

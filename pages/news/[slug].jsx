@@ -1,7 +1,6 @@
 import Layout from "../../components/Layout/layout.component"
 import NewsArticle from "../../components/Sections/NewsArticle/news-article.component";
 import Fmita from "../../components/Sections/Fmita/fmita.component";
-import Navbar2 from "../../components/Layout/Navbar/navbar-2.component";
 
 const NewsDetails = () => {
     return (

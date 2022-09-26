@@ -13,11 +13,11 @@ const Fmita = ( props ) => {
           <div className="p-1 grid grid-rows-1 col-span-3">
             <TrendingNewsComponent tag="Trending" title="G20: Indonesia Recover" 
             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
-            imgLink="/g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
+            imgLink="g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
 
             <TrendingNewsComponent tag="Trending" title="G20: Indonesia Recover" 
             desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
-            imgLink="/g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
+            imgLink="g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
           </div>
           <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">
             <div className="flex flex-col">

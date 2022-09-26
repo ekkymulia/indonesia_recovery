@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ReadListCard from "../../Cards/ReadListCard/read-list-card.card";
 import TrendingNewsComponent from "../../Cards/TrendingNewsCard/trending-news-card.card";
-import RedDot from "../../Elements/RedDot/red-dot.element";
+import RedDot from "../../Elements/Icons/red-dot.element";
 
 import { categoryViewedData } from "../../../data/category";
 import { Artikel } from "../../../data/artikel";

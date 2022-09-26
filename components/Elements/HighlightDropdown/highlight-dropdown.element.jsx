@@ -1,4 +1,4 @@
-import TriangleIcon from "../Icon/triangle.icon";
+import TriangleIcon from "../Icons/triangle.icon";
 
 const HighlightDropdown = () => {
     return (

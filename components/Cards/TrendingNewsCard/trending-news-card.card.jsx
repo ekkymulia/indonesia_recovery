@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Image from 'next/image';
-import RedDot from '../../Elements/RedDot/red-dot.element';
-import Star from '../../Elements/Star/star-component';
+import RedDot from '../../Elements/Icons/red-dot.element';
+import Star from '../../Elements/Icons/star-component';
 import Link from 'next/link';
 
 const TrendingNewsComponent = (props) => {
