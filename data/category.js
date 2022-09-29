@@ -1,28 +1,24 @@
 export const categoryViewedData = [
     {
         slug: 'socio_economics',
-        text: 'Socio-Economics'
+        text: 'Socio-Economics 💸'
     },
     {
         slug: 'education_innovation',
-        text: 'Education & Innovation'
+        text: 'Education & Innovation 🔭'
     },
     {
         slug: 'tech_eng',
-        text: 'Tech Engineering'
+        text: 'Tech Engineering ⚙️'
     },
     {
         slug: 'environment',
-        text: 'Environment'
+        text: 'Environment 🌱'
     },
     {
         slug: 'health',
-        text: 'Health'
+        text: 'Health 🩺' 
     },
-    {
-        slug: 'research',
-        text: 'Research'
-    }
 ];
 
 export const categoryHighlightData = [
