@@ -32,7 +32,7 @@ const NewsHighlight = ({ClassName} = props) => {
 
     return (
         <div className={`grid grid-cols-12 ${ClassName}`}>
-            <div className="hidden md:block col-span-12 md:col-span-4">
+            <div className="hidden lg:block col-span-12 lg:col-span-4">
                 <ul className=" space-y-3">
 
                     {
@@ -55,7 +55,7 @@ const NewsHighlight = ({ClassName} = props) => {
                 </ul>
             </div>
 
-            <div className="col-span-12 md:col-span-4 my-5 block md:hidden">
+            <div className="col-span-12 lg:col-span-4 my-5 block lg:hidden">
                 <ul className=" space-y-3">
                     <li class="ml-3 font-semibold flex items-center group cursor-pointer" onClick={() => setDropdown(!dropdown)}>
                         {
@@ -93,13 +93,13 @@ const NewsHighlight = ({ClassName} = props) => {
                 </ul>
             </div>
 
-            <div className="col-span-12 md:col-span-8">
-                <div className="grid place-content-between sm:grid-flow-col place-items-center">
+            <div className="col-span-12 lg:col-span-8">
+                <div className="grid place-content-between lg:grid-flow-col place-items-center">
                     <div>
                         <h3 className="font-bold text-3xl my-2">{category.text}</h3>
                         <span>This Information will blow your mind!</span>
                     </div>
-                    <div className="mt-3 md:mt-0 hidden lg:block">
+                    <div className="mt-3 lg:mt-0 hidden lg:block">
                         <button onClick={() => prevButton()}
                         class="p-3 text-red-600 border rounded-full transition-colors border-current hover:outline-none hover:bg-red-600 hover:text-white "
                         >
@@ -147,7 +147,7 @@ const NewsHighlight = ({ClassName} = props) => {
 
                 }
 
-                <div className="mt-3 md:mt-0 block lg:hidden">
+                <div className="mt-3 lg:mt-0 block lg:hidden">
                 <button onClick={() => prevButton()}
                 class="p-3 text-red-600 border rounded-full transition-colors border-current active:outline-none active:bg-red-600 active:text-white "
                 >

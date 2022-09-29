@@ -15,14 +15,21 @@ const Slider = () => {
         setBgImgSlider(temp_img[num])
         setSlideNav(num)
     }
+
+    const handleScroll = event => {
+        console.log('scrollTop: ', event.currentTarget.scrollTop);
+        console.log('offsetHeight: ', event.currentTarget.offsetHeight);
+      };
+    
+
     return(
-        <main className="relative max-h-screen lg:max-h-[960px] ">
+        <main className="relative max-h-screen lg:max-h-[960px] " >
            
             <SliderContent tag="News Updates" 
                 title={[`Indonesia's Post Pandemic `,<br></br>,<b>Breakthrough!</b>]} 
                 desc={[`From youth to growth. From east to west. Indonesia is our best! `,<br></br>,`Discover more inspiring stories.`]}
                 redirect="/news/asd" redirectText="Start Reading"
-                bgImgUrl={bgImgSlider}/>
+                bgImgUrl={bgImgSlider} />
 
             <div className="absolute bottom-8 right-0 mr-8 max-height-64 ">
                 {

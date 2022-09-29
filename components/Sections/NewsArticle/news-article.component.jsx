@@ -14,56 +14,110 @@ const NewsArticle = () => {
 
     return (
 
-        <div className="px-8 md:p-12 lg:px-20 lg:py-24 mb-12">
+        <div className="md:p-12 lg:py-24 mb-12">
 
             {
                 Artikel.filter((item) => item.slug == slug).map((artikel) => (
                     <>
-                        <div className="my-1 grid grid-flow-col place-content-between text-sm lg:text-base">
-                            <div className="flex flex-wrap flex-col">
-                                <span className="text-black">{artikel.date_posted}</span>
-                                <span className="text-red-600 capitalize">{artikel.category_slug.replace("_", " ")}</span>
+                        <div className="px-8 lg:px-25">
+                            <div className="my-1 grid grid-flow-col place-content-between text-sm lg:text-base">
+                                <nav aria-label="Breadcrumb">
+                                    <ol role="list" class="flex items-center gap-1 text-sm text-gray-500">
+                                    <li>
+                                        <a class="block transition-colors hover:text-gray-700" href="/"> Home </a>
+                                    </li>
+                                
+                                    <li>
+                                        <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-4 h-4"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                        >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd"
+                                        />
+                                        </svg>
+                                    </li>
+                                
+                                    <li>
+                                        <a
+                                        class="block transition-colors hover:text-gray-700"
+                                        href="#"
+                                        >
+                                        News
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-4 h-4"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                        >
+                                        <path
+                                            fill-rule="evenodd"
+                                            d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                                            clip-rule="evenodd"
+                                        />
+                                        </svg>
+                                    </li>
+                                
+                                    <li>
+                                        <a
+                                        class="block transition-colors hover:text-gray-700 text-red-600 capitalize"
+                                        href="/products/plain-tee"
+                                        >
+                                        {artikel.category_slug.replace("_", " ")}
+                                        </a>
+                                    </li>
+                                    </ol>
+                                </nav>
                             </div>
-                            <div className="flex flex-wrap flex-col items-end">
-                                <a href={artikel.sourceLink} className="text-red-600">{artikel.source}</a>
-                            </div>
-                        </div>
-            
-                        <div className="my-1">
-                            <Image src={`/images/others/${artikel.imgLink}`} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="contain"/>
-                            <span className="text-red-600">by {artikel.writer}</span>
+                
+                            <div className="my-1">
+                                <h3 className="text-black font-bold text-lg lg:text-3xl mt-6 mb-8 ">{artikel.judul}</h3>
+                                <span className="text-gray-600">{artikel.writer} | </span>
+                                <span className="text-gray-600">{artikel.date_posted}</span>
+                                <Image src={`/images/others/${artikel.imgLink}`} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="cover"/>
 
-                        </div>
-            
-                        <div className="my-1">
-                            <h3 className="text-black font-bold text-lg lg:text-5xl mt-6 mb-8 lg:mb-20">{artikel.judul}</h3>
-                            <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
-                            </article>
-                        </div>
-            
-                        <div className="grid grid-flow-col place-content-between my-12">
-                            <div className="grid grid-flow-col gap-x-5">
-                                <StarGray/>
-                                <h1 className="text-gray-400 text-2xl -ml-3 mt-1"></h1>
-                                <CommentIcon/>
-                                <h1 className="text-gray-400 text-2xl -ml-3 mt-1">4</h1>
-                            </div>
-                            <div className="grid grid-flow-col gap-x-3">
-                                <ShareIcon/>
-                                <DownloadIcon/>
                             </div>
                         </div>
-                        <h1 className="text-lg font-semibold">Comments</h1>
-            
-                        <div className="relative">
-                            <input
-                            type="text"
-                            className="w-full focus:outline-none focus:border-red-400 focus:border-[2px] p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg mt-2" 
-                            placeholder="What do you think..."
-                            />
+                        <div className="px-8 lg:px-20">
+                            <div className="my-1">
+                                <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
+                                </article>
+                            </div>
+                
+                            <div className="grid grid-flow-col place-content-between my-12">
+                                <div className="grid grid-flow-col gap-x-5 place-items-center">
+                                    <StarGray/>
+                                    <span className="text-gray-400 text-xl -ml-3 mt-1"></span>
+                                    <CommentIcon/>
+                                    <span className="text-gray-400 text-xl -ml-3 mt-1">4</span>
+                                </div>
+                                <div className="grid grid-flow-col gap-x-3">
+                                    <ShareIcon/>
+                                    <DownloadIcon/>
+                                </div>
+                            </div>
+                            <h4 className="text-lg font-semibold">Comments</h4>
+                
+                            <div className="relative">
+                                <input
+                                type="text"
+                                className="w-full focus:outline-none focus:border-red-400 focus:border-[2px] p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg mt-2" 
+                                placeholder="What do you think..."
+                                />
+                            </div>
+                            <Comment comments={artikel.comment}/>
                         </div>
-                        <Comment/>
-                        <Comment/>
+                
+                           
+                        
                     </>  
                 ))
             }

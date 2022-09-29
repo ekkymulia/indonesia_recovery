@@ -2,6 +2,8 @@ import TrendingNewsComponent from '../../Cards/TrendingNewsCard/trending-news-ca
 import CategoryCard from '../../Elements/CategoryBox/category-box.component';
 import FmitaCategory from '../FmitaCategory/fmita-category.component';
 
+import { Artikel } from '../../../data/artikel';
+
 const Fmita = ( props ) => {
     const { ClassName } = props;
 
@@ -11,13 +13,22 @@ const Fmita = ( props ) => {
   
         <div className="mt-8 grid grid-cols-1 gap-8 md:gap-12 md:mt-16 md:grid-cols-5 lg:grid-cols-5">
           <div className="p-1 grid grid-rows-1 col-span-3">
-            <TrendingNewsComponent tag="Trending" title="G20: Indonesia Recover" 
-            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
-            imgLink="g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
-
-            <TrendingNewsComponent tag="Trending" title="G20: Indonesia Recover" 
-            desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam possimus fuga dolor rerum dicta, ipsum laboriosam est totam iusto alias incidunt cum tempore aliquid aliquam error quisquam ipsam asperiores! Iste?" 
-            imgLink="g20.jpg" date="Aug 7" minutes="7" rating="3" to="/news"/>
+          {
+              Artikel.sort((a, b) => {
+                  if(a.like === b.like) {
+                    // If two elements have same like, then the one who has larger rating.average wins
+                    return b.like.average - a.like.average;
+                  } else {
+                    // If two elements have different like, then the one who has larger like wins
+                    return b.like - a.like;
+                  }
+                }).map((news => (
+                    <TrendingNewsComponent tag="" title={news.judul}
+                    desc={news.desc}
+                    imgLink={news.imgLink} date={news.date_posted} minutes={news.read_time} rating={news.like} to={news.slug}/>
+                )
+              ))
+          }
           </div>
           <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">
             <div className="flex flex-col">

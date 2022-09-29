@@ -4,7 +4,9 @@ import TrendingNewsComponent from "../../Cards/TrendingNewsCard/trending-news-ca
 import RedDot from "../../Elements/Icons/red-dot.element";
 
 import { categoryViewedData } from "../../../data/category";
+
 import { Artikel } from "../../../data/artikel";
+import { ReadList } from "../../../data/user";
 
 const MostViewed = ({ClassName} = props) => {
     const [dropdown, setDropdown] = useState(false);
@@ -18,7 +20,7 @@ const MostViewed = ({ClassName} = props) => {
     return (
         <div className={` ${ClassName}`}>
             <div className="col-span-12 grid grid-cols-12 pb-3 border-b-4 border-red-500">
-                <ul className="hidden md:block col-span-12 place-content-around space-y-1 md:space-y-0 md:flex "> 
+                <ul className="hidden lg:block col-span-12 place-content-around space-y-1 lg:space-y-0 lg:flex "> 
                     
                     {
                         categoryViewedData.map((item) => (
@@ -37,7 +39,7 @@ const MostViewed = ({ClassName} = props) => {
 
                 </ul>
 
-                <ul className="block md:hidden space-y-3 col-span-12 ">
+                <ul className="block lg:hidden space-y-3 col-span-12 ">
                     <li class="ml-3 font-semibold grid grid-flow-col place-content-between group cursor-pointer" onClick={() => setDropdown(!dropdown)}>
                         <a className="-translate-x-3 hover:-translate-x-4 transition-transform hover:duration-300">{category.text}</a>
                         {
@@ -100,9 +102,13 @@ const MostViewed = ({ClassName} = props) => {
                     <div>
                         <span className="font-semibold text-sm">Reading List</span>
                         <div className="space-y-8 mt-4">
-                            <ReadListCard/>
-                            <ReadListCard/>
-                            <ReadListCard/>
+
+                            {
+                                ReadList.map((item) => {
+                                    return <ReadListCard news={item}/>
+                                })
+                            }
+           
 
                             <div>
                                 <span className="font-semibold text-sm text-red-600">View All</span>

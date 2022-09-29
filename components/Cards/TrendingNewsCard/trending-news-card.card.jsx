@@ -55,7 +55,7 @@ const TrendingNewsComponent = (props) => {
                         </div>
 
                         <div className='col-span-3 object-cover'>
-                            <Image src={`/images/others/${imgLink}`} width={165} height={185}/>
+                            <Image src={`/images/others/${imgLink}`} width={205} height={185}/>
                         </div>
                 
                     </main>
