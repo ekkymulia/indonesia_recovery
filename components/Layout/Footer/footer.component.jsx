@@ -13,11 +13,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-red-500"
                     >
                         <span className="sr-only">Facebook</span>
                         <svg
-                        className="w-6 h-6"
+                        className="w-8 h-8"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -36,11 +36,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-red-500"
                     >
                         <span className="sr-only">Instagram</span>
                         <svg
-                        className="w-6 h-6"
+                        className="w-8 h-8"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -59,11 +59,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-red-500"
                     >
                         <span className="sr-only">Twitter</span>
                         <svg
-                        className="w-6 h-6"
+                        className="w-8 h-8"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -80,11 +80,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-red-500"
                     >
                         <span className="sr-only">GitHub</span>
                         <svg
-                        className="w-6 h-6"
+                        className="w-8 h-8"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -103,11 +103,11 @@ const Footer = () => {
                         href="/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        className="text-gray-700 transition hover:text-gray-700/75"
+                        className="text-gray-700 transition hover:text-red-500"
                     >
                         <span className="sr-only">Dribbble</span>
                         <svg
-                        className="w-6 h-6"
+                        className="w-8 h-8"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -122,7 +122,7 @@ const Footer = () => {
                     </li>
                 </ul>
 
-                <p className="max-w-md mx-auto mt-8 leading-relaxed text-center text-gray-500">
+                <p className="max-w-lg mx-auto mt-8 leading-relaxed text-center md:text-xl lg:text-xl text-gray-500">
                     &copy; Indonesia Recovery. 2022.  From Youth to Growth!
                 </p>
             </div>

@@ -36,7 +36,7 @@ const NewsArticle = () => {
                         </div>
             
                         <div className="my-1">
-                            <h3 className="text-black font-bold text-lg lg:text-5xl mt-6 mb-8 lg:mb-20">{artikel.judul}</h3>
+                            <h3 className="text-black font-bold text-lg lg:text-3xl mt-6 mb-8 lg:mb-20">{artikel.judul}</h3>
                             <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
                             </article>
                         </div>
