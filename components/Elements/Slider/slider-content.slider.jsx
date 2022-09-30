@@ -7,7 +7,7 @@ const SliderContent = (props) => {
     return (
         <section class={`w-full h-screen 2xl:h-full bg-center bg-cover snap-start `} style={{backgroundImage: `url(${bgImgUrl})`}}>
             <div className="p-8 md:p-12 lg:px-20 lg:py-24 ">
-                <div className="max-w-lg text-left mt-24 sm:text-left space-y-8">
+                <div className="max-w-lg text-left mt-40 sm:text-left space-y-8">
         
                     <div className='flex flex-wrap my-3 items-center'>
                             <RedDot/>

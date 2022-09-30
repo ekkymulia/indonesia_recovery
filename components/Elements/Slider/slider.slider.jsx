@@ -2,8 +2,8 @@ import { useState } from "react";
 import SliderContent from "./slider-content.slider";
 
 const temp_img = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Bromo-Semeru-Batok-Widodaren.jpg/800px-Bromo-Semeru-Batok-Widodaren.jpg',
-    'https://www.wallpapertip.com/wmimgs/183-1830137_bromo-tengger-semeru-national-park.jpg',
+    '/images/banner/masker.jpg',
+    '/images/banner/bendera.jpg',
 ]
 
 const Slider = () => {

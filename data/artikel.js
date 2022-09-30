@@ -18,7 +18,7 @@ export const Artikel = [
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userComment: "Beritanya sangat inovatif.",
             date_added: "12 September 2022",
             like: 32
         },
@@ -26,8 +26,16 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Saya suka berita ini.",
             date_added: "13 September 2022",
+            like: 2
+        },
+        {
+            comment_id: 3,
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita yang bagus, saya akan bagikan ini kepada teman saya.",
+            date_added: "12 September 2022",
             like: 2
         },
     ]
@@ -45,27 +53,27 @@ export const Artikel = [
     writer: "Dian Ihsan",
     source: "Kompas.com",
     sourceLink: "https://www.kompas.com/edu/read/2022/09/22/213229471/orangtua-ini-4-cara-pilih-baju-anak-agar-tidak-sensitif-dengan-kulit",
-    article: "<p><strong>KOMPAS.com -</strong> Ragam merek <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang menawarkan model stylish dan fashionable memang menarik untuk dibeli.</p><p>Namun ternyata memilih baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> ternyata tidak bisa sembarangan, apalagi yang digunakan untuk <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/sekolah' style='color:#428bca;'>sekolah</a>.</p><p>Berbeda dengan orang dewasa, anak kecil biasanya memiliki kulit yang lebih sensitif dan reaktif terhadap beberapa bahan.</p><p>Tak jarang, anak merasa gatal dan rewel karena label pakaian yang mengganggu.</p><p>Karena itu, memilih baju anak juga perlu mempertimbangkan faktor kenyamanan dan keamanan bagi anak.</p><p>Menanggapi hal tersebut, lulusan S1 Ekonomi dari Shanghai University of Finance and Economy dan pelaku industri fashion, Alvin memberikan 4 tips memilih baju yang ramah untuk anak.</p><h2><strong>1. Bahan yang nyaman sesuai iklim lokal</strong></h2><p>Pada usia eksploratif, anak memiliki aktivitas tinggi yang mengharuskan mereka bergerak dan berkeringat.</p><p>Karena itu, bahan baju yang tepat sangat penting untuk diperhatikan.</p><p>Pilih baju yang memiliki bahan lembut, adem, dan mudah menyerap keringat.</p><p>'Kualitas ini bisa didapat dari baju anak yang terbuat dari bahan 100 persen katun,' kata dia dalam keterangannya, Kamis (22/9/2022).</p><p>Bahan 100 perse katun, kata dia, dinilai paling nyaman untuk dikenakan di iklim yang panas dan lembab seperti Indonesia.</p><p>Sayangnya, banyak brand <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang masih menggunakan bahan campuran polyester.</p><p>Berbeda dengan baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> dengan bahan 100 persen katun, baju anak dengan campuran polyester yang cenderung gerah, tidak menyerap keringat, dan kurang nyaman ketika dipakai.</p><p>Karena itu, <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>orangtua</a> perlu hati-hati agar tak salah pilih bahan baju anak, salah satunya Little Warren yang merupakan adalah brand lokal yang menawarkan baju anak dengan bahan 100 persen katun.</p><p>'Kami sangat <em>concern</em> akan bahan yang kita pakai, karena akan sangat penting untuk kenyamanan sang anak. Saking nyamannya bahkan sampai ada customer kami bercerita kalau anaknya sampai tidak mau melepas baju polo kami padahal sudah dipakai lama,' ucap dia.</p><h2><strong>2. Model yang memudahkan orangtua</strong></h2><p><a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>Orangtua</a> juga perlu mempertimbangkan model baju anak yang <em>stylish</em>, tapi tidak berlebihan.</p><p>Model yang bersifat timeless dan elegan seperti denim, chino, <em>t-shirt</em>, serta polo <em>shirt</em> bisa jadi pilihan.</p><p><strong>Baca juga: <a href='https://www.kompas.com/edu/read/2022/09/16/071600271/kasus-santri-tewas-ada-kesalahpahaman-antara-ponpes-gontor-dan-keluarga' class='inner-link-baca-juga' target='_self'>Kasus Santri Tewas, Ada Kesalahpahaman antara Ponpes Gontor dan Keluarga</a></strong></p><p>Memilih model baju polo shirt juga bisa memberikan keunggulan bagi orangtua yang memiliki anak aktif.</p><p>Model kancing depan memudahkan orangtua untuk memasang serta melepaskan baju anak.</p><p>Selain model baju anak, orangtua juga bisa memilih baju anak yang memiliki banyak pilihan warna menarik untuk dikombinasikan.</p>",
+    article: "</br><strong>KOMPAS.com -</strong> Ragam merek <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang menawarkan model stylish dan fashionable memang menarik untuk dibeli. Namun ternyata memilih baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> ternyata tidak bisa sembarangan, apalagi yang digunakan untuk <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/sekolah' style='color:#428bca;'>sekolah</a>.Berbeda dengan orang dewasa, anak kecil biasanya memiliki kulit yang lebih sensitif dan reaktif terhadap beberapa bahan.</br>Tak jarang, anak merasa gatal dan rewel karena label pakaian yang mengganggu.</br>Karena itu, memilih baju anak juga perlu mempertimbangkan faktor kenyamanan dan keamanan bagi anak.</br>Menanggapi hal tersebut, lulusan S1 Ekonomi dari Shanghai University of Finance and Economy dan pelaku industri fashion, Alvin memberikan 4 tips memilih baju yang ramah untuk anak.</br></br><h2><strong>1. Bahan yang nyaman sesuai iklim lokal</strong></h2></br>Pada usia eksploratif, anak memiliki aktivitas tinggi yang mengharuskan mereka bergerak dan berkeringat.</br>Karena itu, bahan baju yang tepat sangat penting untuk diperhatikan.</br>Pilih baju yang memiliki bahan lembut, adem, dan mudah menyerap keringat.</br>'Kualitas ini bisa didapat dari baju anak yang terbuat dari bahan 100 persen katun,' kata dia dalam keterangannya, Kamis (22/9/2022).</br>Bahan 100 perse katun, kata dia, dinilai paling nyaman untuk dikenakan di iklim yang panas dan lembab seperti Indonesia.</br>Sayangnya, banyak brand <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang masih menggunakan bahan campuran polyester. Berbeda dengan baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> dengan bahan 100 persen katun, baju anak dengan campuran polyester yang cenderung gerah, tidak menyerap keringat, dan kurang nyaman ketika dipakai.</br>Karena itu, <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>orangtua</a> perlu hati-hati agar tak salah pilih bahan baju anak, salah satunya Little Warren yang merupakan adalah brand lokal yang menawarkan baju anak dengan bahan 100 persen katun.</br>'Kami sangat <em>concern</em> akan bahan yang kita pakai, karena akan sangat penting untuk kenyamanan sang anak. Saking nyamannya bahkan sampai ada customer kami bercerita kalau anaknya sampai tidak mau melepas baju polo kami padahal sudah dipakai lama,' ucap dia.<h2><strong></br>2. Model yang memudahkan orangtua</strong></h2></br><a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>Orangtua</a> juga perlu mempertimbangkan model baju anak yang <em>stylish</em>, tapi tidak berlebihan.</br>Model yang bersifat timeless dan elegan seperti denim, chino, <em>t-shirt</em>, serta polo <em>shirt</em> bisa jadi pilihan.</br><strong>Baca juga: <a href='https://www.kompas.com/edu/read/2022/09/16/071600271/kasus-santri-tewas-ada-kesalahpahaman-antara-ponpes-gontor-dan-keluarga' class='inner-link-baca-juga' target='_self'>Kasus Santri Tewas, Ada Kesalahpahaman antara Ponpes Gontor dan Keluarga</a></strong></br>Memilih model baju polo shirt juga bisa memberikan keunggulan bagi orangtua yang memiliki anak aktif.</br>Model kancing depan memudahkan orangtua untuk memasang serta melepaskan baju anak.</br>Selain model baju anak, orangtua juga bisa memilih baju anak yang memiliki banyak pilihan warna menarik untuk dikombinasikan.",
     comment: [
         {
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userComment: "Artikel ini sangat bagus.",
             date_added: "23 September 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
             date_added: "22 September 2022",
             like: 2
         },
     ]
 },
-{ //revisi
+{ 
     id: 3,
     judul: "Buka BUMN Startup Day, Presiden: Tangkap Peluang dengan Teknologi",
     slug: "buka-bumn-startup-day-presiden-tangkap-peluang-dengan-teknologi",
@@ -82,9 +90,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -92,7 +100,7 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -115,9 +123,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -125,7 +133,7 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -148,17 +156,25 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
+        },
+        {
+            comment_id: 2,
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
         {
-            comment_id: 2,
+            comment_id: 3,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -181,19 +197,19 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
-            date_added: "4 Oktober 2022",
-            like: 32
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
-            like: 2
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
+            date_added: "4 Oktober 2022",
+            like: 32
         },
     ]
 },
@@ -214,19 +230,19 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
-            like: 2
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
+            like: 32
         },
     ]
 },
@@ -249,16 +265,16 @@ export const Artikel = [
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
-            date_added: "4 Oktober 2022",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
         },
     ]
@@ -282,17 +298,25 @@ export const Artikel = [
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Berita ini sangat bagus",
-            date_added: "4 Oktober 2022",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
+        },
+        {
+            comment_id: 3,
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
+            date_added: "4 Oktober 2022",
+            like: 32
         },
     ]
 },
@@ -313,9 +337,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -323,7 +347,7 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -348,16 +372,16 @@ export const Artikel = [
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
-            date_added: "4 Oktober 2022",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
         },
     ]
@@ -381,16 +405,16 @@ export const Artikel = [
             comment_id: 1,
             userName: "Jono Mustika",
             userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
-            date_added: "4 Oktober 2022",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
             like: 32
         },
         {
             comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
         },
     ]
@@ -412,9 +436,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -422,7 +446,7 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -445,9 +469,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -455,7 +479,7 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
@@ -478,9 +502,9 @@ export const Artikel = [
     comment: [
         {
             comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
             date_added: "4 Oktober 2022",
             like: 32
         },
@@ -488,44 +512,10 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
+            userComment: "Mantapp.",
             date_added: "7 Oktober 2022",
             like: 2
         },
     ]
 },
-{
-    id: 16,
-    judul: "Indonesia 2045: Generasi Emas Peduli Lingkungan, Berkeadilan Sosial, dan Berkeadilan Ekologis    ",
-    slug: "indonesia-2045-generasi-emas-peduli-lingkungan-berkeadilan-sosial-dan-berkeadilan-ekologis",
-    category_slug: "environment",
-    desc: "Pada 9 Mei 2016 kemarin, seorang ilmuwan iklim dari Inggris bernama Ed Hawkins menerbitkan spiral iklim...",
-    date_posted: "26 September 2022",
-    read_time:"7",
-    like: "4",
-    imgLink: "indonesia-2045-generasi-emas-peduli-lingkungan-berkeadilan-sosial-dan-berkeadilan-ekologis.jpg",
-    writer: "Renaldo Susilo",
-    source: "youngontop.com",
-    sourceLink: "https://www.youngontop.com/indonesia-2045-generasi-emas-peduli-lingkungan-berkeadilan-sosial-dan-berkeadilan-ekologis",
-    article: "<br/><p>Pada 9 Mei 2016 kemarin, seorang ilmuwan iklim dari Inggris bernama Ed Hawkins menerbitkan spiral iklim yang menggegerkan penduduk dunia maya. Lewat spiral ini ia menunjukkan anomali perubahan suhu rata-rata bumi sejak tahun 1850 yang meningkat seiring berjalannya waktu. Kenaikan suhu bumi ini disebabkan oleh menumpuknya gas rumah kaca di atmosfer yang menangkap lebih banyak panas membuat konsekuensi dari pemanasan global dapat dipastikan terjadi.</p><br/><p><img class='wp-image-454081 aligncenter' src='https://www.youngontop.com/wp-content/uploads/2022/09/Ed-Hawkins-Climate-Spiral.png' alt='' width='406' height='413' srcset='https://www.youngontop.com/wp-content/uploads/2022/09/Ed-Hawkins-Climate-Spiral.png 539w, https://www.youngontop.com/wp-content/uploads/2022/09/Ed-Hawkins-Climate-Spiral-510x519.png 510w, https://www.youngontop.com/wp-content/uploads/2022/09/Ed-Hawkins-Climate-Spiral-50x50.png 50w' sizes='(max-width: 406px) 100vw, 406px' /></p><br/><p>Pemanasan global adalah salah satu bagian dari perubahan iklim, yang merujuk pada kenaikan suhu planet dalam jangka panjang. Hal ini utamanya disebabkan oleh aktivitas manusia seperti pembakaran fosil, pertanian, efek rumah kaca, sisa makanan, sampah plastik, penebangan hutan, dan Revolusi Industri. Kenaikan suhu bumi dapat menyebabkan naiknya permukaan laut, cuaca ekstrim, punahnya habitat di laut dan darat, hingga wabah penyakit menular. Diperkirakan, negara dan masyarakat miskin dengan kemampuan yang terbatas untuk beradaptasi akan menderita secara tidak proporsional.</p><br/><p>Untuk keluar dari situasi ini diperlukan adanya suatu Kepemimpinan. Indonesia yang digadang-gadang menjadi negara maju pada tahun 2045 akan genap berumur 100 tahun dan mendapatkan bonus demografi yang dapat membawa Indonesia menjadi lebih baik termasuk dalam sektor lingkungan hidup. Hal ini ditandai dengan adanya komitmen pada Pilar 2.8 tentang penurunan emisi melalui pengembangan EBT, perlindungan hutan dan lahan gambut, peningkatan produktivitas lahan, dan penanganan limbah terpadu. Komitmen ini merupakan niat baik dari Pemimpin Bangsa guna mempersiapkan “landasan” yang kokoh bagi generasi yang akan datang.</p><br/><p>Bagaimanapun juga, ada beberapa hal yang perlu diperhatikan. Untuk mencapai komitmen ini diperlukan kerja nyata di semua unsur kolaborasi Indonesia, yaitu akademisi, kalangan bisnis, komunitas, pemerintahan, maupun media (<em>penta helix</em>). Hal ini dapat berupa adanya kemitraan antar unsur seperti peningkatan kapasitas, kampanye peduli lingkungan, maupun pengambilan kebijakan yang berpihak pada kelestarian alam &amp; lingkungan. Masyarakat perlu diedukasi mengenai hal-hal kecil yang biasa dilakukan sehari-hari dapat menjadi salah satu penyebab terjadinya perubahan iklim, termasuk pemanasan global. Bisnis dapat menerapkan konsep <em>green marketing</em> yang dapat menjaga kelestarian lingkungan &amp; menarik minat generasi muda.</p><br/><p><img loading='lazy' class='size-medium wp-image-454083 aligncenter' src='https://www.youngontop.com/wp-content/uploads/2022/09/Indonesia-Emas-2045-600x357.jpg' alt='' width='600' height='357' srcset='https://www.youngontop.com/wp-content/uploads/2022/09/Indonesia-Emas-2045-600x357.jpg 600w, https://www.youngontop.com/wp-content/uploads/2022/09/Indonesia-Emas-2045-768x457.jpg 768w, https://www.youngontop.com/wp-content/uploads/2022/09/Indonesia-Emas-2045-510x303.jpg 510w, https://www.youngontop.com/wp-content/uploads/2022/09/Indonesia-Emas-2045.jpg 1010w' sizes='(max-width: 600px) 100vw, 600px' /></p><br/><p>Konsep Keadilan Sosial perlu juga untuk diterapkan dalam menyongsong Generasi Emas 2045 yang berwawasan lingkungan. Penerapan kebijakan yang bersifat untuk meningkatkan kualitas lingkungan hidup perlu ditata sedemikian rupa agar tidak merugikan masyarakat maupun korporasi. Dalam Pasal 28 ayat 1 UUD 1945 menyebutkan bahwa “Setiap orang berhak hidup sejahtera lahir dan batin, bertempat tinggal dan mendapatkan lingkungan hidup yang baik dan sehat serta berhak memperoleh pelayanan kesehatan”. Pasal ini juga menyatakan dengan tegas bahwa hak ekologi (lingkungan) merupakan hak asasi dari masyarakat Indonesia. Ini tentunya menyangkut lima elemen dasar dari keadilan lingkungan yang meliputi: hak individu untuk dilindungi dari pencemaran; preferensi terhadap pencegahan pencemaran; beralihnya beban pembuktian pada mereka atau mereka yang membuang; limbah/emisi atau pada mereka yang tidak memberikan perlakuan yang berbeda, tetapi berdasarkan adanya perbedaan dampak lingkungan yang dirasakan oleh masyarakat dan bukti statistik yang menunjukkan perbedaan, dan perbedaan pembagian risiko diatasi dengan tindakan dan sumber daya yang tertarget (Bullard, 1994:10).</p><br/><p>Menuju tahun 2045 Indonesia telah memiliki banyak “bekal” untuk menjadi negara yang berperan penting dalam meningkatkan kualitas lingkungan hidup, menciptakan keadilan sosial maupun lingkungan. Peran ini tentunya tidak lepas dari generasi muda (khususnya mahasiswa) dan kaum intelektual. Perguruan tinggi sebagai tempat menuntut ilmu hendaknya dapat digunakan oleh mahasiswa untuk mengabdi kepada masyarakat dan Negara dalam menuangkan minat dan bakat yang dimiliki.</p><br/><p>&nbsp;</p>",
-    comment: [
-        {
-            comment_id: 1,
-            userName: "Jono Mustika",
-            userImg: "/team/wahyu.png",
-            userComment: "Keren banget bg",
-            date_added: "4 Oktober 2022",
-            like: 32
-        },
-        {
-            comment_id: 2,
-            userName: "Ekky Mulia",
-            userImg: "/team/ekky.jpg",
-            userComment: "hehe kereng kg",
-            date_added: "7 Oktober 2022",
-            like: 2
-        },
-    ]
-},
-
 ]
