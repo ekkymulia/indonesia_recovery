@@ -9,9 +9,14 @@ import { Artikel } from "../../../data/artikel";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const NewsArticle = () => {
+const NewsArticlePrint = () => {
     const router = useRouter();
     const { slug } = router.query
+    const count = 0;
+
+    componentDidMount()(
+        window.print()
+    )
 
     return (
 
@@ -91,38 +96,15 @@ const NewsArticle = () => {
                             <div className="mt-6 mb-8">
                                 <Image src={`/images/others/${artikel.imgLink}`} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="cover"/>
                             </div>
-
-                        </div>
-                        <div className="px-8 lg:px-20">
+                            <div className="px-8 lg:px-20">
                             <div className="my-1">
                                 <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
                                 </article>
                             </div>
                 
-                            <div className="grid grid-flow-col place-content-between my-12">
-                                <div className="grid grid-flow-col gap-x-5 place-items-center">
-                                    <StarGray/>
-                                    <span className="text-gray-400 text-xl -ml-3 mt-1"></span>
-                                </div>
-                                <div className="grid grid-flow-col gap-x-3">
-                                    <ShareIcon />
-                                    <DownloadIcon/>
-                                </div>
-                            </div>
-                            <h4 className="text-lg font-semibold">Comments ({artikel.comment.length})</h4>
-                
-                            <div className="relative">
-                                <input
-                                type="text"
-                                className="w-full focus:outline-none focus:border-red-400 focus:border-[2px] p-4 pr-12 border border-gray-200 text-sm bg-white rounded-lg mt-2" 
-                                placeholder="What do you think..."
-                                />
-                            </div>
-                            <Comment comments={artikel.comment}/>
                         </div>
-                
-                           
-                        
+
+                        </div>
                     </>  
                 ))
             }
@@ -131,4 +113,4 @@ const NewsArticle = () => {
     );
 };
 
-export default NewsArticle;
+export default NewsArticlePrint;

@@ -22,12 +22,14 @@ const Fmita = ( props ) => {
                     // If two elements have different like, then the one who has larger like wins
                     return b.like - a.like;
                   }
-                }).map((news => (
-                    <TrendingNewsComponent tag="" title={news.judul}
-                    desc={news.desc}
-                    imgLink={news.imgLink} date={news.date_posted} minutes={news.read_time} rating={news.like} to={news.slug}/>
+                }).map((news, key) => (
+                    key < 3 ? (
+                      <TrendingNewsComponent tag="" title={news.judul}
+                      desc={news.desc}
+                      imgLink={news.imgLink} date={news.date_posted} minutes={news.read_time} rating={news.like} to={news.slug}/>
+                    ) : (<></>)
                 )
-              ))
+              )
           }
           </div>
           <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">

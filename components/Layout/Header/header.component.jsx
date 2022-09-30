@@ -26,7 +26,11 @@ const Header = () => {
             {
                 router.pathname == '/news/[slug]' ? (
                     <Navbar2/>
-                ) : (
+                ) : 
+                router.pathname == '/news/print/[slug]' ? (
+                   <> </>
+                ) :
+                (
                     <Navbar/>
                 )
             }

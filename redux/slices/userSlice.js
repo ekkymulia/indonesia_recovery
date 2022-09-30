@@ -2,19 +2,19 @@ import { createSlice } from '@reduxjs/toolkit'
 import { startTransition } from 'react'
 
 const initialState = {
-  readingList: []
+  viewedCategory: []
 }
 
-export const user = createSlice({
+export const userPreference = createSlice({
   name: 'newsHighlight',
   initialState,
   reducers: {
-    getReadingList: (state) => {
-      state.readingList
+    getViewedCategory: (state) => {
+      state.viewedCategory
     },
-    setReadingList: (state, action = []) => {
-      state.readingList = [
-        ...state.readingList,
+    setViewedCategory: (state, action = []) => {
+      state.viewedCategory = [
+        ...state.viewedCategory,
         action.payload
       ]    
     }
@@ -22,6 +22,6 @@ export const user = createSlice({
 })
 
 // Action creators are generated for each case reducer function
-export const { getReadingList, setReadingList } = user.actions
+export const { getViewedCategory, setViewedCategory } = userPreference.actions
 
-export default user.reducer
+export default userPreference.reducer

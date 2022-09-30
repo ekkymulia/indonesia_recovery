@@ -34,8 +34,4 @@ export const categoryHighlightData = [
         slug: 'socio_economics',
         text: 'Socio Economics'
     },
-    {
-        slug: 'research',
-        text: 'Research'
-    }
 ]

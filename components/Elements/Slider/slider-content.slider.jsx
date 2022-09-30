@@ -23,7 +23,6 @@ const SliderContent = (props) => {
                     </p>
                 
                     <div className="mt-4 sm:mt-8 flex md:flex-wrap md:flex-row">
-                        <CustomLinkButton to={redirect} text={redirectText} type={CUSTOM_LINK_BUTTON_TYPES.DEFAULT}/>
                     </div>
                 </div>
             </div>
