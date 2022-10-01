@@ -12,7 +12,7 @@ const PhotoCard = ({imgLink, title, desc} = props) => {
             <blockquote
             className="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg shadow-xl"
             >
-                <p className="text-md font-bold text-black">{title}</p>
+                <p className="text-md font-bold" dangerouslySetInnerHTML={{ __html: title }}></p>
                 <p className="mt-1 text-sm font-medium text-gray-500">
                     {desc}
                 </p>

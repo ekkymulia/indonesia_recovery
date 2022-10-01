@@ -31,7 +31,7 @@ const Slider = () => {
                 redirect="/news/asd" redirectText="Start Reading"
                 bgImgUrl={bgImgSlider} />
 
-            <div className="absolute bottom-8 right-0 mr-8 max-height-64 ">
+            <div className="absolute bottom-8 lg:bottom-40 2xl:bottom-8 right-0 mr-8 max-height-64 ">
                 {
                     temp_img.map((item, key) => {
                         return key == slideNav ? (
