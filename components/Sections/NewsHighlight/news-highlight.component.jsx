@@ -31,7 +31,7 @@ const NewsHighlight = ({ClassName} = props) => {
 
 
     return (
-        <div className={`grid grid-cols-12 ${ClassName}`}>
+        <div className={`grid grid-cols-12 z-10 ${ClassName}`}>
             <div className="hidden lg:block col-span-12 lg:col-span-4">
                 <ul className=" space-y-3">
 

@@ -8,16 +8,17 @@ export default function Home() {
   return (
     <Layout>
       
-      <div>
+      <div className='relative'>
         <div
-        className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
+        className="overflow-hidden bg-center bg-no-repeat bg-cover relative z-0"
         >
         <Slider/>
     
         </div>
-        
+        <div className='relative z-10 bg-white'>
         <NewsHighlight ClassName="p-8 md:p-12 lg:px-20 lg:pt-24 lg:pb-16"/>
         <MostViewed ClassName="p-8 mb-12 md:p-12 lg:px-20 lg:pb-20"/>
+        </div>
       </div>
 
 

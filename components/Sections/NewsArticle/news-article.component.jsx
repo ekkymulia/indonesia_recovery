@@ -80,7 +80,7 @@ const NewsArticle = () => {
                             </div>
                 
                             <div className="my-1">
-                                <h3 className="text-black font-bold text-lg lg:text-3xl mt-6 mb-8 ">{artikel.judul}</h3>
+                                <h3 className="text-black font-bold text-lg lg:text-3xl mt-6 mb-8 sticky top-0 ">{artikel.judul}</h3>
                                 <div className="mt-6 mb-8">
                                     <span className="text-gray-600">{artikel.writer} | </span>
                                     <span className="text-gray-600">{artikel.date_posted} | </span>  

@@ -19,7 +19,7 @@ const MostViewed = ({ClassName} = props) => {
 
     return (
         <div className={` ${ClassName}`}>
-            <div className="col-span-12 grid grid-cols-12 pb-3 border-b-4 border-red-500">
+            <div className="col-span-12 grid grid-cols-12 pb-3 border-b-4 border-red-500 ">
                 <ul className="hidden lg:block col-span-12 place-content-around space-y-1 lg:space-y-0 lg:flex "> 
                     
                     {
