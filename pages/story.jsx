@@ -55,7 +55,7 @@ export default function Story() {
           </div>
         </section>
         </div>
-        <section className="lg:mb-64 lg:mt-64">
+        <section className="mb-32 lg:mb-64 lg:mt-64">
           <div className="px-4 py-20 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
             <div className="">
               <div
@@ -69,14 +69,14 @@ export default function Story() {
               </div>
 
               <div className="mt-5">
-                <p className="text-lg text-center w-full">
-                Indonesia Recovery is  a <span className="font-semibold">web design project for the Indonesian Vocational Olympiad (OLIVIA 2022) </span> in a form of <br></br> a news portal aggregator website that provides information about the rise of new enthusiasm after the COVID-19<br></br> pandemic by spreading positive news and relating to digital transformation in Indonesia.
+                <p className="text-lg text-justify lg:text-center w-full">
+                Indonesia Recovery is  a <span className="font-semibold">web design project for the Indonesian Vocational Olympiad (OLIVIA 2022) </span> in a form of a news portal aggregator website that provides information about the rise of new enthusiasm after the COVID-19 pandemic by spreading positive news and relating to digital transformation in Indonesia.
                 </p>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-gradient-to-r from-red-100">
+        <section className="bg-gradient-to-r from-red-100 to-white">
         <div className="px-4 py-20 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2">
           <div className="col-span-1">
@@ -86,15 +86,15 @@ export default function Story() {
                 </div>
                 <h1>Not an ordinary <br></br>
                 <span className="font-bold">News Media</span></h1>
-                <p className="font-reguler text-sm lg:text-lg md:text-lg mt-5">
-                  Indonesia Recovery provide an innovative and update news from Sabang to Merauke in order to give a full impact towards Indonesia's Community.
+                <p className="font-reguler text-lg mt-5">
+                  Indonesia Recovery provide an innovative and updated news from Sabang to Merauke in order to give a full impact towards Indonesia's Community.
                 </p>
             </div>
             </div>
           </div>
           <div className="space-y-5 mt-8">
 
-                  <div className="border py-5 px-5 rounded-lg shadow-lg">
+                  <div className="py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
                         <img src={"/images/others/lamputangan.png"} className="lg:ml-5" />
@@ -103,12 +103,12 @@ export default function Story() {
                         <h1 className="text-lg font-semibold">Improving <br></br> Knowledge</h1>
                       </div>
                       <div>
-                        <h1 className="w-full text-md">Take advantage of existing innovation to improve the quality of their knowledge and helps to generate new ideas</h1>
+                        <h1 className="w-full text-base">Take advantage of existing innovation to improve the quality of their knowledge and helps to generate new ideas</h1>
                       </div>
                     </div>
                   </div>
 
-                  <div className="border py-5 px-5 rounded-lg shadow-lg">
+                  <div className=" py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
                         <img src={"/images/others/listrikcepat.png"} className="lg:ml-5" />
@@ -117,12 +117,12 @@ export default function Story() {
                         <h1 className="text-lg font-semibold">Accelerate<br></br> Transformation</h1>
                       </div>
                       <div>
-                        <h1 className="w-full text-md ">Create a new innovative way to solve daily issues and fasten the public improvement.</h1>
+                        <h1 className="w-full text-base">Create a new innovative way to solve daily issues and fasten the public improvement.</h1>
                       </div>
                     </div>
                   </div>
 
-                  <div className="border py-5 px-5 rounded-lg shadow-lg">
+                  <div className=" py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
                         <img src={"/images/others/stats.png"} className="lg:ml-5" />
@@ -131,7 +131,7 @@ export default function Story() {
                         <h1 className="text-lg font-semibold">Increased<br></br>  Competitiveness </h1>
                       </div>
                       <div>
-                        <h1 className="w-full text-md ">Innovation is the key to face the world challenges and increase the value of our beloved country.</h1>
+                        <h1 className="w-full text-base">Innovation is the key to face the world challenges and increase the value of our beloved country.</h1>
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,8 @@ export default function Story() {
           </div>
         </div>
         </section>
-        <section className="bg-gray-100">
+
+        <section className="bg-white">
          
           <div className="px-4 py-10 mx-auto max-w-screen-xl sm:px-6 lg:px-8 sm:py-10">
             <div className="max-w-xl mx-auto text-center">
@@ -158,7 +159,7 @@ export default function Story() {
               className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-1 lg:grid-cols-5 sm:gap-5 ml-5 mr-5"
           >
               <PhotoCard imgLink="/ekky.jpg" title="Ekky Mulia Lasardi" desc="Developer"/>
-              <PhotoCard imgLink="thoriq.jpg" title="Mochammad Fadiil Thoriq" desc="Developer"/>
+              <PhotoCard imgLink="/thoriq.jpg" title="Mochammad Fadiil Thoriq" desc="Developer"/>
               <PhotoCard imgLink="/aulia.jpg" title="Nurrizkyta Aulia Hanifah" desc="UI/UX Designer"/>
               <PhotoCard imgLink="/wahyu.png" title="Wahyu Mustika Aji" desc="Documenter"/>
               <PhotoCard imgLink="/gema.png" title="Gema Parasti Mindara" desc="Supervisor"/>
@@ -166,6 +167,75 @@ export default function Story() {
           </div>
          
         </section>
+
+    <section className="mt-32 mb-32 lg:mb-0 lg:mt-0">
+      <div className="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2">
+          <div className="col-span-1">
+            <div className="text-3xl lg:text-3xl md:text-3xl font-reguler">
+              <div className="lg:mt-64 lg:mb-64 pr-20">
+                  <div className="border-b-[5px] border-red-500 w-36 mb-5">
+                  </div>
+                  <h1>Find your daily<br></br>
+                  <span className="font-bold">Up to Date News</span></h1>
+                  <div className="space-y-3 mt-10">
+                      <div className="flex mt-6">
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <p className="font-semibold text-base ml-3"> Get inspired daily!</p>
+                      </div>
+                      <div className="flex">
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <p className="font-semibold text-base ml-3"> Build up your future!</p>
+                      </div>
+                      <div className="flex">
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <p className="font-semibold text-base ml-3"> No more stuck! We deliver everyday brand new ideas!</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div className="space-y-5 mt-20 lg:mt-64 lg:mb-64 lg:pr-20">
+
+            <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
+              <div className="lg:col-span-1 col-span-2">
+                <div className="border border-red-500 px-5 py-5 rounded-lg">
+                  <h1 className="text-gray-400">Socio-Economics</h1>
+                </div>
+              </div>
+              <div className="lg:col-span-1 col-span-2">
+                <div className="border border-red-500  px-5 py-5 rounded-lg">
+                  <h1 className="text-gray-400">Health</h1>
+                </div>
+              </div>
+            </div>
+            
+            <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
+              <div className="lg:col-span-1 col-span-2">
+                <div className="border border-red-500  px-5 py-5 rounded-lg">
+                  <h1 className="text-gray-400">Tech Engineering</h1>
+                </div>
+              </div>
+              <div className="lg:col-span-1 col-span-2">
+                <div className="border border-red-500  px-5 py-5 rounded-lg">
+                  <h1 className="text-gray-400">Environment</h1>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
+              <div className="col-span-2">
+                <div className="border border-red-500  px-5 py-5 rounded-lg">
+                  <h1 className="text-gray-400">Education & Innovation</h1>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
    
     </Layout>

@@ -10,7 +10,7 @@ const NewsCard = ({newsData} = props) => {
                 <Image src={`/images/others/${imgLink}`} width="400%" height="235%" />
             </div>
             <div className="col-span-12 lg:col-span-5 grid grid-cols-4 grid-flow-row place-content-start mt-2 lg:mt-0">
-                <div className="border-t-8 border-xl border-red-500 col-span-1 mb-3"></div>
+                <div className="border-t-8 border-xl border-red-500 col-span-1 mb-3 rounded-lg"></div>
                 <div className="col-span-4">
                     <h4 className="font-semibold text-lg">{judul}</h4>
                     <p className="mt-2 font-light text-sm text-gray-900">{desc}</p>

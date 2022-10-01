@@ -53,7 +53,7 @@ export const Artikel = [
     writer: "Dian Ihsan",
     source: "Kompas.com",
     sourceLink: "https://www.kompas.com/edu/read/2022/09/22/213229471/orangtua-ini-4-cara-pilih-baju-anak-agar-tidak-sensitif-dengan-kulit",
-    article: "</br><strong>KOMPAS.com -</strong> Ragam merek <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang menawarkan model stylish dan fashionable memang menarik untuk dibeli. Namun ternyata memilih baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> ternyata tidak bisa sembarangan, apalagi yang digunakan untuk <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/sekolah' style='color:#428bca;'>sekolah</a>.Berbeda dengan orang dewasa, anak kecil biasanya memiliki kulit yang lebih sensitif dan reaktif terhadap beberapa bahan.</br>Tak jarang, anak merasa gatal dan rewel karena label pakaian yang mengganggu.</br>Karena itu, memilih baju anak juga perlu mempertimbangkan faktor kenyamanan dan keamanan bagi anak.</br>Menanggapi hal tersebut, lulusan S1 Ekonomi dari Shanghai University of Finance and Economy dan pelaku industri fashion, Alvin memberikan 4 tips memilih baju yang ramah untuk anak.</br></br><h2><strong>1. Bahan yang nyaman sesuai iklim lokal</strong></h2></br>Pada usia eksploratif, anak memiliki aktivitas tinggi yang mengharuskan mereka bergerak dan berkeringat.</br>Karena itu, bahan baju yang tepat sangat penting untuk diperhatikan.</br>Pilih baju yang memiliki bahan lembut, adem, dan mudah menyerap keringat.</br>'Kualitas ini bisa didapat dari baju anak yang terbuat dari bahan 100 persen katun,' kata dia dalam keterangannya, Kamis (22/9/2022).</br>Bahan 100 perse katun, kata dia, dinilai paling nyaman untuk dikenakan di iklim yang panas dan lembab seperti Indonesia.</br>Sayangnya, banyak brand <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/baju-anak' style='color:#428bca;'>baju anak</a> yang masih menggunakan bahan campuran polyester. Berbeda dengan baju <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/anak' style='color:#428bca;'>anak</a> dengan bahan 100 persen katun, baju anak dengan campuran polyester yang cenderung gerah, tidak menyerap keringat, dan kurang nyaman ketika dipakai.</br>Karena itu, <a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>orangtua</a> perlu hati-hati agar tak salah pilih bahan baju anak, salah satunya Little Warren yang merupakan adalah brand lokal yang menawarkan baju anak dengan bahan 100 persen katun.</br>'Kami sangat <em>concern</em> akan bahan yang kita pakai, karena akan sangat penting untuk kenyamanan sang anak. Saking nyamannya bahkan sampai ada customer kami bercerita kalau anaknya sampai tidak mau melepas baju polo kami padahal sudah dipakai lama,' ucap dia.<h2><strong></br>2. Model yang memudahkan orangtua</strong></h2></br><a target='_self' class='inner-link-tag' href='https://www.kompas.com/tag/orangtua' style='color:#428bca;'>Orangtua</a> juga perlu mempertimbangkan model baju anak yang <em>stylish</em>, tapi tidak berlebihan.</br>Model yang bersifat timeless dan elegan seperti denim, chino, <em>t-shirt</em>, serta polo <em>shirt</em> bisa jadi pilihan.</br><strong>Baca juga: <a href='https://www.kompas.com/edu/read/2022/09/16/071600271/kasus-santri-tewas-ada-kesalahpahaman-antara-ponpes-gontor-dan-keluarga' class='inner-link-baca-juga' target='_self'>Kasus Santri Tewas, Ada Kesalahpahaman antara Ponpes Gontor dan Keluarga</a></strong></br>Memilih model baju polo shirt juga bisa memberikan keunggulan bagi orangtua yang memiliki anak aktif.</br>Model kancing depan memudahkan orangtua untuk memasang serta melepaskan baju anak.</br>Selain model baju anak, orangtua juga bisa memilih baju anak yang memiliki banyak pilihan warna menarik untuk dikombinasikan.",
+    article: "</br><strong>KOMPAS.com -</strong> Ragam merek baju anak yang menawarkan model stylish dan fashionable memang menarik untuk dibeli. Namun ternyata memilih baju anak ternyata tidak bisa sembarangan, apalagi yang digunakan untuk sekolah. Berbeda dengan orang dewasa, anak kecil biasanya memiliki kulit yang lebih sensitif dan reaktif terhadap beberapa bahan. Tak jarang, anak merasa gatal dan rewel karena label pakaian yang mengganggu. Karena itu, memilih baju anak juga perlu mempertimbangkan faktor kenyamanan dan keamanan bagi anak. </br></br>Menanggapi hal tersebut, lulusan S1 Ekonomi dari Shanghai University of Finance and Economy dan pelaku industri fashion, Alvin memberikan 4 tips memilih baju yang ramah untuk anak.</br></br><h2><strong>1. Bahan yang nyaman sesuai iklim lokal</strong></h2></br>Pada usia eksploratif, anak memiliki aktivitas tinggi yang mengharuskan mereka bergerak dan berkeringat. Karena itu, bahan baju yang tepat sangat penting untuk diperhatikan.</br>Pilih baju yang memiliki bahan lembut, adem, dan mudah menyerap keringat.</br>'Kualitas ini bisa didapat dari baju anak yang terbuat dari bahan 100 persen katun,' kata dia dalam keterangannya, Kamis (22/9/2022). Bahan 100 perse katun, kata dia, dinilai paling nyaman untuk dikenakan di iklim yang panas dan lembab seperti Indonesia.</br></br>Sayangnya, banyak brand baju anak yang masih menggunakan bahan campuran polyester. Berbeda dengan baju anak dengan bahan 100 persen katun, baju anak dengan campuran polyester yang cenderung gerah, tidak menyerap keringat, dan kurang nyaman ketika dipakai.</br></br>Karena itu, orangtua perlu hati-hati agar tak salah pilih bahan baju anak, salah satunya Little Warren yang merupakan adalah brand lokal yang menawarkan baju anak dengan bahan 100 persen katun.</br>'Kami sangat <em>concern</em> akan bahan yang kita pakai, karena akan sangat penting untuk kenyamanan sang anak. Saking nyamannya bahkan sampai ada customer kami bercerita kalau anaknya sampai tidak mau melepas baju polo kami padahal sudah dipakai lama,' ucap dia.<h2><strong></br>2. Model yang memudahkan orangtua</strong></h2></br>Orangtua juga perlu mempertimbangkan model baju anak yang <em>stylish</em>, tapi tidak berlebihan.</br>Model yang bersifat timeless dan elegan seperti denim, chino, <em>t-shirt</em>, serta polo <em>shirt</em> bisa jadi pilihan.</br></br>Selain model baju anak, orangtua juga bisa memilih baju anak yang memiliki banyak pilihan warna menarik untuk dikombinasikan.",
     comment: [
         {
             comment_id: 1,
@@ -101,8 +101,16 @@ export const Artikel = [
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
             userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            date_added: "07 September 2022",
             like: 2
+        },
+        {
+            comment_id: 3,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Beritanya sangat inovatif.",
+            date_added: "12 September 2022",
+            like: 32
         },
     ]
 },
@@ -133,9 +141,17 @@ export const Artikel = [
             comment_id: 2,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            userComment: "Artikel sangat membantu.",
+            date_added: "07 September 2022",
             like: 2
+        },
+        {
+            comment_id: 1,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Beritanya sangat inovatif.",
+            date_added: "12 September 2022",
+            like: 32
         },
     ]
 },
@@ -174,8 +190,8 @@ export const Artikel = [
             comment_id: 3,
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
-            userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            userComment: "Keren.",
+            date_added: "07 September 2022",
             like: 2
         },
     ]
@@ -211,6 +227,14 @@ export const Artikel = [
             date_added: "4 Oktober 2022",
             like: 32
         },
+        {
+            comment_id: 1,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Beritanya sangat inovatif.",
+            date_added: "12 September 2022",
+            like: 32
+        },
     ]
 },
 {
@@ -243,6 +267,14 @@ export const Artikel = [
             userComment: "Artikel ini sangat bagus.",
             date_added: "23 September 2022",
             like: 32
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
         },
     ]
 },
@@ -277,6 +309,14 @@ export const Artikel = [
             date_added: "22 September 2022",
             like: 2
         },
+        {
+            comment_id: 3,
+            userName: "Ekky Mulia",
+            userImg: "/team/ekky.jpg",
+            userComment: "Keren.",
+            date_added: "07 September 2022",
+            like: 2
+        },
     ]
 },
 {
@@ -291,7 +331,7 @@ export const Artikel = [
     imgLink: "studium-generale-itb-kondisi-perekonomian-indonesia-setelah-pandemi-covid-19.jpg",
     writer: "Adi Permana",
     source: "itb.ac.id",
-    sourceLink: "https://www.kompasiana.com/salsasigit/6329f7cc4addee531414b0e7/pengaruh-covid-19-terhadap-perkembangan-kesehatan-mental-anak-anak-dan-remaja",
+    sourceLink: "https://www.itb.ac.id/berita/detail/58446/studium-generale-itb-kondisi-perekonomian-indonesia-setelah-pandemi-covid-19",
     article: "<b>BANDUNG, itb.ac.id</b> - Pada Rabu (23/2/2022), Institut Teknologi Bandung (ITB) kembali menyelenggarakan Studium Generale KU 4078. Kegiatan SG kali ini membahas tentang Perekonomian Indonesia Pasca-Pandemi COVID-19: Hijau, Digital, Inklusif, dan Berkelanjutan. Acara tersebut menghadirkan Teguh Dartanto, Ph.D., Dekan Fakultas Ekonomi dan Bisnis Universitas Indonesia (FEB UI).</br></br>Mengawali pemaparannya, ia bertanya kepada para peserta tentang bagaimana perekonomian Indonesia ke depannya. Tentu saja keadaan ekonomi Indonesia telah terdampak oleh pandemi yang berlangsung selama dua tahun terakhir. Pandemi menyebabkan berbagai penurunan dalam sektor ekonomi yang merupakan konsekuensi dari pembatasan sosial. Munculah pertanyaan di benak kita, bagaimanakah cara kita untuk mengembalikan kondisi ekonomi kita?</br></br>Teguh menjelaskan terdapat tiga hal pokok yang dibatasi pada hari ini, yakni keadaan sebelum, saat, dan sesudah pandemi. Sebelum pandemi terjadi, terdapat tiga tantangan yang selalu menjadi perbincangan, yakni rendahnya daya saing ekonomi dalam lingkup ASEAN yang disebabkan oleh rendahnya produktivitas pekerja Indonesia. Dua faktor lainnya terdiri dari perbandingan kebutuhan modal untuk produksi di Indonesia lebih tinggi jika dibandingkan dengan negara lain dan rendahnya kepastian hukum.</br></br>Dalam lingkup global, daya saing Indonesia memiliki satu isu utama, yakni pendidikan dasar dan kesehatan. Kedua hal tersebut seharusnya dibedakan antara sekolah dan belajar dan ada pembahasan khusus pada masing-masing poin tersebut. Hal ini bertujuan agar anak-anak Indonesia bisa belajar untuk bisa bersekolah. “Saat ini banyak anak Indonesia yang bersekolah, namun belum bisa belajar,” ujar Dekan FEB UI tersebut. Selanjutnya hal yang diperlukan adalah efisiensi tenaga kerja yang relatif tidak produktif dan siap menyambut teknologi. ",
     comment: [
         {
@@ -348,14 +388,22 @@ export const Artikel = [
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
             userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            date_added: "07 September 2022",
+            like: 2
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
         },
     ]
 },
 {
     id: 11,
-    judul: "Transformasi Digital dan Peluang Pasca Pandemi",
+    judul: "",
     slug: "transformasi-digital-dan-peluang-pasca-pandemi",
     category_slug: "technology_updates",
     desc: "Indonesia merupakan salah satu negara yang mengalami krisis dimasa pandemi .. ",
@@ -447,7 +495,7 @@ export const Artikel = [
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
             userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            date_added: "07 September 2022",
             like: 2
         },
     ]
@@ -480,7 +528,7 @@ export const Artikel = [
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
             userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            date_added: "07 September 2022",
             like: 2
         },
     ]
@@ -513,7 +561,205 @@ export const Artikel = [
             userName: "Ekky Mulia",
             userImg: "/team/ekky.jpg",
             userComment: "Mantapp.",
-            date_added: "7 Oktober 2022",
+            date_added: "07 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 16,
+    judul: "Pemanfaatan Teknologi Artificial Intelligence dalam Transformasi Digital Kesehatan",
+    slug: "pemanfaatan-teknologi-ai-transformasi-digital-kesehatan",
+    category_slug: "technology_updates",
+    desc: "Kementerian Kesehatan berikan informasi kondisi dan tantangan data serta sistem informasi kesehatan di Indonesia yakni terdapat lebih...",
+    date_posted: "21 Juli 2022",
+    read_time:"7",
+    like: "4",
+    imgLink: "pemanfaatan-teknologi-ai-transformasi-digital-kesehatan.jpg",
+    writer: "Renaldo Susilo",
+    source: "cloudcomputing.id",
+    sourceLink: "https://www.cloudcomputing.id/berita/pemanfaatan-teknologi-ai-transformasi-digital-kesehatan",
+    article: "Kementerian Kesehatan berikan informasi kondisi dan tantangan data serta sistem informasi kesehatan di Indonesia yakni terdapat lebih dari 400 aplikasi kesehatan pemerintah yang belum saling terintegrasi, beberapa data yang sama dikumpulkan dengan aplikasi yang berbeda.  Kondisi dan tantangan lainnya adalah aplikasi milik developer health information system belum terintegrasi dengan ekosistem layanan kesehatan Indonesia, ketidakseragaman metadata menyebabkan interoperabilitas sulit dilakukan, dan tidak adanya standar format interoperabilitas sehingga integrasi dilakukan berbeda antar aplikasi.</br></br>  'Di masa COVID-19, tantangan kapasitas kesehatan kita sangat diuji karena dokter dan tempat tidur sangat kekurangan dan memerlukan penambahan kapasitas yang luar biasa. Apabila dilihat dari standar WHO, 1 dokter seharusnya seribu populasi namun di Indonesia baru 0,4 dan masih jauh tertinggal dengan negara lain,' ujar Chief DTO Kementerian Kesehatan, Setiaji dalam paparannya pada Cloud Computing Developer Conference 2022 Webinar 'Big Data & AI: From Insight to Automation', Rabu (20/7).</br></br>  Oleh karena itu, pemanfaatan teknologi informasi tentunya sangat diperlukan dalam membantu kendala kapasitas kesehatan terutama rasio dokter yang masih kurang dari standar WHO.  Kementerian Kesehatan telah menyediakan telemedisin yang dapat digunakan oleh masyarakat sehingga tidak perlu ke rumah sakit untuk mendapatkan layanan kesehatan dan juga dengan telemedisin, masyarakat bisa mendapatkan obat secara gratis.</br></br>  Tersedianya beragam teknologi saat ini dapat menjadi aset strategis dalam mewujudkan transformasi digital di bidang kesehatan terutama dalam menangani berbagai macam masalah kesehatan di Indonesia, misalnya dengan pemanfaatan Big Data, Artificial Intelligence, Internet of Things, hingga Machine Learning.  'Dengan adanya teknologi ini dapat kita manfaatkan secara gratis. Sesuai dengan tema pada webinar kali ini pada pemanfaatan IoT waearable device tengah disematkan pada jemaah haji untuk melakukan pengobatan yang lebih cepat,' tutur Setiaji.  Pemanfaatan Artificial Intelligence (AI) di bidang kesehatan diimplementasikan dalam pemeriksaan kesehatan yang meliputi peningkatan akurasi diagnosis dan prognosis, pengoptimalan proses di rumah sakit. Deteksi otomatis kelainan pada digital imaging atau pencitraan digital, serta menemukan pengetahuan media baru.</br></br>  Setiaji juga memaparkan beberapa contoh potensi penerapan AI di kesehatan yakni seperti chatbot pasien. Pasien dapat menginformasikan gejalan, AI melakukan triage apakah pasien perlu ke dokter. Jika perlu, AI akan merekomendasikan jadwal dokter sesuai kompetensi.</br></br>  Contoh penerapan AI lainnya adalah face mask detection, AI pada kamera akan mendeteksi wajah, penggunaan masker dan suhu tubuh. Early Discharge Planning, AI memprediksi proses dan hambatan menuju discharge, optimasi proses ICU stepdown, mengurangi LOS. Optimalisasi kamar operasi (OK) dengan meningkatkan ketersediaan OK dengan menghitung skor ketersediaan waktu dengan riwayat tindakan dokter bedah.</br></br>  'Contoh penerapan AI yang terakhir adalah deteksi kanker pada citra medis. AI akan mendeteksi densitas soft tissue dan klasifikasi dari mamografi. Area yang dicurigai akan ditandai memiliki skor tinggi sebagai klasifikasi,' ungkap Setiaji.   ",
+    comment: [
+        {
+            comment_id: 1,
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
+            date_added: "4 Oktober 2022",
+            like: 32
+        },
+        {
+            comment_id: 2,
+            userName: "Ekky Mulia",
+            userImg: "/team/ekky.jpg",
+            userComment: "Mantapp.",
+            date_added: "07 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 17,
+    judul: "Bupati Ajak Masyarakat Bangkit Pasca Pandemi",
+    slug: "bupati-ajak-masyarakat-bangkit-pasca-pandemi",
+    category_slug: "highlight_news",
+    desc: "Dijelaskan Imron, tema Peringatan HUT ke-77 Kemerdekaan Republik Indonesia tahun 2022 ini, yaitu 'Pulih lebih cepat, bangkit lebih kuat' merupakan sebuah...",
+    date_posted: "17 Agustus 2022",
+    read_time:"7",
+    like: "4",
+    imgLink: "bupati-ajak-masyarakat-bangkit-pasca-pandemi.jpg",
+    writer: "Kreator Publikasi",
+    source: "cirebonkab.go.id",
+    sourceLink: "https://www.cirebonkab.go.id/news/2022/08/bupati-ajak-masyarakat-bangkit-pasca-pandemi",
+    article: "Kementerian Kesehatan berikan informasi kondisi dan tantangan data serta sistem informasi kesehatan di Indonesia yakni terdapat lebih dari 400 aplikasi kesehatan pemerintah yang belum saling terintegrasi, beberapa data yang sama dikumpulkan dengan aplikasi yang berbeda.  Kondisi dan tantangan lainnya adalah aplikasi milik developer health information system belum terintegrasi dengan ekosistem layanan kesehatan Indonesia, ketidakseragaman metadata menyebabkan interoperabilitas sulit dilakukan, dan tidak adanya standar format interoperabilitas sehingga integrasi dilakukan berbeda antar aplikasi.</br></br>  'Di masa COVID-19, tantangan kapasitas kesehatan kita sangat diuji karena dokter dan tempat tidur sangat kekurangan dan memerlukan penambahan kapasitas yang luar biasa. Apabila dilihat dari standar WHO, 1 dokter seharusnya seribu populasi namun di Indonesia baru 0,4 dan masih jauh tertinggal dengan negara lain,' ujar Chief DTO Kementerian Kesehatan, Setiaji dalam paparannya pada Cloud Computing Developer Conference 2022 Webinar 'Big Data & AI: From Insight to Automation', Rabu (20/7).</br></br>  Oleh karena itu, pemanfaatan teknologi informasi tentunya sangat diperlukan dalam membantu kendala kapasitas kesehatan terutama rasio dokter yang masih kurang dari standar WHO.  Kementerian Kesehatan telah menyediakan telemedisin yang dapat digunakan oleh masyarakat sehingga tidak perlu ke rumah sakit untuk mendapatkan layanan kesehatan dan juga dengan telemedisin, masyarakat bisa mendapatkan obat secara gratis.</br></br>  Tersedianya beragam teknologi saat ini dapat menjadi aset strategis dalam mewujudkan transformasi digital di bidang kesehatan terutama dalam menangani berbagai macam masalah kesehatan di Indonesia, misalnya dengan pemanfaatan Big Data, Artificial Intelligence, Internet of Things, hingga Machine Learning.  'Dengan adanya teknologi ini dapat kita manfaatkan secara gratis. Sesuai dengan tema pada webinar kali ini pada pemanfaatan IoT waearable device tengah disematkan pada jemaah haji untuk melakukan pengobatan yang lebih cepat,' tutur Setiaji.  Pemanfaatan Artificial Intelligence (AI) di bidang kesehatan diimplementasikan dalam pemeriksaan kesehatan yang meliputi peningkatan akurasi diagnosis dan prognosis, pengoptimalan proses di rumah sakit. Deteksi otomatis kelainan pada digital imaging atau pencitraan digital, serta menemukan pengetahuan media baru.</br></br>  Setiaji juga memaparkan beberapa contoh potensi penerapan AI di kesehatan yakni seperti chatbot pasien. Pasien dapat menginformasikan gejalan, AI melakukan triage apakah pasien perlu ke dokter. Jika perlu, AI akan merekomendasikan jadwal dokter sesuai kompetensi.</br></br>  Contoh penerapan AI lainnya adalah face mask detection, AI pada kamera akan mendeteksi wajah, penggunaan masker dan suhu tubuh. Early Discharge Planning, AI memprediksi proses dan hambatan menuju discharge, optimasi proses ICU stepdown, mengurangi LOS. Optimalisasi kamar operasi (OK) dengan meningkatkan ketersediaan OK dengan menghitung skor ketersediaan waktu dengan riwayat tindakan dokter bedah.</br></br>  'Contoh penerapan AI yang terakhir adalah deteksi kanker pada citra medis. AI akan mendeteksi densitas soft tissue dan klasifikasi dari mamografi. Area yang dicurigai akan ditandai memiliki skor tinggi sebagai klasifikasi,' ungkap Setiaji.   ",
+    comment: [
+        {
+            comment_id: 1,
+            userName: "Fadiil Thoriq",
+            userImg: "/team/thoriq.jpg",
+            userComment: "Berita ini hebat.",
+            date_added: "4 Oktober 2022",
+            like: 32
+        },
+        {
+            comment_id: 2,
+            userName: "Ekky Mulia",
+            userImg: "/team/ekky.jpg",
+            userComment: "Mantapp.",
+            date_added: "07 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 18,
+    judul: "Pandemi Covid-19 Berikan Dampak Signifikan dalam Dunia Pendidikan",
+    slug: "pandemi-covid-19-berikan-dampak-signifikan-dalam-dunia-pendidikan",
+    category_slug: "education_innovation",
+    desc: "Untuk memulihkan keadaan ini, diperlukan perubahan yang sistemik. Salah satunya melalui pengembangan Kurikulum...",
+    date_posted: "20 Juli 2022",
+    read_time:"6",
+    like: "5",
+    imgLink: "pandemi-covid-19-berikan-dampak-signifikan-dalam-dunia-pendidikan.jpeg",
+    writer: "adminweb",
+    source: "kotasemarang.kemenag.go.id",
+    sourceLink: "https://kotasemarang.kemenag.go.id/berita/pandemi-covid-19-berikan-dampak-signifikan-dalam-dunia-pendidikan/",
+    article: "Semarang, Selasa (12/7/2022) Mukhlis Abdillah selaku Kepala Kantor Kementerian Agama (Kankemenag) Kota Semarang dalam sambutannya yang disampaikan pada acara Pembukaan In House Training (IHT) Implementasi Kurikulum Merdeka (IKM), yang digelar di MTsN 2 Kota Semarang, mengatakan pandemi Covid-19 memberikan dampak yang signifikan dalam dunia pendidikan.</br></br>   “Pamdemi Covid-19 yang berlangsung hampir 3 tahun terakhir, telah membawa dampak yang sangat signifikan di dunia pendidikan. Kondisi yang memperburuk krisis pembelajaran yang telah terjadi dalam waktu yang cukup lama. Pandemi Covid-19 telah memaksa kita untuk segera melakukan perubahan drastis pola pembelajaran di kelas. Pembelajaran daring, kata yang belum pernah kita siapkan sebelumnya,” tuturnya.</br></br>   “Untuk memulihkan keadaan ini, diperlukan perubahan yang sistemik. Salah satunya melalui pengembangan Kurikulum Merdeka yang bertujuan utama untuk memulihkan pembelajaran dari krisis (learning lost) yang sudah lama dialami anak-anak Indonesia,” sambungnya.</br></br>   Menurutnya, Kurikulum Merdeka dikembangkan sebagai kerangka kurikulum yang lebih fleksibel dan berfokus pada materi esensial serta pengembangan karakter profil pelajar pancasila dan profil pelajar rahmatan lil alamin dan kompetensi siswa.</br></br>   Ia juga menuturkan melalui implementasi Kurikulum Merdeka, guru memiliki fleksibilitas dan kemerdekaan yang lebih luas untuk melakukan pembelajaran berdiferensiasi sesuai kemampuan siswa dan melakukan penyesuaian dengan konteks dan muatan lokal.</br></br>   Melalui pelaksanaan IHT IKM ia berharap peserta kegiatan yang notabenenya tenaga pendidik, mampu mengupgrade kompetensi tenaga pendidik dalam menghadapi IKM di MTsN 2 Kota Semarang yang akan dimulai pada tahun pelajaran 2022/2023 dan meminimalisir tingkat kesalahpahaman terhadap pelaksanaan Kurikulum Merdeka.</br></br>   “Kurikulum Merdeka yang pada pelaksanaan pembelajarannya menjadi lebih sederhana dan mendalam diharapkan dapat semakin melejitkan potensi dan prestasi siswa MTs Negeri 2 Kota Semarang,” pungkasnya.(Himma/NBA)",
+    comment: [
+        {
+            comment_id: 2,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
+            like: 32
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 19,
+    judul: "Wow! RI Selangkah Lebih Maju untuk Penggunaan IoT di Dunia",
+    slug: "wow-ri-selangkah-lebih-maju-untuk-penggunaan-iot-di-dunia",
+    category_slug: "tech_eng",
+    desc: "Penggunaan Internet of Things (IoT) di Indonesia selangkah lebih maju. Di dunia, kancah industri ini di Indonesia terlihat begitu...",
+    date_posted: "12 April 2022",
+    read_time:"6",
+    like: "4",
+    imgLink: "wow-ri-selangkah-lebih-maju-untuk-penggunaan-iot-di-dunia.png",
+    writer: "Aisyah Kamaliah",
+    source: "inet.detik.com",
+    sourceLink: "https://inet.detik.com/cyberlife/d-6029933/wow-ri-selangkah-lebih-maju-untuk-penggunaan-iot-di-dunia",
+    article: "<b>Jakarta </b> - Penggunaan Internet of Things (IoT) di Indonesia selangkah lebih maju. Di dunia, kancah industri ini di Indonesia terlihat begitu pesat dan masif. Hal ini diterangkan oleh Teguh Prasetya, Ketua Umum Asosiasi IoT Indonesia (ASIoTI) saat acara konferensi pers 'The 4th IoT Creation', di Jakarta, Selasa (12/4/2022).</br></br>   Menurut Teguh, pertumbuhan IoT di Indonesia naik di atas 10% setiap tahunnya. Bahkan, angka ini bisa lebih tinggi jika dibandingkan secara global.  'Secara global malah lebih tinggi lagi. Report terakhir 28,6%. Namun demikian, di Indonesia masih didominasi hanya beberapa sektor,' ucapnya.  Secara penggunaan konsumen pribadi, biasanya IoT diterapkan dalam smartroom. Sementara, untuk korporasi atau bisnis, perangkat IoT dipakai untuk smartbuilding serta smartmanufacture. Dengan potensi yang besar, Teguh yakin bahwa Indonesia akan terus mengalami peningkatan dan perkembangan industri IoT.</br></br>   Meski begitu, Teguh mengatakan bahwa ada alasan yang membuat perkembangan IoT di Indonesia terhambat menjadi tidak maksimal. Menurutnya, bukan sekadar konektivitas internet yang dibutuhkan dalam mengembangkan IoT.</br></br>   Kata Teguh, koneksi dalam IoT hanya bagian kecil dari semua hal yang dibutuhkan. Sebenarnya, solusi yang dibutuhkan bisa lebih beragam. Mulai pengembangan alat, supply komponen, hingga urusan pemasaran.</br></br>  'Solusinya harus bisa menjadikan perangkat iot ini bermanfaat dan bisa dirasakan dampaknya, dengan tarif biaya yang affordable,' ujarnya.</br></br>   Salah satu survei yang dilakukan ASIoTI bersama partner, disebutkan hambatan implementasi IoT di Indonesia paling besar adalah masalah leadership, keputusan yang diambil kepala tim untuk menerapkan IoT. Kedua, adalah budgeting atau anggaran yang juga didukung ketidaksiapan untuk beradaptasi ke dunia digital.</br></br>   'Itu semua tentunya selain masalah pandemi di mana ada hambatan masalah supply sensor atau komponen elektronik, tapi itu sudah teratasi tahun ini,' tandas Teguh.)",
+    comment: [
+        {
+            comment_id: 2,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
+            like: 32
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 20,
+    judul: "Aplikasi Canggih Bisa Deteksi COVID-19 dari Suara Batuk",
+    slug: "aplikasi-canggih-bisa-deteksi-covid-19-dari-suara-batuk",
+    category_slug: "tech_eng",
+    desc: "Aplikasi kini semakin canggih untuk mendeteksi COVID-19 hanya lewat suara batuk. Prizer pun berminat...",
+    date_posted: "25 April 2022",
+    read_time:"7",
+    like: "5",
+    imgLink: "aplikasi-canggih-bisa-deteksi-covid-19-dari-suara-batuk.jpeg",
+    writer: "Fitraya Ramadhanny",
+    source: "inet.detik.com",
+    sourceLink: "https://inet.detik.com/mobile-apps/d-6049209/aplikasi-canggih-bisa-deteksi-covid-19-dari-suara-batuk",
+    article: "<b>Jakarta</b> - Aplikasi kini semakin canggih untuk mendeteksi COVID-19 hanya lewat suara batuk. Prizer pun berminat membelinya. Dilansir dari News.com Australia, Minggu (24/4/2022) start up dari Brisbane, Australia, bernama ResApp membuat aplikasi yang bisa mendeteksi COVID-19 dengan mendengarkan suara batuk. Perusahaan farmasi Pfizer pun berminat membelinya.</br></br>  ResApp mengklaim berhasil mengembangkan algoritma pada aplikasi mereka yang melampaui sensitivitas tes antigen yang dilakukan di dunia nyata. ResApp mengatakan sedang menyiapkan perizinan untuk produk mereka.</br></br>  Algoritma mereka berhasil dengan benar mendeteksi COVID-19 sebesar 92 persen dari orang yang terinfeksi. Uji coba dilakukan terhadap 741 pasien di India dan Amerika Serikat.</br></br>  Kemampuan aplikasi ini didasari hasil riset bahwa suara orang batuk mengandung informasi yang bisa mengidentifikasi penyebab batuknya. ResApp dalam situs resminya mengatakan suara ini lebih baik dari yang biasa dokter dengar lewat stetoskop.</br></br>  Meski begitu, CEO ResApp Tony Keating mengatakan aplikasi mereka tetap tidak menggantikan tes Antigen dan PCR. Aplikasi ini untuk membantu seseorang untuk menjalani tes Antigen atau PCR. </br></br>  'Aplikasi ini dirancang jika hasilnya 'No', Anda tidak usah ambil tes antigen atau PCR. Tapi kalau hasilnya 'Yes', Anda ambil tes Antigen atau PCR,' kata Keating.</br></br>   Pfizer pun kesengsem dengan aplikasi ini. Mereka sepakat untuk membeli aplikasi ini AU$ 100 juta (Rp 1,05 triliun). Nilai sahamnya pun langsung naik 22 persen.</br></br>   'Kami senang dengan prospek dari akuisisi oleh Pfizer, perusahaan biofarmasi utama yang berbagi visi kami bahwa teknologi bisa membantu mengubah layanan kesehatan dan memperbaiki kehidupan pasien,' kata dia.</br></br>   Pfizer dan ResApp juga mengatakan akan melakukan kesepakatan penelitian dan pengembangan mengenai COVID-19. ResApp mengatakan tingkat akurasi mereka sebesar 92% dari pasien terinfeksi, diklaim sudah lebih tinggi dari tes antigen.</br></br>  Diagnosis COVID-19 lewat aplikasi dinilai memang tidak mengurangi biaya untuk uji kimia. Namun, pasien akan punya pilihan baru untuk telemedicine dan akses ke layanan pengobatan.  ResApp didirikan tahun 2014 dari riset Associate Professor University of Queensland bernama Udantha Abeyratne. Riset ini didanai oleh Bill dan Melinda Gates Foundation.",
+    comment: [
+        {
+            comment_id: 2,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
+            like: 32
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
+            like: 2
+        },
+    ]
+},
+{
+    id: 21,
+    judul: "Kualitas Lingkungan Pasca-Pandemi Covid-19: Suatu Sikap dan Upaya Menjaga Lingkungan Hidup",
+    slug: "kualitas-lingkungan-pasca-pandemi-covid-19-suatu-sikap-dan-upaya-menjaga-lingkungan-hidup",
+    category_slug: "environment",
+    desc: "Ketika pandemi selama dua tahun lalu, kualitas udara meningkat karena mobilitas berkurang, kemacetan di sana-sini jelas terurai sehingga emisi yang...",
+    date_posted: "19 Mei 2022",
+    read_time:"5",
+    like: "4",
+    imgLink: "kualitas-lingkungan-pasca-pandemi-covid-19-suatu-sikap-dan-upaya-menjaga-lingkungan-hidup.jpg",
+    writer: "Universitas Ahmad Dahlan",
+    source: "lldikti5.kemdikbud.go.id",
+    sourceLink: "https://lldikti5.kemdikbud.go.id/home/detailpost/kualitas-lingkungan-pasca-pandemi-covid-19-suatu-sikap-dan-upaya-menjaga-lingkungan-hidup",
+    article: "“Persoalan lingkungan sebenarnya sangat dinamis.” </br></br>   Begitulah kalimat pembuka yang diucapkan Prof. Dr. Ir. Prabang Setyono, S.Si., M.Si., C.EIA., IPM. pada Sabtu, 14 Mei 2022 dalam perkuliahan umum yang mengangkat tema “Kualitas Lingkungan Pasca-Pandemi Covid-19: Suatu Sikap dan Upaya Menjaga Lingkungan Hidup”. Ia merupakan Guru Besar Prodi Pascasarjana Ilmu Lingkungan Universitas Sebelas Maret yang diundang untuk memberi kuliah kepada mahasiswa Program Studi (Prodi) Biologi, Fakultas Sains dan Teknologi Terapan (FAST), Universitas Ahmad Dahlan (UAD).</br></br>    Ketua Prodi Biologi UAD, Dra. Listiatie Budi Utami, M.Sc. dalam sambutannya mengungkapkan tujuan diadakannya kuliah umum ini agar mahasiswa lebih paham cara menghadapi atau bersikap terhadap bumi setelah pandemi serta memiliki wawasan yang luas tentang lingkungan. </br></br>   Ketika pandemi selama dua tahun lalu, kualitas udara meningkat karena mobilitas berkurang, kemacetan di sana-sini jelas terurai sehingga emisi yang dikeluarkan oleh knalpot kendaraan pun berkurang. Di sisi lain, tumpukan sampah bertambah karena banyaknya orang yang menggunakan APD, baik itu masker, sarung tangan, hand towel bekas, dan sebagainya. </br></br> Dalam pemaparannya, Prof. Prabang menjelaskan bahwa ada dua pola yang dapat dipilih setelah dua tahun pandemi Covid-19. Pertama, build back better artinya kondisi dipulihkan kembali seperti sebelum Covid-19. Kedua, build forward better artinya dengan sumber daya dan kondisi yang ada, disusun manajemen yang lebih baik lagi sehingga banyak perubahan-perubahan yang terjadi, salah satunya paradigma cara berpikir. Baik itu dalam pengelolaan sampah, manajemen lingkungan, maupun yang lainnya. </br></br>   “Kalau menurut saya tentu saja build forward better, kita tata dengan kondisi kita yang sekarang, jangan dikembalikan kepada manajemen lalu yang mungkin menyimpan masalah. Cara menatanya seperti apa? Tingkatkan nilai lokalitas kita yang mencakup local knowledge atau lokalitas pengetahuan seperti konteks fenomenologi, local genius atau kecerdasan lokal seperti konteks rumah adat tahan gempa dan banjir, serta local wisdom atau kearifan lokal seperti konsep etos dan etis yang menyatu dalam konteks ekologis.”</br></br>    Penjelasan tidak hanya berhenti sampai di situ, Prof. Prabang secara lugas membagikan banyak pengetahuan sesuai dengan tema yang diusung. (eka)",
+    comment: [
+        {
+            comment_id: 2,
+            userName: "Jono Mustika",
+            userImg: "/team/wahyu.png",
+            userComment: "Artikel ini sangat bagus.",
+            date_added: "23 September 2022",
+            like: 32
+        },
+        {
+            comment_id: 3,
+            userName: "Aulia Hanifah",
+            userImg: "/team/aulia.jpg",
+            userComment: "Terima kasih atas informasinya.",
+            date_added: "22 September 2022",
             like: 2
         },
     ]

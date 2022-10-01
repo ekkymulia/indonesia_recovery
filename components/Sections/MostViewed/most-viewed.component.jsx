@@ -98,9 +98,9 @@ const MostViewed = ({ClassName} = props) => {
                     </div>
                 </div>
 
-                <div className="col-span-12 lg:col-span-4 p-2.5 hidden lg:block">
+                <div className="col-span-12 lg:col-span-4 p-2.5 lg:block mt-20 lg:mt-0">
                     <div>
-                        <span className="font-semibold text-sm">Reading List</span>
+                        <span className="font-semibold text-base">Reading List</span>
                         <div className="space-y-8 mt-4">
 
                             {
@@ -109,15 +109,15 @@ const MostViewed = ({ClassName} = props) => {
                                 })
                             }
            
-
+{/* 
                             <div>
-                                <span className="font-semibold text-sm text-red-600">View All</span>
-                            </div>
+                                <span className="font-semibold text-base text-red-600">View All</span>
+                            </div> */}
                         </div>
                     </div>
-                    <div>
-                        <span className="font-semibold text-sm">Followed Topic</span>
-                    </div>
+                    {/* <div>
+                        <span className="font-semibold text-base">Followed Topic</span>
+                    </div> */}
                 </div>
 
             </div>

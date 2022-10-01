@@ -2,8 +2,8 @@ import { useState } from "react";
 import SliderContent from "./slider-content.slider";
 
 const temp_img = [
-    '/images/banner/masker.jpg',
-    '/images/banner/bendera.jpg',
+    '/images/banner/banner2.png',
+    '/images/banner/banner1.png',
 ]
 
 const Slider = () => {
@@ -35,9 +35,9 @@ const Slider = () => {
                 {
                     temp_img.map((item, key) => {
                         return key == slideNav ? (
-                            <div className={` border-red-500 border-r-4 my-4`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
+                            <div className={` border-red-500 border-r-8 my-4 rounded-lg cursor-pointer ease-in duration-500`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         ) : (
-                            <div className={` border-r-4 my-4`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
+                            <div className={` border-r-8 my-4 rounded-lg animate-pulse cursor-pointer`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         )
                     })
                 }

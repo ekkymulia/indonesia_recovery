@@ -97,7 +97,7 @@ const Navbar = () => {
         {
             isHamburger ? (
                 <div id="px-4 mx-auto sm:px-6 md-hidden">
-                <nav className="flex flex-col space-y-1">
+                <nav className="flex flex-col space-y-2 pb-5">
                 <a
                     href="/"
                     className="block px-4 py-3 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"

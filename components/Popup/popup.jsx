@@ -2,7 +2,7 @@ import React from 'react';
 
 function Popup(props){
     return (props.trigger) ? (
-<div class="fixed inset-x-0 bottom-0 p-4">
+<div class="fixed inset-x-0 bottom-0 p-4 ">
   <div class="relative max-w-xl p-10 bg-white rounded-lg shadow-2xl">
     <button
       type="button"
