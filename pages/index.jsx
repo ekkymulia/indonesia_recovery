@@ -10,7 +10,7 @@ export default function Home() {
       
       <div>
         <div
-        className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover"
+        className="overflow-hidden bg-center bg-no-repeat bg-cover"
         >
         <Slider/>
     

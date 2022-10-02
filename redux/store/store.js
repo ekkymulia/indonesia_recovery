@@ -3,6 +3,5 @@ import userReducer, { userPreference } from '../slices/userSlice'
 
 export const store = configureStore({
   reducer: {
-    userPreference: userPreference
   },
 })

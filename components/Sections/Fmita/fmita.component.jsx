@@ -24,7 +24,7 @@ const Fmita = ( props ) => {
                   }
                 }).map((news, key) => (
                     key < 3 ? (
-                      <TrendingNewsComponent tag="" title={news.judul}
+                      <TrendingNewsComponent key={news.id} tag="" title={news.judul}
                       desc={news.desc}
                       imgLink={news.imgLink} date={news.date_posted} minutes={news.read_time} rating={news.like} to={news.slug}/>
                     ) : (<></>)

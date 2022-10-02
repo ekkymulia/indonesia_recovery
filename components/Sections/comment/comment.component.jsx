@@ -10,11 +10,11 @@ const Comment = (props) => {
                 comments.map((item) => {
                     const {comment_id, userName, userImg, userComment, date_added, like} = item;
                     return(
-                        <div className="grid grid-cols-3 w-64 my-8">
+                        <div key={comment_id} className="grid grid-cols-3 w-64 my-8">
                             <div className="col-span-1">
                             <img
                                 src={`/images/${userImg}`}
-                                class="object-cover w-16 h-16 rounded-full"
+                                className="object-cover w-16 h-16 rounded-full"
                             />
                             </div>
                 

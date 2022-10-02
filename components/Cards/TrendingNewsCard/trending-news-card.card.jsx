@@ -49,9 +49,9 @@ const TrendingNewsComponent = (props) => {
                                 <span className='font-semibold'>{minutes}min read</span>
                                 &nbsp; &nbsp; &nbsp;
                                 <span className='flex'>
-                                    {[...Array(parseInt(rating))].map((star) => {        
+                                    {[...Array(parseInt(rating))].map((star, key) => {        
                                         return (         
-                                            <Star/>      
+                                            <Star key={key+1}/>      
                                         );
                                     })}
                                 </span>

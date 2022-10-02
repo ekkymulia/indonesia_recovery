@@ -23,29 +23,29 @@ const NewsArticle = () => {
                         <div className="px-8 lg:px-25">
                             <div className="my-1 grid grid-flow-col place-content-between text-sm lg:text-base">
                                 <nav aria-label="Breadcrumb">
-                                    <ol role="list" class="flex items-center gap-1 text-sm text-gray-500">
+                                    <ol role="list" className="flex items-center gap-1 text-sm text-gray-500">
                                     <li>
-                                        <a class="block transition-colors hover:text-gray-700" href="/"> Home </a>
+                                        <a className="block transition-colors hover:text-gray-700" href="/"> Home </a>
                                     </li>
                                 
                                     <li>
                                         <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="w-4 h-4"
+                                        className="w-4 h-4"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                         >
                                         <path
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                            clip-rule="evenodd"
+                                            clipRule="evenodd"
                                         />
                                         </svg>
                                     </li>
                                 
                                     <li>
                                         <a
-                                        class="block transition-colors hover:text-gray-700"
+                                        className="block transition-colors hover:text-gray-700"
                                         href="#"
                                         >
                                         News
@@ -55,22 +55,21 @@ const NewsArticle = () => {
                                     <li>
                                         <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="w-4 h-4"
+                                        className="w-4 h-4"
                                         viewBox="0 0 20 20"
                                         fill="currentColor"
                                         >
                                         <path
-                                            fill-rule="evenodd"
+                                            fillRule="evenodd"
                                             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                                            clip-rule="evenodd"
+                                            clipRule="evenodd"
                                         />
                                         </svg>
                                     </li>
                                 
                                     <li>
                                         <a
-                                        class="block transition-colors hover:text-gray-700 text-red-600 capitalize"
-                                        href="/products/plain-tee"
+                                        className="block transition-colors hover:text-gray-700 text-red-600 capitalize"
                                         >
                                         {artikel.category_slug.replace("_", " ")}
                                         </a>
@@ -93,7 +92,7 @@ const NewsArticle = () => {
                             </div>
 
                         </div>
-                        <div className="px-8 lg:px-20">
+                        <div className="px-8 lg:px-20 lg:pt-4">
                             <div className="my-1">
                                 <article className="my-2 text-justify text-sm lg:text-base" dangerouslySetInnerHTML={{ __html: artikel.article }}>
                                 </article>

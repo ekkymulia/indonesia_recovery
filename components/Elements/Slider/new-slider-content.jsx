@@ -1,7 +1,7 @@
 //DEPRECATED, NOT USED, THIS IS BACKUP
 const NewSliderContent = () => {
     return (
-        <section class={`w-full h-screen bg-center bg-cover snap-start ${bgImgUrl}`}>
+        <section className={`w-full h-screen bg-center bg-cover snap-start ${bgImgUrl}`}>
             <div className="p-8 md:p-12 lg:px-20 lg:py-24 ">
                 <div className="max-w-lg text-left mt-24 sm:text-left">
         

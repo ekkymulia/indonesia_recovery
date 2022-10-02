@@ -21,7 +21,7 @@ export default function Custom404() {
     return (
         <Layout>
             <aside
-            className="overflow-hidden bg-[url(/logo_fix.svg)] bg-center bg-no-repeat bg-cover flex flex-wrap"
+            className="overflow-hidden bg-center bg-no-repeat bg-cover flex flex-wrap"
             >
             <div className="bg-white md:mr-8">
                 <Image src={DesignPic} alt="404_graphic" width={700} height={760}/>

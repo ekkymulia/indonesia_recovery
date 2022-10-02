@@ -35,9 +35,9 @@ const Slider = () => {
                 {
                     temp_img.map((item, key) => {
                         return key == slideNav ? (
-                            <div className={` border-red-500 border-r-8 my-4 rounded-lg cursor-pointer ease-in duration-500`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
+                            <div key={key+1} className={` border-red-500 border-r-8 my-4 rounded-lg cursor-pointer ease-in duration-500`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         ) : (
-                            <div className={` border-white border-r-8 my-4 rounded-lg animate-pulse cursor-pointer`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
+                            <div key={key+1} className={` border-white border-r-8 my-4 rounded-lg animate-pulse cursor-pointer`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         )
                     })
                 }

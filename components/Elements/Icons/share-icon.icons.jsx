@@ -15,24 +15,24 @@ const ShareIcon = () => {
             {
                 alert ? (
                     <aside
-                    class="fixed z-50 flex items-center justify-center px-5 py-3 text-white bg-black rounded-lg bottom-4 right-4 transition-transform hover:delay-300"
+                    className="fixed z-50 flex items-center justify-center px-5 py-3 text-white bg-black rounded-lg bottom-4 right-4 transition-transform hover:delay-300"
                     >
                         <a
                             href="/new-thing"
                             target="_blank"
                             rel="noreferrer"
-                            class="text-sm font-medium hover:opacity-75"
+                            className="text-sm font-medium hover:opacity-75"
                         >
                         🔗Berhasil mencopy link artikel. 👋
                         </a>
         
                         <button
-                            class="p-1 ml-3 rounded bg-white/20 hover:bg-white/10"
+                            className="p-1 ml-3 rounded bg-white/20 hover:bg-white/10"
                             aria-label="Dismiss Popup" onClick={() => setAlert(!alert)}
                         >
                             <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="w-4 h-4"
+                            className="w-4 h-4"
                             viewBox="0 0 20 20"
                             fill="currentColor"
                             >

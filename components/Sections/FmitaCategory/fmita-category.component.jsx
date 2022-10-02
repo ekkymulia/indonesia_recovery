@@ -8,8 +8,8 @@ const FmitaCategory = () => {
           <div className="flex flex-wrap my-3">
 
            {
-            categoryViewedData.map((item) => (
-              <CategoryBox text={item.text}/> 
+            categoryViewedData.map((item, key) => (
+              <CategoryBox key={key+1} text={item.text}/> 
             ))
           }
 

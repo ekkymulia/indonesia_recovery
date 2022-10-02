@@ -23,13 +23,13 @@ const MostViewed = ({ClassName} = props) => {
                 <ul className="hidden lg:block col-span-12 place-content-around space-y-1 lg:space-y-0 lg:flex "> 
                     
                     {
-                        categoryViewedData.map((item) => (
+                        categoryViewedData.map((item, key) => (
                             <li onClick={() => setCategory(item)}>
                                 {
                                     category.slug == item.slug ? (
-                                        <a className="font-semibold">{item.text}</a>
+                                        <a key={key+1} className="font-semibold">{item.text}</a>
                                     ) : (
-                                        <a className="text-gray-400 hover:text-gray-600 cursor-pointer">{item.text}</a>
+                                        <a key={key+1} className="text-gray-400 hover:text-gray-600 cursor-pointer">{item.text}</a>
                                     )
                                 }
                             </li>
@@ -40,7 +40,7 @@ const MostViewed = ({ClassName} = props) => {
                 </ul>
 
                 <ul className="block lg:hidden space-y-3 col-span-12 ">
-                    <li class="ml-3 font-semibold grid grid-flow-col place-content-between group cursor-pointer" onClick={() => setDropdown(!dropdown)}>
+                    <li className="ml-3 font-semibold grid grid-flow-col place-content-between group cursor-pointer" onClick={() => setDropdown(!dropdown)}>
                         <a className="-translate-x-3 hover:-translate-x-4 transition-transform hover:duration-300">{category.text}</a>
                         {
                             dropdown ? (
@@ -59,8 +59,8 @@ const MostViewed = ({ClassName} = props) => {
                             <>
 
                                 {
-                                    categoryViewedData.map((item) => (
-                                        <li class="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(item)}>
+                                    categoryViewedData.map((item, key) => (
+                                        <li key={key+1} className="ml-3 text-gray-600 cursor-pointer hover:translate-x-1 transition-transform hover:duration-300" onClick={() => setCategory(item)}>
                                             <a className="text-gray-400 active:text-gray-600 cursor-pointer">{item.text}</a>
                                         </li>
                                     ))
@@ -85,14 +85,12 @@ const MostViewed = ({ClassName} = props) => {
 
                         {
                             Artikel.filter((item) => item.category_slug == category.slug).map((news => (
-                                <TrendingNewsComponent tag="" title={news.judul}
+                                <TrendingNewsComponent key={news.id} tag="" title={news.judul}
                                 desc={news.desc}
                                 imgLink={news.imgLink} date={news.date_posted} minutes={news.read_time} rating={news.like} to={news.slug}/>
                             )
                             ))
                         }
-
-
 
 
                     </div>
@@ -104,8 +102,8 @@ const MostViewed = ({ClassName} = props) => {
                         <div className="space-y-8 mt-4">
 
                             {
-                                ReadList.map((item) => {
-                                    return <ReadListCard news={item}/>
+                                ReadList.map((item, key) => {
+                                    return <ReadListCard key={key+1} news={item}/>
                                 })
                             }
            

@@ -10,7 +10,10 @@ const Header = () => {
         <>
             <Head>
                 <title>Indonesia Recovery</title>
-                <meta name="description" content="Indonesia Recovery sebuah portal"></meta>
+
+                <meta content="Indonesia Recovery" name="keywords"/>
+                <meta name="description" content="Indonesia Recovery sebuah portal"/>
+                
                 <link rel="shortcut icon" href="/svg/logo(Logo)(500 × 200 px)(1).svg"/>
                 <link rel="icon" href="/svg/logo(Logo)(500 × 200 px)(1).svg"/>
 
