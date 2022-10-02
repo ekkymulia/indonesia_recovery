@@ -32,7 +32,7 @@ const Fmita = ( props ) => {
               )
           }
           </div>
-          <div className="p-1 grid grid-rows-1 col-span-2 place-items-center">
+          <div className="p-1 pl-4 lg:pl-0 grid grid-rows-1 col-span-2 place-items-center">
             <div className="flex flex-col">
                 <span>Discover Latest Category Updates</span> 
                 <FmitaCategory/>
