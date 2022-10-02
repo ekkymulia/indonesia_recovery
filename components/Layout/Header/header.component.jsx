@@ -18,7 +18,7 @@ const Header = () => {
                 <link rel="icon" href="/svg/logo(Logo)(500 × 200 px)(1).svg"/>
 
                 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    
+                <meta name="google-site-verification" content="eMKIdy3WT6a1SkeXzjIMXEX_5Nf7bQn1QPy4g4ipqQ4" />
             </Head>
 
             {
