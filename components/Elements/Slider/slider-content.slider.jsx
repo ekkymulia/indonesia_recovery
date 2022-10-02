@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 const SliderContent = (props) => {
     const {tag, title, boldTitle, desc, redirect, redirect2, redirectText, redirectText2, bgImgUrl} = props
     return (
-        <section className={`w-full h-screen 2xl:h-full bg-center bg-cover bg-fixed snap-start ease-in duration-300`} style={{backgroundImage: `url(${bgImgUrl})`}}>
+        <section className={`w-full h-screen 2xl:h-full bg-center bg-cover lg:bg-fixed ease-in duration-300`} style={{backgroundImage: `url(${bgImgUrl})`}}>
             <div className="p-8 md:p-12 lg:px-20">
                 <div className="max-w-lg text-left mt-40 sm:text-left space-y-8">
         

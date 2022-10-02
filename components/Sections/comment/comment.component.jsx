@@ -18,7 +18,7 @@ const Comment = (props) => {
                             />
                             </div>
                 
-                            <div className="col-span-2 py-5 w-96">
+                            <div className="col-span-2 py-5 lg:w-96 w-64">
                                 <div className="grid grid-cols-2">
                                     <div className="col-span-1">
                                         <p className="font-semibold">{userName}</p>
