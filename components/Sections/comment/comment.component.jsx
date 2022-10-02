@@ -31,7 +31,7 @@ const Comment = (props) => {
                             </div>
                             <div className="grid grid-cols-3 w-64">
                                 <div className="col-span-1">
-                                    <div className="border-b-[3px] ml-2 border-gray-500 w-12 rotate-90 mt-10 rounded-lg"></div>
+                                    <div className="border-b-[3px] ml-2 border-gray-300 w-12 rotate-90 mt-10 rounded-lg"></div>
                                 </div>
                                 <div className="col-span-2 lg:w-96 md:w-96">
                                 <p className="mt-2">{userComment}</p>

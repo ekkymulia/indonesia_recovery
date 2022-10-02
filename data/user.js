@@ -13,8 +13,16 @@ export const ReadList = [
     },
     {
         news_id: 3,
-        penulis: "Mardianti",
-        judul: "Transformasi Digital dan Peluang Pasca Pandemi",
-        slug: "transformasi-digital-dan-peluang-pasca-pandemi"
-    }
+        penulis: "Renaldo Susilo",
+        judul: "Indonesia 2045: Generasi Emas Peduli Lingkungan, Berkeadilan Sosial, dan Berkeadilan Ekologis",
+        slug: "indonesia-2045-generasi-emas-peduli-lingkungan-berkeadilan-sosial-dan-berkeadilan-ekologis"
+    },
+    {
+        news_id: 4,
+        penulis: "Indra Setiawan",
+        judul: "Menparekraf dorong pelaku ekonomi kreatif siap go-digital",
+        slug: "menparekraf-dorong-pelaku-ekonomi-kreatif-siap-go-digital"
+    },
+    
+    
 ]

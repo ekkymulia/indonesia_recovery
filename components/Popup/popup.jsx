@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from "/styles/modal.module.css";
 
 function Popup(props){
     return (props.trigger) ? (
-<div class="fixed inset-x-0 bottom-0 p-4 ">
+<div className={styles.modal}>
   <div class="relative max-w-xl p-10 bg-white rounded-lg shadow-2xl">
     <button
       type="button"

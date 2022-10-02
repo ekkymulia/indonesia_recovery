@@ -1,5 +1,6 @@
 import RedDot from "../Icons/red-dot.element";
 import CustomLinkButton, { CUSTOM_LINK_BUTTON_TYPES } from "../CustomLinkButton/custom-link-button.element";
+import Typewriter from "typewriter-effect";
 
 const SliderContent = (props) => {
     const {tag, title, boldTitle, desc, redirect, redirect2, redirectText, redirectText2, bgImgUrl} = props
@@ -16,6 +17,22 @@ const SliderContent = (props) => {
             
                     <h2 className="text-2xl font-reguler text-white sm:text-4xl">
                         {title}
+                        <b>
+                        <Typewriter
+                        options={{ 
+                            autoStart: true,
+                            loop: true,
+                            delay: 60,
+                            strings:[
+                                "Breakthrough!",
+                                "Innovation!",
+                                "Updates!",
+                                "Improvement!"
+                            ],
+                         }}
+                        />
+                        </b>
+                        
                     </h2>
             
                     <p className="text-white md:mt-6 md:leading-relaxed md:block">

@@ -3,7 +3,7 @@ import SliderContent from "./slider-content.slider";
 
 const temp_img = [
     '/images/banner/banner2.png',
-    '/images/banner/banner1.png',
+    '/images/banner/jakarta6.png',
 ]
 
 const Slider = () => {
@@ -26,7 +26,7 @@ const Slider = () => {
         <main className="relative max-h-screen lg:max-h-[960px] " >
            
             <SliderContent tag="News Updates" 
-                title={[`Indonesia's Post Pandemic `,<br></br>,<b>Breakthrough!</b>]} 
+                title={[`Indonesia's Post Pandemic `]} 
                 desc={[`From youth to growth. From east to west. Indonesia is our best! `,<br></br>,`Discover more inspiring stories.`]}
                 redirect="/news/asd" redirectText="Start Reading"
                 bgImgUrl={bgImgSlider} />
@@ -37,7 +37,7 @@ const Slider = () => {
                         return key == slideNav ? (
                             <div className={` border-red-500 border-r-8 my-4 rounded-lg cursor-pointer ease-in duration-500`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         ) : (
-                            <div className={` border-r-8 my-4 rounded-lg animate-pulse cursor-pointer`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
+                            <div className={` border-white border-r-8 my-4 rounded-lg animate-pulse cursor-pointer`} onClick={() => setSlide(key)} style={{height: sliderNavHeight}}></div>
                         )
                     })
                 }

@@ -70,7 +70,7 @@ export default function Story() {
 
               <div className="mt-5">
                 <p className="text-lg text-justify lg:text-center w-full">
-                Indonesia Recovery is  a <span className="font-semibold">web design project for the Indonesian Vocational Olympiad (OLIVIA 2022) </span> in a form of a news portal aggregator website that provides information about the rise of new enthusiasm after the COVID-19 pandemic by spreading positive news and relating to digital transformation in Indonesia.
+                Indonesia Recovery is  a <span className="font-semibold">web design project for the Indonesian Vocational Olympiad (OLIVIA) 2022 </span> in a form of a news portal aggregator website that provides information about the rise of new enthusiasm after the COVID-19 pandemic by spreading positive news and relating to digital transformation in Indonesia.
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Story() {
                 </div>
                 <h1>Not an ordinary <br></br>
                 <span className="font-bold">News Media</span></h1>
-                <p className="font-reguler text-lg mt-5">
+                <p className="lg:text-justify font-reguler text-lg mt-5">
                   Indonesia Recovery provide an innovative and updated news from Sabang to Merauke in order to give a full impact towards Indonesia's Community.
                 </p>
             </div>
@@ -200,12 +200,12 @@ export default function Story() {
             <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
               <div className="lg:col-span-1 col-span-2">
                 <div className="border border-red-500 px-5 py-5 rounded-lg">
-                  <h1 className="text-gray-400">Socio-Economics</h1>
+                  <h1 className="text-black">Socio-Economics</h1>
                 </div>
               </div>
               <div className="lg:col-span-1 col-span-2">
                 <div className="border border-red-500  px-5 py-5 rounded-lg">
-                  <h1 className="text-gray-400">Health</h1>
+                  <h1 className="text-black">Health</h1>
                 </div>
               </div>
             </div>
@@ -213,12 +213,12 @@ export default function Story() {
             <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
               <div className="lg:col-span-1 col-span-2">
                 <div className="border border-red-500  px-5 py-5 rounded-lg">
-                  <h1 className="text-gray-400">Tech Engineering</h1>
+                  <h1 className="text-black">Tech Engineering</h1>
                 </div>
               </div>
               <div className="lg:col-span-1 col-span-2">
                 <div className="border border-red-500  px-5 py-5 rounded-lg">
-                  <h1 className="text-gray-400">Environment</h1>
+                  <h1 className="text-black">Environment</h1>
                 </div>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function Story() {
             <div className="grid grid-cols-2 lg:gap-8 gap-3 text-center">
               <div className="col-span-2">
                 <div className="border border-red-500  px-5 py-5 rounded-lg">
-                  <h1 className="text-gray-400">Education & Innovation</h1>
+                  <h1 className="text-black">Education & Innovation</h1>
                 </div>
               </div>
               
