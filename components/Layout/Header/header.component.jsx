@@ -9,11 +9,14 @@ const Header = () => {
     return (
         <>
             <Head>
-                <title>Indonesia Recovery</title>
+                <title>Indonesia Recovery - Portal Berita Agregator Untuk Indonesia dan Olimpiade Vokasi Indonesia</title>
 
                 <meta content="Indonesia Recovery" name="keywords"/>
-                <meta name="description" content="Indonesia Recovery sebuah portal"/>
-                
+                <meta content="Indonesia Recovery - Portal Berita Agregator Untuk Indonesia dan Olimpiade Vokasi Indonesia" name="keywords"/>
+                <meta content="Portal Berita Agregator Untuk Indonesia dan Olimpiade Vokasi Indonesia (Olivia 2022)" name="keywords"/>
+
+                <meta name="description" content="Indonesia Recovery merupakan proyek web design untuk Olimpiade Vokasi Indonesia (OLIVIA) 2022 UNY, hadir dalam bentuk website agregator portal berita yang memberikan informasi tentang munculnya antusiasme baru pasca pandemi COVID-19, dengan menyebarkan berita positif dan berkaitan dengan transformasi digital di Indonesia."/>
+                <meta name="description" content="Portal Berita Agregator Untuk Indonesia dan Olimpiade Vokasi Indonesia"/>
                 <link rel="shortcut icon" href="/svg/logo(Logo)(500 × 200 px)(1).svg"/>
                 <link rel="icon" href="/svg/logo(Logo)(500 × 200 px)(1).svg"/>
 

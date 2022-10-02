@@ -45,7 +45,7 @@ export default function Story() {
                       <p className="text-red-600 mt-3 text-lg"> Trusted News</p>
                   </a>    
                   <a className="relative inline-block text-sm font-medium text-red-600 active:text-red-500 group focus:outline-none focus:ring col-span-2 lg:col-span-1 md:col-span-1">
-                      <h1 className="text-black text-5xl mt-20 font-semibold">5000+</h1>
+                      <h1 className="text-black text-5xl mt-20 font-semibold">100+</h1>
                       <div className=" border-b-[3px] border-red-500 md:w-32 lg:w-32 w-32 mt-2"/>
                       <p className="text-red-600 mt-3 text-lg">Contributors</p>
                   </a>
