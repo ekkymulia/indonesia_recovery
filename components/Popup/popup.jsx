@@ -28,7 +28,7 @@ function Popup(props){
       <img
         className="md:w-0 w-0 object-cover lg:w-full lg:h-full rounded-xl"
         src={`/images/graphic/bgpopup.png`}
-        alt=""
+        alt={`graphic_bgpopup`}
       />
 
       <div className="col-span-2 lg:col-span-1">
@@ -37,19 +37,19 @@ function Popup(props){
         </h2>
         
         <div className="mt-5 grid grid-flow-col place-content-start">
-        <img src={`/svg/ceklis.svg`}></img>
+        <img src={`/svg/ceklis.svg`} alt="ceklis"></img>
         <p className="ml-2 text-sm text-gray-500">
           Get latest innovative news
         </p>
         </div>
         <div className="mt-3 grid grid-flow-col place-content-start">
-        <img src={`/svg/ceklis.svg`}></img>
+        <img src={`/svg/ceklis.svg`} alt="ceklis"></img>
         <p className="ml-2 text-sm text-gray-500">
           Explore new ideas each day
         </p>
         </div>
         <div className="mt-3 grid grid-flow-col place-content-start">
-        <img src={`/svg/ceklis.svg`}></img>
+        <img src={`/svg/ceklis.svg`} alt="ceklis"></img>
         <p className="ml-2 text-sm text-gray-500">
           Save your day
         </p>

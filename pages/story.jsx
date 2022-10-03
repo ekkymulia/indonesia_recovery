@@ -26,7 +26,7 @@ export default function Story() {
               <img
                 className="object-cover w-full md:h-[35rem] rounded-2xl" 
                 src={"images/banner/g20.jpg"}
-                alt="Man using a computer"
+                alt="banner_g20"
               />
             </div>
 
@@ -64,7 +64,7 @@ export default function Story() {
                 <img
                   className="w-full h-64"
                   src={"svg/logo_tsp(500×200).svg"}
-                  alt="Logo"
+                  alt="logo_indonesia_recovery"
                 />
               </div>
 
@@ -97,7 +97,7 @@ export default function Story() {
                   <div className="py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
-                        <img src={"/images/others/lamputangan.png"} className="lg:ml-5" />
+                        <img src={"/images/others/lamputangan.png"} className="lg:ml-5" alt='lampu_dan_tangan'/>
                       </div>
                       <div className="">
                         <h1 className="text-lg font-semibold">Improving <br></br> Knowledge</h1>
@@ -111,7 +111,7 @@ export default function Story() {
                   <div className=" py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
-                        <img src={"/images/others/listrikcepat.png"} className="lg:ml-5" />
+                        <img src={"/images/others/listrikcepat.png"} className="lg:ml-5" alt='listrik_cepat'/>
                       </div>
                       <div className="">
                         <h1 className="text-lg font-semibold">Accelerate<br></br> Transformation</h1>
@@ -125,7 +125,7 @@ export default function Story() {
                   <div className=" py-5 px-5 rounded-lg shadow-lg lg:h-52">
                     <div className="grid lg:grid-cols-3 md:grid-cols-3 space-y-5">
                       <div className="">
-                        <img src={"/images/others/stats.png"} className="lg:ml-5" />
+                        <img src={"/images/others/stats.png"} className="lg:ml-5" alt='stats'/>
                       </div>
                       <div className="">
                         <h1 className="text-lg font-semibold">Increased<br></br>  Competitiveness </h1>
@@ -180,15 +180,15 @@ export default function Story() {
                   <span className="font-bold">Up to Date News</span></h1>
                   <div className="space-y-3 mt-10">
                       <div className="flex mt-6">
-                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4" alt='ceklis'></img>
                         <p className="font-semibold text-base ml-3"> Get inspired daily!</p>
                       </div>
                       <div className="flex">
-                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4" alt='ceklis'></img>
                         <p className="font-semibold text-base ml-3"> Build up your future!</p>
                       </div>
                       <div className="flex">
-                        <img src={`/svg/ceklis.svg`} className="w-auto h-4"></img>
+                        <img src={`/svg/ceklis.svg`} className="w-auto h-4" alt='ceklis'></img>
                         <p className="font-semibold text-base ml-3"> No more stuck! We deliver everyday brand new ideas!</p>
                       </div>
                   </div>

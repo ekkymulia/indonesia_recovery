@@ -29,7 +29,7 @@ const Header = () => {
                    <> </>
                 ) :
                 (
-                    <Navbar/>
+                    <Navbar route={router.pathname}/>
                 )
             }
         </>

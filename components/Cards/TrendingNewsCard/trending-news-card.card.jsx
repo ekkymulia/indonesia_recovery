@@ -26,10 +26,10 @@ const TrendingNewsComponent = (props) => {
                     <main className='grid grid-colspan-8 grid-flow-row lg:grid-flow-col lg:gap-x-5'>
 
                         <div className='block lg:hidden col-span-12 lg:col-span-3'>
-                            <Image src={`/images/others/${imgLink}`} objectFit="cover" width='340%' height={185}/>
+                            <Image src={`/images/others/${imgLink}`} objectFit="cover" width='340%' height={185} alt={`${title}_${desc}`}/>
                         </div>
                         <div className='hidden lg:block col-span-12 lg:col-span-3'>
-                            <Image src={`/images/others/${imgLink}`} objectFit="cover" width='200%' height={185}/>
+                            <Image src={`/images/others/${imgLink}`} objectFit="cover" width='200%' height={185} alt={`${title}_${desc}`}/>
                         </div>
 
                         <div className='mt-1 col-span-5 flex flex-col justify-between'>

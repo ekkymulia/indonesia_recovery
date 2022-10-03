@@ -30,7 +30,7 @@ const Navbar2 = () => {
                 <div className="col-span-2 ">
                     <a className="block text-teal-600 flex flex-wrap items-center content-center" href="/">
                         <span className="sr-only">Home</span>
-                        <Image src="/svg/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
+                        <Image src="/svg/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67} alt="logo_indonesia_recovery"/>
                     </a>
                 </div>
             </div>

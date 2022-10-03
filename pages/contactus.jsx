@@ -138,6 +138,7 @@ export default function Contactus(){
             <img
             src={"/svg/pointlocation.svg"}
             className="h-auto w-14"
+            alt='pointlocation'
             ></img>
             <h1 className="text-2xl sm:text-3xl font-semibold">
             Our Basecamp
@@ -154,6 +155,7 @@ export default function Contactus(){
         <img
         src={"/images/others/sekolahvokasi.jpg"}
         className="rounded-md shadow-2xl h-auto w-96"
+        alt='sekolah_vokasi'
         ></img>
     </div>
 </div>

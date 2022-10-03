@@ -88,7 +88,7 @@ const NewsArticle = () => {
 
                             </div>
                             <div className="mt-6 mb-8">
-                                <Image src={`/images/others/${artikel.imgLink}`} alt="" title="" width="100%" height="65%" layout="responsive" objectFit="cover"/>
+                                <Image src={`/images/others/${artikel.imgLink}`} alt={`${artikel.judul}_${artikel.imgLink}`} title="" width="100%" height="65%" layout="responsive" objectFit="cover"/>
                             </div>
 
                         </div>

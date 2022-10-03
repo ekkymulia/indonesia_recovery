@@ -15,6 +15,7 @@ const Comment = (props) => {
                             <img
                                 src={`/images/${userImg}`}
                                 className="object-cover w-16 h-16 rounded-full"
+                                alt={`${userName}_${userImg}`}
                             />
                             </div>
                 

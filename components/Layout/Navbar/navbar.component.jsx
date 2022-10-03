@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const Navbar = () => {
-
+const Navbar = (props) => {
+    const {route} = props 
     const [isHamburger, setHamburger] = useState(0)
 
     function onClicked(){
@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div className="flex-1 md:flex md:items-center md:gap-12">
                 <a className="block text-teal-600" href="/">
                     <span className="sr-only">Home</span>
-                    <Image src="/svg/logo(Logo)(500 × 200 px)(1).svg" width={120} height={67}/>
+                    <Image src="/svg/logo(Logo)(500 × 200 px)(1).svg" width={120} height={670}/>
                 </a>
                 </div>
         
@@ -31,7 +31,13 @@ const Navbar = () => {
                         href="/"
                         >
                         Home
-                        <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform rounded-full duration-300 mt-6"></div>
+                        {
+                            route == '/' ? (
+                                <div className="absolute w-full h-1 bg-red-500 transition-transform rounded-full delay-300 duration-300 scale-x-100 mt-6"></div>
+                            ) : (
+                                <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform rounded-full duration-300 mt-6"></div>
+                            )
+                        }
                         </a>
                     </li>
         
@@ -41,7 +47,13 @@ const Navbar = () => {
                         href="/story"
                         >
                         Our Story
-                        <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform ml-8 rounded-full duration-300 mt-6"></div>
+                        {
+                            route == '/story' ? (
+                                <div className="absolute w-full h-1 bg-red-500 transition-transform rounded-full delay-300 duration-300 scale-x-100 mt-6 ml-8"></div>
+                            ) : (
+                                <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform ml-8 rounded-full duration-300 mt-6"></div>
+                            )
+                        }
                         </a>
                     </li>
         
@@ -51,7 +63,13 @@ const Navbar = () => {
                         href="/contactus"
                         >
                         Contact Us
-                        <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform ml-8 rounded-full duration-300 mt-6"></div>
+                        {
+                            route == '/contactus' ? (
+                                <div className="absolute w-full h-1 bg-red-500 transition-transform rounded-full delay-300 duration-300 scale-x-100 mt-6 ml-8"></div>
+                            ) : (
+                                <div className="absolute w-full h-1 scale-x-0 bg-red-500 group-hover:scale-x-100 transition-transform ml-8 rounded-full duration-300 mt-6"></div>
+                            )
+                        }
                         </a>
                     </li>
 
@@ -98,26 +116,60 @@ const Navbar = () => {
             isHamburger ? (
                 <div id="px-4 mx-auto sm:px-6 md-hidden">
                 <nav className="flex flex-col space-y-2 pb-5">
-                <a
-                    href="/"
-                    className="block px-4 py-3 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
-                >
-                    Home
-                </a>
-                
-                <a
-                    href="/story"
-                    className="block px-4 py-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
-                >
-                    Our Story
-                </a>
-                
-                <a
-                    href="/contactus"
-                    className="block px-4 py-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
-                >
-                    Contact Us
-                </a>
+
+                {
+                    route == '/' ? (
+                        <a
+                            href="/"
+                            className="block px-4 py-3 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
+                        >
+                            Home
+                        </a>
+                    ) : (
+                        <a
+                            href="/"
+                            className="block px-4 py-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                        >
+                            Home
+                        </a>
+                    )
+                }
+
+                {
+                    route == '/story' ? (
+                        <a
+                            href="/story"
+                            className="block px-4 py-3 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
+                        >
+                            Our Story
+                        </a>
+                    ) : (
+                        <a
+                            href="/story"
+                            className="block px-4 py-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                        >
+                            Our Story
+                        </a>
+                    )
+                }
+
+                {
+                    route == '/contactus' ? (
+                        <a
+                            href="/contactus"
+                            className="block px-4 py-3 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg"
+                        >
+                            Contact Us
+                        </a>
+                    ) : (
+                        <a
+                            href="/contactus"
+                            className="block px-4 py-3 text-sm font-medium text-gray-500 rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                        >
+                            Contact Us
+                        </a>
+                    )
+                }
                 
                 {/* <a
                     href="/signin"
