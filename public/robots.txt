@@ -7,3 +7,4 @@ Host: https://indonesia-recovery.vercel.app
 
 # Sitemaps
 Sitemap: https://indonesia-recovery.vercel.app/sitemap.xml
+Sitemap: https://indonesia-recovery.vercel.app/article-sitemap.xml
