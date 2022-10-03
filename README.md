@@ -15,3 +15,7 @@ IPB University
 Sekolah Vokasi
 
 Build with Next.Js (React), Tailwind Css
+
+Installation
+npm install
+npm run dev
